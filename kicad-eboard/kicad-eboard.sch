@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:kicad-eboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -16,12 +17,116 @@ $EndDescr
 $Comp
 L Device:Battery BT?
 U 1 1 5D911E0B
-P 1450 5800
-F 0 "BT?" H 1558 5846 50  0000 L CNN
-F 1 "Battery" H 1558 5755 50  0000 L CNN
-F 2 "" V 1450 5860 50  0001 C CNN
-F 3 "~" V 1450 5860 50  0001 C CNN
-	1    1450 5800
+P 1450 5900
+F 0 "BT?" H 1558 5946 50  0000 L CNN
+F 1 "Battery" H 1558 5855 50  0000 L CNN
+F 2 "" V 1450 5960 50  0001 C CNN
+F 3 "~" V 1450 5960 50  0001 C CNN
+	1    1450 5900
 	1    0    0    -1  
 $EndComp
+$Comp
+L Device:CircuitBreaker_1P CB?
+U 1 1 5D911FF4
+P 2350 5700
+F 0 "CB?" V 2085 5700 50  0000 C CNN
+F 1 "CircuitBreaker_1P" V 2176 5700 50  0000 C CNN
+F 2 "" H 2350 5700 50  0001 C CNN
+F 3 "~" H 2350 5700 50  0001 C CNN
+	1    2350 5700
+	0    1    1    0   
+$EndComp
+$Comp
+L 2019Spacehawks:WattMeter U?
+U 1 1 5D9123C3
+P 3300 5850
+F 0 "U?" H 3300 6175 50  0000 C CNN
+F 1 "WattMeter" H 3300 6084 50  0000 C CNN
+F 2 "" H 3300 5850 50  0001 C CNN
+F 3 "" H 3300 5850 50  0001 C CNN
+	1    3300 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1450 5700 2050 5700
+Wire Wire Line
+	2650 5700 2900 5700
+Wire Wire Line
+	2900 5700 2900 5750
+Wire Wire Line
+	2900 5950 2900 6100
+Wire Wire Line
+	2900 6100 1450 6100
+$Comp
+L Relay_SolidState:34.81-8240 U?
+U 1 1 5D913EE3
+P 5850 5850
+F 0 "U?" H 5850 6175 50  0000 C CNN
+F 1 "34.81-8240" H 5850 6084 50  0000 C CNN
+F 2 "OptoDevice:Finder_34.81" H 5650 5650 50  0001 L CIN
+F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 5825 5850 50  0001 L CNN
+	1    5850 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5D914CA6
+P 4050 5750
+F 0 "SW?" H 4050 5985 50  0000 C CNN
+F 1 "SW_SPST" H 4050 5894 50  0000 C CNN
+F 2 "" H 4050 5750 50  0001 C CNN
+F 3 "" H 4050 5750 50  0001 C CNN
+	1    4050 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5D914CE4
+P 4650 5750
+F 0 "SW?" H 4650 5985 50  0000 C CNN
+F 1 "SW_SPST" H 4650 5894 50  0000 C CNN
+F 2 "" H 4650 5750 50  0001 C CNN
+F 3 "" H 4650 5750 50  0001 C CNN
+	1    4650 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPST SW?
+U 1 1 5D914D08
+P 5250 5750
+F 0 "SW?" H 5250 5985 50  0000 C CNN
+F 1 "SW_SPST" H 5250 5894 50  0000 C CNN
+F 2 "" H 5250 5750 50  0001 C CNN
+F 3 "" H 5250 5750 50  0001 C CNN
+	1    5250 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5750 4450 5750
+Wire Wire Line
+	4850 5750 5050 5750
+Wire Wire Line
+	3700 5750 3750 5750
+Wire Wire Line
+	5450 5750 5550 5750
+Wire Wire Line
+	5550 5950 3750 5950
+Wire Wire Line
+	3750 5750 3750 5350
+Wire Wire Line
+	3750 5350 6150 5350
+Wire Wire Line
+	6150 5350 6150 5750
+Connection ~ 3750 5750
+Wire Wire Line
+	3750 5750 3850 5750
+Wire Wire Line
+	6150 5950 6500 5950
+Wire Wire Line
+	3750 5950 3750 6050
+Wire Wire Line
+	3750 6050 6500 6050
+Connection ~ 3750 5950
+Wire Wire Line
+	3750 5950 3700 5950
 $EndSCHEMATC
