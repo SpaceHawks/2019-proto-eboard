@@ -1,6 +1,28 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# Sabertooth2x60
+#
+DEF Sabertooth2x60 U 0 40 Y Y 1 F N
+F0 "U" 200 300 50 H V C CNN
+F1 "Sabertooth2x60" -50 200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+S -400 150 250 -350 0 1 0 f
+X 0V ~ -50 -450 100 U 50 50 1 1 w
+X 5V ~ -150 -450 100 U 50 50 1 1 w
+X B+ ~ -500 50 100 R 50 50 1 1 W
+X B- ~ -500 -50 100 R 50 50 1 1 W
+X M1+ ~ 350 50 100 L 50 50 1 1 w
+X M1- ~ 350 -50 100 L 50 50 1 1 w
+X M2+ ~ 350 -150 100 L 50 50 1 1 w
+X M2- ~ 350 -250 100 L 50 50 1 1 w
+X S1 ~ -500 -150 100 R 50 50 1 1 I
+X S2 ~ -500 -250 100 R 50 50 1 1 I
+ENDDRAW
+ENDDEF
+#
 # WattMeter
 #
 DEF WattMeter U 0 40 Y Y 1 F N
