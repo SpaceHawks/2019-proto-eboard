@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 1
+Sheet 1 2
 Title ""
 Date ""
 Rev ""
@@ -129,4 +129,17 @@ Wire Wire Line
 Connection ~ 3750 5950
 Wire Wire Line
 	3750 5950 3700 5950
+$Sheet
+S 2350 2300 800  700 
+U 5D9CD9E2
+F0 "AdafruitPCA9685Breakout" 50
+F1 "I2CtoPWM.sch" 50
+F2 "PWM[0..15]" O R 3150 2350 50 
+F3 "5V" I L 2350 2400 50 
+F4 "VCC" I L 2350 2500 50 
+F5 "SDA" I L 2350 2600 50 
+F6 "SCL" I L 2350 2700 50 
+F7 "OE" I L 2350 2800 50 
+F8 "GND" I L 2350 2900 50 
+$EndSheet
 $EndSCHEMATC
