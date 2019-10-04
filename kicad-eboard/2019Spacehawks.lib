@@ -62,6 +62,26 @@ X GND 1 0 100 100 D 0 0 1 0 W
 ENDDRAW
 ENDDEF
 #
+# PDQXX-D_DC-DC_converter
+#
+DEF PDQXX-D_DC-DC_converter U 0 40 Y Y 1 F N
+F0 "U" 250 450 50 H V C CNN
+F1 "PDQXX-D_DC-DC_converter" 0 350 50 H V C CNN
+F2 "" -50 -100 50 H I C CNN
+F3 "https://www.cui.com/product/resource/pdq15-d.pdf" 50 0 50 H I C CNN
+F4 "12V" 200 -100 50 H V C CNN "Vout"
+F5 "24V" -200 -100 50 H V C CNN "Vin"
+F6 "15W" 0 250 50 H V C CNN "Wattage"
+DRAW
+S -300 300 300 -200 0 1 0 f
+X Vin+ 1 -400 200 100 R 50 50 1 1 W
+X Vin- 2 -400 100 100 R 50 50 1 1 W
+X Vout+ 3 400 200 100 L 50 50 1 1 w
+X Vout- 5 400 100 100 L 50 50 1 1 w
+X Trim ~ 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Sabertooth2x60
 #
 DEF Sabertooth2x60 U 0 40 Y Y 1 F N

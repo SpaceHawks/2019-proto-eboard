@@ -12,4 +12,9 @@ K CB
 F ~
 $ENDCMP
 #
+$CMP PDQXX-D_DC-DC_converter
+D CUI PDQXX-D DC-DC converter, single channel
+K DC-DC, converter
+$ENDCMP
+#
 #End Doc Library
