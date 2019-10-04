@@ -48,7 +48,7 @@ F 3 "" H 3300 5850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1450 5700 2050 5700
+	1450 5700 1950 5700
 Wire Wire Line
 	2650 5700 2900 5700
 Wire Wire Line
@@ -56,7 +56,7 @@ Wire Wire Line
 Wire Wire Line
 	2900 5950 2900 6100
 Wire Wire Line
-	2900 6100 1450 6100
+	2900 6100 1950 6100
 $Comp
 L Relay_SolidState:34.81-8240 U?
 U 1 1 5D913EE3
@@ -142,4 +142,32 @@ F6 "SCL" I L 2350 2700 50
 F7 "OE" I L 2350 2800 50 
 F8 "GND" I L 2350 2900 50 
 $EndSheet
+$Comp
+L Device:Battery BT?
+U 1 1 5D9D77E5
+P 1950 5900
+F 0 "BT?" H 2058 5946 50  0000 L CNN
+F 1 "Battery" H 2058 5855 50  0000 L CNN
+F 2 "" V 1950 5960 50  0001 C CNN
+F 3 "~" V 1950 5960 50  0001 C CNN
+	1    1950 5900
+	1    0    0    -1  
+$EndComp
+Connection ~ 1950 5700
+Wire Wire Line
+	1950 5700 2050 5700
+Connection ~ 1950 6100
+Wire Wire Line
+	1950 6100 1450 6100
+$Comp
+L 2019Spacehawks:TinkerBoard U?
+U 1 1 5D9DC73D
+P 6000 2100
+F 0 "U?" H 5122 1496 50  0000 R CNN
+F 1 "TinkerBoard" H 5122 1405 50  0000 R CNN
+F 2 "" H 6000 2100 50  0001 C CNN
+F 3 "" H 6000 2100 50  0001 C CNN
+	1    6000 2100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
