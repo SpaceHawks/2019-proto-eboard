@@ -62,9 +62,9 @@ L Relay_SolidState:34.81-8240 U3
 U 1 1 5D913EE3
 P 5350 1350
 F 0 "U3" H 5350 1675 50  0000 C CNN
-F 1 "34.81-8240" H 5350 1584 50  0000 C CNN
-F 2 "OptoDevice:Finder_34.81" H 5150 1150 50  0001 L CIN
-F 3 "https://gfinder.findernet.com/public/attachments/34/EN/S34USAEN.pdf" H 5325 1350 50  0001 L CNN
+F 1 "DC100D100CH" H 5350 1584 50  0000 C CNN
+F 2 "" H 5150 1150 50  0001 L CIN
+F 3 "https://www.mouser.com/datasheet/2/657/power-plus-dc-series-100-dc-panel-mount-1370752.pdf" H 5325 1350 50  0001 L CNN
 	1    5350 1350
 	1    0    0    -1  
 $EndComp
