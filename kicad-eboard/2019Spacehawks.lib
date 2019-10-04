@@ -1,6 +1,40 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# CircuitBreaker_1P
+#
+DEF CircuitBreaker_1P CB 0 20 Y Y 1 F N
+F0 "CB" 75 0 50 H V L CNN
+F1 "CircuitBreaker_1P" 75 75 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+P 2 0 1 0 0 -200 0 -150 N
+P 2 0 1 0 0 -150 -100 150 N
+P 2 1 1 0 -25 175 25 125 N
+P 2 1 1 0 0 200 0 150 N
+P 2 1 1 0 25 175 -25 125 N
+X ~ 1 0 300 100 D 50 50 1 1 P
+X ~ 2 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# CircuitBreaker_1P_US
+#
+DEF CircuitBreaker_1P_US CB 0 20 Y Y 1 F N
+F0 "CB" 125 -50 50 H V L CNN
+F1 "CircuitBreaker_1P_US" 125 25 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+A -225 0 335 266 -266 0 1 0 N 75 150 75 -150
+C 0 -175 25 0 1 0 N
+C 0 175 25 0 1 0 N
+X ~ 1 0 300 100 D 50 50 1 1 P
+X ~ 2 0 -300 100 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # Sabertooth2x60
 #
 DEF Sabertooth2x60 U 0 40 Y Y 1 F N

@@ -1,3 +1,15 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP CircuitBreaker_1P
+D Single pole circuit breaker
+K CB
+F ~
+$ENDCMP
+#
+$CMP CircuitBreaker_1P_US
+D Single pole circuit breaker, US symbol
+K CB
+F ~
+$ENDCMP
+#
 #End Doc Library
