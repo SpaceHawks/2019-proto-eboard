@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 2
+Sheet 1 3
 Title "Prototype E-board Schematic"
 Date ""
 Rev ""
@@ -296,9 +296,7 @@ Wire Wire Line
 	2300 2200 2300 2250
 Connection ~ 2200 2200
 Wire Wire Line
-	3750 2650 4300 2650
-Wire Wire Line
-	3750 2750 4300 2750
+	3750 2650 4000 2650
 $Comp
 L power:GNDD #PWR020
 U 1 1 5D9EAC4E
@@ -976,6 +974,69 @@ Wire Wire Line
 Connection ~ 1300 2600
 Wire Wire Line
 	1300 2600 1450 2600
+$Sheet
+S 4300 3550 550  700 
+U 5DAF980D
+F0 "SparkfunMP6050Breakout" 50
+F1 "MP6050.sch" 50
+F2 "VCC" I L 4300 3650 50 
+F3 "GND" I L 4300 4150 50 
+F4 "INT" I L 4300 4050 50 
+F5 "SCL" I L 4300 3950 50 
+F6 "SDA" I L 4300 3850 50 
+F7 "VIO" I L 4300 3750 50 
+$EndSheet
+$Comp
+L power:+5V #PWR?
+U 1 1 5DB03923
+P 4100 3650
+F 0 "#PWR?" H 4100 3500 50  0001 C CNN
+F 1 "+5V" H 4100 3790 50  0000 C CNN
+F 2 "" H 4100 3650 50  0001 C CNN
+F 3 "" H 4100 3650 50  0001 C CNN
+	1    4100 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 3650 4150 3650
+Wire Wire Line
+	4150 3650 4150 3750
+Wire Wire Line
+	4150 3750 4300 3750
+Connection ~ 4150 3650
+Wire Wire Line
+	4150 3650 4300 3650
+Wire Wire Line
+	3750 2750 3900 2750
+Wire Wire Line
+	4300 3850 4000 3850
+Wire Wire Line
+	4000 3850 4000 2650
+Connection ~ 4000 2650
+Wire Wire Line
+	4000 2650 4300 2650
+Wire Wire Line
+	3900 2750 3900 3950
+Wire Wire Line
+	3900 3950 4300 3950
+Connection ~ 3900 2750
+Wire Wire Line
+	3900 2750 4300 2750
+Wire Wire Line
+	3750 4050 4300 4050
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DB1BAC9
+P 4150 4150
+F 0 "#PWR?" H 4150 3900 50  0001 C CNN
+F 1 "GNDD" H 4150 4025 50  0000 C CNN
+F 2 "" H 4150 4150 50  0001 C CNN
+F 3 "" H 4150 4150 50  0001 C CNN
+	1    4150 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 4150 4300 4150
 Wire Bus Line
 	5600 2400 5600 4850
 $EndSCHEMATC
