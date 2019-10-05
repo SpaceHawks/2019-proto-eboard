@@ -1,5 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP AMT10_Encoder
+D Rotary encoder, dual channel, incremental quadrate outputs
+K incremental rotary encoder
+F ~
+$ENDCMP
+#
 $CMP CircuitBreaker_1P
 D Single pole circuit breaker
 K CB
