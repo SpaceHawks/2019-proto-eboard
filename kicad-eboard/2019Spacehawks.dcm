@@ -12,6 +12,11 @@ K CB
 F ~
 $ENDCMP
 #
+$CMP Hokuyo_UST-10LX
+D Hokuyo UST-10LX Scanning Laser Rangefinder
+K lidar
+$ENDCMP
+#
 $CMP PDQXX-D_DC-DC_converter
 D CUI PDQXX-D DC-DC converter, single channel
 K DC-DC, converter
