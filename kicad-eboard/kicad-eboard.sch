@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:kicad-eboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -1283,55 +1282,53 @@ F 3 "" H 6750 6400 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	6550 6400 6750 6400
-NoConn ~ 3200 2400
-NoConn ~ 3200 2500
-Text Label 3500 5300 2    50   ~ 0
+Text Label 3500 4900 2    50   ~ 0
 ENC1_X
-Text Label 3500 5400 2    50   ~ 0
-ENC1_A
-Text Label 3500 5500 2    50   ~ 0
-ENC1_B
-Wire Wire Line
-	3200 5400 3500 5400
-Wire Wire Line
-	3200 5300 3500 5300
-Wire Wire Line
-	3200 5500 3500 5500
 Text Label 3500 5000 2    50   ~ 0
-ENC2_X
+ENC1_A
 Text Label 3500 5100 2    50   ~ 0
-ENC2_A
-Text Label 3500 5200 2    50   ~ 0
-ENC2_B
-Wire Wire Line
-	3200 5100 3500 5100
+ENC1_B
 Wire Wire Line
 	3200 5000 3500 5000
 Wire Wire Line
-	3200 5200 3500 5200
-Text Label 3500 4700 2    50   ~ 0
-ENC3_X
-Text Label 3500 4800 2    50   ~ 0
-ENC3_A
-Text Label 3500 4900 2    50   ~ 0
-ENC3_B
+	3200 4900 3500 4900
 Wire Wire Line
-	3200 4800 3500 4800
+	3200 5100 3500 5100
+Text Label 3500 4600 2    50   ~ 0
+ENC2_X
+Text Label 3500 4700 2    50   ~ 0
+ENC2_A
+Text Label 3500 4800 2    50   ~ 0
+ENC2_B
 Wire Wire Line
 	3200 4700 3500 4700
 Wire Wire Line
-	3200 4900 3500 4900
+	3200 4600 3500 4600
 Wire Wire Line
-	3200 4350 3500 4350
+	3200 4800 3500 4800
+Text Label 3500 4150 2    50   ~ 0
+ENC3_X
+Text Label 3500 4250 2    50   ~ 0
+ENC3_A
+Text Label 3500 4350 2    50   ~ 0
+ENC3_B
 Wire Wire Line
 	3200 4250 3500 4250
 Wire Wire Line
-	3200 4450 3500 4450
-Text Label 3500 4250 2    50   ~ 0
+	3200 4150 3500 4150
+Wire Wire Line
+	3200 4350 3500 4350
+Wire Wire Line
+	3200 3600 3500 3600
+Wire Wire Line
+	3200 3500 3500 3500
+Wire Wire Line
+	3200 3700 3500 3700
+Text Label 3500 3500 2    50   ~ 0
 ENC4_X
-Text Label 3500 4350 2    50   ~ 0
+Text Label 3500 3600 2    50   ~ 0
 ENC4_A
-Text Label 3500 4450 2    50   ~ 0
+Text Label 3500 3700 2    50   ~ 0
 ENC4_B
 Wire Wire Line
 	6550 5850 6850 5850
@@ -1358,28 +1355,28 @@ ENC6_A
 Text Label 6850 6700 2    50   ~ 0
 ENC6_B
 Wire Wire Line
-	3200 3700 3500 3700
-Wire Wire Line
-	3200 3600 3500 3600
-Wire Wire Line
-	3200 3800 3500 3800
-Text Label 3500 3600 2    50   ~ 0
-ENC5_X
-Text Label 3500 3700 2    50   ~ 0
-ENC5_A
-Text Label 3500 3800 2    50   ~ 0
-ENC5_B
-Wire Wire Line
-	3200 3400 3500 3400
-Wire Wire Line
 	3200 3300 3500 3300
 Wire Wire Line
-	3200 3500 3500 3500
+	3200 3200 3500 3200
+Wire Wire Line
+	3200 3400 3500 3400
+Text Label 3500 3200 2    50   ~ 0
+ENC5_X
 Text Label 3500 3300 2    50   ~ 0
-ENC6_X
+ENC5_A
 Text Label 3500 3400 2    50   ~ 0
+ENC5_B
+Wire Wire Line
+	3200 2950 3500 2950
+Wire Wire Line
+	3200 2850 3500 2850
+Wire Wire Line
+	3200 3100 3500 3100
+Text Label 3500 2850 2    50   ~ 0
+ENC6_X
+Text Label 3500 2950 2    50   ~ 0
 ENC6_A
-Text Label 3500 3500 2    50   ~ 0
+Text Label 3500 3100 2    50   ~ 0
 ENC6_B
 Text Label 6850 2750 2    50   ~ 0
 ENC1_X
@@ -1429,6 +1426,114 @@ Text Label 6850 5100 2    50   ~ 0
 ENC4_A
 Text Label 6850 5200 2    50   ~ 0
 ENC4_B
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5D9D7C7C
+P 3950 5200
+F 0 "SW?" H 3950 5370 50  0000 C CNN
+F 1 "LIMIT_1" H 3950 5000 50  0000 C CNN
+F 2 "" H 3950 5200 50  0001 C CNN
+F 3 "" H 3950 5200 50  0001 C CNN
+	1    3950 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_SPDT SW?
+U 1 1 5DA37FF8
+P 3950 6000
+F 0 "SW?" H 3950 6170 50  0000 C CNN
+F 1 "LIMIT_2" H 3950 5800 50  0000 C CNN
+F 2 "" H 3950 6000 50  0001 C CNN
+F 3 "" H 3950 6000 50  0001 C CNN
+	1    3950 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA38219
+P 3300 2350
+F 0 "#PWR?" H 3300 2200 50  0001 C CNN
+F 1 "+3.3V" H 3300 2490 50  0000 C CNN
+F 2 "" H 3300 2350 50  0001 C CNN
+F 3 "" H 3300 2350 50  0001 C CNN
+	1    3300 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2500 3300 2500
+Wire Wire Line
+	3300 2500 3300 2400
+Wire Wire Line
+	3300 2400 3200 2400
+Connection ~ 3300 2400
+Wire Wire Line
+	3300 2400 3300 2350
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DA560F2
+P 4250 5050
+F 0 "#PWR?" H 4250 4900 50  0001 C CNN
+F 1 "+3.3V" H 4250 5190 50  0000 C CNN
+F 2 "" H 4250 5050 50  0001 C CNN
+F 3 "" H 4250 5050 50  0001 C CNN
+	1    4250 5050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5050 4250 5100
+Wire Wire Line
+	4150 5100 4250 5100
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DA6AC5E
+P 4250 6200
+F 0 "#PWR?" H 4250 5950 50  0001 C CNN
+F 1 "GNDD" H 4250 6075 50  0000 C CNN
+F 2 "" H 4250 6200 50  0001 C CNN
+F 3 "" H 4250 6200 50  0001 C CNN
+	1    4250 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5DAC0F76
+P 4250 5850
+F 0 "#PWR?" H 4250 5700 50  0001 C CNN
+F 1 "+3.3V" H 4250 5990 50  0000 C CNN
+F 2 "" H 4250 5850 50  0001 C CNN
+F 3 "" H 4250 5850 50  0001 C CNN
+	1    4250 5850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4250 5850 4250 5900
+Wire Wire Line
+	4150 5900 4250 5900
+Wire Wire Line
+	4150 6100 4250 6100
+Wire Wire Line
+	4250 6100 4250 6200
+$Comp
+L power:GNDD #PWR?
+U 1 1 5DAD60E2
+P 4250 5400
+F 0 "#PWR?" H 4250 5150 50  0001 C CNN
+F 1 "GNDD" H 4250 5275 50  0000 C CNN
+F 2 "" H 4250 5400 50  0001 C CNN
+F 3 "" H 4250 5400 50  0001 C CNN
+	1    4250 5400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4150 5300 4250 5300
+Wire Wire Line
+	4250 5300 4250 5400
+Wire Wire Line
+	3200 5200 3750 5200
+Wire Wire Line
+	3200 5300 3750 5300
+Wire Wire Line
+	3750 5300 3750 6000
 Wire Bus Line
 	5300 2400 5300 6400
 $EndSCHEMATC

@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:kicad-eboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
