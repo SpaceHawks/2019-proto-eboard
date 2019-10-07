@@ -1,10 +1,10 @@
 EESchema Schematic File Version 4
-LIBS:2019Spacehawks
+LIBS:kicad-eboard-cache
 EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 6 9
+Sheet 4 9
 Title ""
 Date ""
 Rev ""
@@ -123,8 +123,6 @@ Text HLabel 1550 2450 0    50   Input ~ 0
 GND
 NoConn ~ 3150 2150
 NoConn ~ 3150 2250
-Wire Wire Line
-	2050 2450 1550 2450
 Connection ~ 2050 2450
 Wire Wire Line
 	3150 2050 3250 2050
@@ -138,4 +136,143 @@ Wire Wire Line
 	3250 1950 3250 1750
 Wire Wire Line
 	3250 1750 3650 1750
+$Comp
+L 2019Spacehawks:AMT10_Encoder SW?
+U 1 1 5DA039F7
+P 3750 3000
+F 0 "SW?" H 4025 3300 50  0000 C CNN
+F 1 "AMT10_Encoder" H 3750 2700 50  0000 C CNN
+F 2 "" H 3525 2910 50  0001 C CNN
+F 3 "~" H 3375 3010 50  0001 C CNN
+	1    3750 3000
+	1    0    0    -1  
+$EndComp
+Text HLabel 1500 2800 0    50   Input ~ 0
+5V
+Text HLabel 1500 2900 0    50   Output ~ 0
+ENC_X
+Text HLabel 2200 3000 0    50   Output ~ 0
+ENC_A
+Text HLabel 2900 3100 0    50   Output ~ 0
+ENC_B
+Wire Wire Line
+	1500 2800 3400 2800
+$Comp
+L Device:R R?
+U 1 1 5DA3158F
+P 1800 2900
+F 0 "R?" V 1880 2900 50  0000 C CNN
+F 1 "47K" V 1800 2900 50  0000 C CNN
+F 2 "" V 1730 2900 50  0001 C CNN
+F 3 "~" H 1800 2900 50  0001 C CNN
+	1    1800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA315F6
+P 2300 3200
+F 0 "R?" V 2380 3200 50  0000 C CNN
+F 1 "91K" V 2300 3200 50  0000 C CNN
+F 2 "" V 2230 3200 50  0001 C CNN
+F 3 "~" H 2300 3200 50  0001 C CNN
+	1    2300 3200
+	-1   0    0    1   
+$EndComp
+Text HLabel 1450 3500 0    50   Input ~ 0
+GND
+Wire Wire Line
+	1550 2450 2050 2450
+Wire Wire Line
+	1950 2900 3400 2900
+$Comp
+L Device:R R?
+U 1 1 5DA32B15
+P 2500 3000
+F 0 "R?" V 2580 3000 50  0000 C CNN
+F 1 "47K" V 2500 3000 50  0000 C CNN
+F 2 "" V 2430 3000 50  0001 C CNN
+F 3 "~" H 2500 3000 50  0001 C CNN
+	1    2500 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DA32B35
+P 3200 3100
+F 0 "R?" V 3280 3100 50  0000 C CNN
+F 1 "47K" V 3200 3100 50  0000 C CNN
+F 2 "" V 3130 3100 50  0001 C CNN
+F 3 "~" H 3200 3100 50  0001 C CNN
+	1    3200 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2650 3000 3400 3000
+Wire Wire Line
+	3400 3100 3350 3100
+Wire Wire Line
+	3400 3500 3400 3200
+$Comp
+L Device:R R?
+U 1 1 5DA354E5
+P 3000 3300
+F 0 "R?" V 3080 3300 50  0000 C CNN
+F 1 "91K" V 3000 3300 50  0000 C CNN
+F 2 "" V 2930 3300 50  0001 C CNN
+F 3 "~" H 3000 3300 50  0001 C CNN
+	1    3000 3300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3000 3100 3050 3100
+Wire Wire Line
+	3000 3100 2900 3100
+Connection ~ 3000 3100
+$Comp
+L Device:R R?
+U 1 1 5DA3726A
+P 1600 3100
+F 0 "R?" V 1680 3100 50  0000 C CNN
+F 1 "91K" V 1600 3100 50  0000 C CNN
+F 2 "" V 1530 3100 50  0001 C CNN
+F 3 "~" H 1600 3100 50  0001 C CNN
+	1    1600 3100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	1600 3250 1600 3500
+Connection ~ 1600 3500
+Wire Wire Line
+	1600 3500 1450 3500
+Wire Wire Line
+	2200 3000 2300 3000
+Wire Wire Line
+	2300 3000 2350 3000
+Connection ~ 2300 3000
+Wire Wire Line
+	1600 3500 2300 3500
+Wire Wire Line
+	2300 3050 2300 3000
+Wire Wire Line
+	2300 3350 2300 3500
+Connection ~ 2300 3500
+Wire Wire Line
+	1650 2900 1600 2900
+Wire Wire Line
+	1600 2950 1600 2900
+Connection ~ 1600 2900
+Wire Wire Line
+	1600 2900 1500 2900
+Wire Wire Line
+	2300 3500 3000 3500
+Wire Wire Line
+	3000 3150 3000 3100
+Wire Wire Line
+	3000 3450 3000 3500
+Connection ~ 3000 3500
+Wire Wire Line
+	3000 3500 3400 3500
+Text Notes 1250 3700 0    50   ~ 0
+TinkerBoard GPIO is not 5V tolerant; voltage divider steps down to 3.3V.
 $EndSCHEMATC
