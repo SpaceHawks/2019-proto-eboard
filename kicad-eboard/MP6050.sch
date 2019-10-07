@@ -66,10 +66,10 @@ VIO
 Text Label 5250 3600 0    70   ~ 0
 VIO
 $Comp
-L Device:C C?
+L Device:C C14
 U 1 0 9F1C139701909D13
 P 6750 5600
-F 0 "C?" H 6810 5715 59  0000 L BNN
+F 0 "C14" H 6810 5715 59  0000 L BNN
 F 1 "2.2nF" H 6810 5515 59  0000 L BNN
 F 2 "" H 6750 5600 50  0001 C CNN
 F 3 "" H 6750 5600 50  0001 C CNN
@@ -77,10 +77,10 @@ F 3 "" H 6750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C13
 U 1 0 563B591DDAA3AADF
 P 6300 4000
-F 0 "C?" H 6360 4115 59  0000 L BNN
+F 0 "C13" H 6360 4115 59  0000 L BNN
 F 1 "0.1uF" H 6360 3915 59  0000 L BNN
 F 2 "" H 6300 4000 50  0001 C CNN
 F 3 "" H 6300 4000 50  0001 C CNN
@@ -88,10 +88,10 @@ F 3 "" H 6300 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
+L Device:C C11
 U 1 0 D84F9FB4EEBC4EF1
 P 5100 3900
-F 0 "C?" H 5160 4015 59  0000 L BNN
+F 0 "C11" H 5160 4015 59  0000 L BNN
 F 1 "10nF" H 5160 3815 59  0000 L BNN
 F 2 "" H 5100 3900 50  0001 C CNN
 F 3 "" H 5100 3900 50  0001 C CNN
@@ -153,10 +153,10 @@ Added 4 small tcream squares to middle pad.
 Text Notes 7900 1600 0    59   ~ 0
 Rounded and elongated pads.
 $Comp
-L Sensor_Motion:MPU-6050 U?
+L Sensor_Motion:MPU-6050 U9
 U 1 1 5DACFAC5
 P 5500 5100
-F 0 "U?" H 5050 5650 50  0000 C CNN
+F 0 "U9" H 5050 5650 50  0000 C CNN
 F 1 "MPU-6050" H 5800 4550 50  0000 C CNN
 F 2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" H 5500 4300 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf" H 5500 4950 50  0001 C CNN
@@ -180,10 +180,10 @@ Wire Wire Line
 Wire Wire Line
 	6200 5300 6750 5300
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP2
 U 1 1 5DAE6E03
 P 4400 6000
-F 0 "JP?" H 4400 6080 50  0000 C CNN
+F 0 "JP2" H 4400 6080 50  0000 C CNN
 F 1 "SolderJumper_2_Bridged" H 4400 5900 50  0000 C CNN
 F 2 "" H 4400 6000 50  0001 C CNN
 F 3 "~" H 4400 6000 50  0001 C CNN
@@ -191,10 +191,10 @@ F 3 "~" H 4400 6000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Jumper:SolderJumper_2_Bridged JP?
+L Jumper:SolderJumper_2_Bridged JP3
 U 1 1 5DAE6EE9
 P 4700 6000
-F 0 "JP?" H 4700 6080 50  0000 C CNN
+F 0 "JP3" H 4700 6080 50  0000 C CNN
 F 1 "SolderJumper_2_Bridged" H 4700 5900 50  0000 C CNN
 F 2 "" H 4700 6000 50  0001 C CNN
 F 3 "~" H 4700 6000 50  0001 C CNN
@@ -210,10 +210,10 @@ Wire Wire Line
 Wire Wire Line
 	4700 6150 4700 6300
 $Comp
-L Jumper:SolderJumper_3_Bridged12 JP?
+L Jumper:SolderJumper_3_Bridged12 JP1
 U 1 1 5DAE8B16
 P 3950 5000
-F 0 "JP?" H 3850 4900 50  0000 C CNN
+F 0 "JP1" H 3850 4900 50  0000 C CNN
 F 1 "SolderJumper_3_Bridged12" H 3950 5110 50  0000 C CNN
 F 2 "" H 3950 5000 50  0001 C CNN
 F 3 "~" H 3950 5000 50  0001 C CNN
@@ -237,10 +237,10 @@ Wire Notes Line
 Text Notes 4300 5930 0    59   ~ 0
 ***
 $Comp
-L Connector_Generic:Conn_01x10 J?
+L Connector_Generic:Conn_01x10 J19
 U 1 1 5DAEBC3C
 P 1700 4300
-F 0 "J?" H 1700 4800 50  0000 C CNN
+F 0 "J19" H 1700 4800 50  0000 C CNN
 F 1 "Conn_01x10" H 1700 3700 50  0000 C CNN
 F 2 "" H 1700 4300 50  0001 C CNN
 F 3 "~" H 1700 4300 50  0001 C CNN
@@ -248,10 +248,10 @@ F 3 "~" H 1700 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5DAEC66E
 P 4350 4300
-F 0 "R?" V 4430 4300 50  0000 C CNN
+F 0 "R1" V 4430 4300 50  0000 C CNN
 F 1 "10K" V 4350 4300 50  0000 C CNN
 F 2 "" V 4280 4300 50  0001 C CNN
 F 3 "~" H 4350 4300 50  0001 C CNN
@@ -259,10 +259,10 @@ F 3 "~" H 4350 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5DAEC733
 P 4600 4100
-F 0 "R?" V 4680 4100 50  0000 C CNN
+F 0 "R2" V 4680 4100 50  0000 C CNN
 F 1 "10K" V 4600 4100 50  0000 C CNN
 F 2 "" V 4530 4100 50  0001 C CNN
 F 3 "~" H 4600 4100 50  0001 C CNN
@@ -286,10 +286,10 @@ Wire Wire Line
 Wire Wire Line
 	6300 4200 6300 4150
 $Comp
-L Device:C C?
+L Device:C C12
 U 1 0 5DAF08EE
 P 6200 5750
-F 0 "C?" H 6260 5865 59  0000 L BNN
+F 0 "C12" H 6260 5865 59  0000 L BNN
 F 1 "0.1uF" H 6260 5665 59  0000 L BNN
 F 2 "" H 6200 5750 50  0001 C CNN
 F 3 "" H 6200 5750 50  0001 C CNN

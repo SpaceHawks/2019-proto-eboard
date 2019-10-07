@@ -3,7 +3,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 4 9
+Sheet 8 9
 Title ""
 Date ""
 Rev ""
@@ -14,17 +14,17 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 2019Spacehawks:Sabertooth2x60 U?
+L 2019Spacehawks:Sabertooth2x60 U10
 U 1 1 5D9AC6B6
 P 2800 2000
-AR Path="/5D9AC27F/5D9AC6B6" Ref="U?"  Part="1" 
-AR Path="/5D9BDACA/5D9AC6B6" Ref="U?"  Part="1" 
+AR Path="/5D9AC27F/5D9AC6B6" Ref="U10"  Part="1" 
+AR Path="/5D9BDACA/5D9AC6B6" Ref="U11"  Part="1" 
 AR Path="/5D981157/5D9AC6B6" Ref="U?"  Part="1" 
-AR Path="/5D9ACC15/5D9AC6B6" Ref="U?"  Part="1" 
-AR Path="/5D9ACC1B/5D9AC6B6" Ref="U?"  Part="1" 
-AR Path="/5D9B81A1/5D9AC6B6" Ref="U?"  Part="1" 
-AR Path="/5D9B81A7/5D9AC6B6" Ref="U?"  Part="1" 
-F 0 "U?" H 3000 2300 50  0000 C CNN
+AR Path="/5D9ACC15/5D9AC6B6" Ref="U12"  Part="1" 
+AR Path="/5D9ACC1B/5D9AC6B6" Ref="U13"  Part="1" 
+AR Path="/5D9B81A1/5D9AC6B6" Ref="U14"  Part="1" 
+AR Path="/5D9B81A7/5D9AC6B6" Ref="U15"  Part="1" 
+F 0 "U14" H 3000 2300 50  0000 C CNN
 F 1 "Sabertooth2x60" H 2750 2200 50  0000 C CNN
 F 2 "" H 2800 2000 50  0001 C CNN
 F 3 "" H 2800 2000 50  0001 C CNN
@@ -32,17 +32,17 @@ F 3 "" H 2800 2000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor:Motor_DC M?
+L Motor:Motor_DC M1
 U 1 1 5D9AC6BD
 P 3650 1950
-AR Path="/5D9AC27F/5D9AC6BD" Ref="M?"  Part="1" 
-AR Path="/5D9BDACA/5D9AC6BD" Ref="M?"  Part="1" 
+AR Path="/5D9AC27F/5D9AC6BD" Ref="M1"  Part="1" 
+AR Path="/5D9BDACA/5D9AC6BD" Ref="M2"  Part="1" 
 AR Path="/5D981157/5D9AC6BD" Ref="M?"  Part="1" 
-AR Path="/5D9ACC15/5D9AC6BD" Ref="M?"  Part="1" 
-AR Path="/5D9ACC1B/5D9AC6BD" Ref="M?"  Part="1" 
-AR Path="/5D9B81A1/5D9AC6BD" Ref="M?"  Part="1" 
-AR Path="/5D9B81A7/5D9AC6BD" Ref="M?"  Part="1" 
-F 0 "M?" H 3750 2050 50  0000 L CNN
+AR Path="/5D9ACC15/5D9AC6BD" Ref="M3"  Part="1" 
+AR Path="/5D9ACC1B/5D9AC6BD" Ref="M4"  Part="1" 
+AR Path="/5D9B81A1/5D9AC6BD" Ref="M5"  Part="1" 
+AR Path="/5D9B81A7/5D9AC6BD" Ref="M6"  Part="1" 
+F 0 "M5" H 3750 2050 50  0000 L CNN
 F 1 "Motor_DC" H 3750 1750 50  0000 L TNN
 F 2 "" H 3650 1860 50  0001 C CNN
 F 3 "~" H 3650 1860 50  0001 C CNN
@@ -52,17 +52,17 @@ $EndComp
 NoConn ~ 2650 2450
 NoConn ~ 2750 2450
 $Comp
-L Device:R R?
+L Device:R R31
 U 1 1 5D9AC6E4
 P 1900 2150
-AR Path="/5D9AC27F/5D9AC6E4" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5D9AC6E4" Ref="R?"  Part="1" 
+AR Path="/5D9AC27F/5D9AC6E4" Ref="R31"  Part="1" 
+AR Path="/5D9BDACA/5D9AC6E4" Ref="R38"  Part="1" 
 AR Path="/5D981157/5D9AC6E4" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5D9AC6E4" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5D9AC6E4" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5D9AC6E4" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5D9AC6E4" Ref="R?"  Part="1" 
-F 0 "R?" V 1980 2150 50  0000 C CNN
+AR Path="/5D9ACC15/5D9AC6E4" Ref="R45"  Part="1" 
+AR Path="/5D9ACC1B/5D9AC6E4" Ref="R52"  Part="1" 
+AR Path="/5D9B81A1/5D9AC6E4" Ref="R59"  Part="1" 
+AR Path="/5D9B81A7/5D9AC6E4" Ref="R66"  Part="1" 
+F 0 "R59" V 1980 2150 50  0000 C CNN
 F 1 "10K" V 1900 2150 50  0000 C CNN
 F 2 "" V 1830 2150 50  0001 C CNN
 F 3 "~" H 1900 2150 50  0001 C CNN
@@ -70,17 +70,17 @@ F 3 "~" H 1900 2150 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:C_Small C?
+L Device:C_Small C15
 U 1 1 5D9AC6EB
 P 2050 2300
-AR Path="/5D9AC27F/5D9AC6EB" Ref="C?"  Part="1" 
-AR Path="/5D9BDACA/5D9AC6EB" Ref="C?"  Part="1" 
+AR Path="/5D9AC27F/5D9AC6EB" Ref="C15"  Part="1" 
+AR Path="/5D9BDACA/5D9AC6EB" Ref="C16"  Part="1" 
 AR Path="/5D981157/5D9AC6EB" Ref="C?"  Part="1" 
-AR Path="/5D9ACC15/5D9AC6EB" Ref="C?"  Part="1" 
-AR Path="/5D9ACC1B/5D9AC6EB" Ref="C?"  Part="1" 
-AR Path="/5D9B81A1/5D9AC6EB" Ref="C?"  Part="1" 
-AR Path="/5D9B81A7/5D9AC6EB" Ref="C?"  Part="1" 
-F 0 "C?" H 2060 2370 50  0000 L CNN
+AR Path="/5D9ACC15/5D9AC6EB" Ref="C17"  Part="1" 
+AR Path="/5D9ACC1B/5D9AC6EB" Ref="C18"  Part="1" 
+AR Path="/5D9B81A1/5D9AC6EB" Ref="C19"  Part="1" 
+AR Path="/5D9B81A7/5D9AC6EB" Ref="C20"  Part="1" 
+F 0 "C19" H 2060 2370 50  0000 L CNN
 F 1 "0.1u" H 2060 2220 50  0000 L CNN
 F 2 "" H 2050 2300 50  0001 C CNN
 F 3 "~" H 2050 2300 50  0001 C CNN
@@ -136,10 +136,16 @@ Wire Wire Line
 Wire Wire Line
 	3250 1750 3650 1750
 $Comp
-L 2019Spacehawks:AMT10_Encoder SW?
+L 2019Spacehawks:AMT10_Encoder SW6
 U 1 1 5DA039F7
 P 3750 3000
-F 0 "SW?" H 4025 3300 50  0000 C CNN
+AR Path="/5D9AC27F/5DA039F7" Ref="SW6"  Part="1" 
+AR Path="/5D9BDACA/5DA039F7" Ref="SW7"  Part="1" 
+AR Path="/5D9ACC15/5DA039F7" Ref="SW8"  Part="1" 
+AR Path="/5D9ACC1B/5DA039F7" Ref="SW9"  Part="1" 
+AR Path="/5D9B81A1/5DA039F7" Ref="SW10"  Part="1" 
+AR Path="/5D9B81A7/5DA039F7" Ref="SW11"  Part="1" 
+F 0 "SW10" H 4025 3300 50  0000 C CNN
 F 1 "AMT10_Encoder" H 3750 2700 50  0000 C CNN
 F 2 "" H 3525 2910 50  0001 C CNN
 F 3 "~" H 3375 3010 50  0001 C CNN
@@ -157,10 +163,16 @@ ENC_B
 Wire Wire Line
 	1500 2800 3400 2800
 $Comp
-L Device:R R?
+L Device:R R30
 U 1 1 5DA3158F
 P 1800 2900
-F 0 "R?" V 1880 2900 50  0000 C CNN
+AR Path="/5D9AC27F/5DA3158F" Ref="R30"  Part="1" 
+AR Path="/5D9BDACA/5DA3158F" Ref="R37"  Part="1" 
+AR Path="/5D9ACC15/5DA3158F" Ref="R44"  Part="1" 
+AR Path="/5D9ACC1B/5DA3158F" Ref="R51"  Part="1" 
+AR Path="/5D9B81A1/5DA3158F" Ref="R58"  Part="1" 
+AR Path="/5D9B81A7/5DA3158F" Ref="R65"  Part="1" 
+F 0 "R58" V 1880 2900 50  0000 C CNN
 F 1 "47K" V 1800 2900 50  0000 C CNN
 F 2 "" V 1730 2900 50  0001 C CNN
 F 3 "~" H 1800 2900 50  0001 C CNN
@@ -168,10 +180,16 @@ F 3 "~" H 1800 2900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R32
 U 1 1 5DA315F6
 P 2300 3200
-F 0 "R?" V 2380 3200 50  0000 C CNN
+AR Path="/5D9AC27F/5DA315F6" Ref="R32"  Part="1" 
+AR Path="/5D9BDACA/5DA315F6" Ref="R39"  Part="1" 
+AR Path="/5D9ACC15/5DA315F6" Ref="R46"  Part="1" 
+AR Path="/5D9ACC1B/5DA315F6" Ref="R53"  Part="1" 
+AR Path="/5D9B81A1/5DA315F6" Ref="R60"  Part="1" 
+AR Path="/5D9B81A7/5DA315F6" Ref="R67"  Part="1" 
+F 0 "R60" V 2380 3200 50  0000 C CNN
 F 1 "91K" V 2300 3200 50  0000 C CNN
 F 2 "" V 2230 3200 50  0001 C CNN
 F 3 "~" H 2300 3200 50  0001 C CNN
@@ -185,10 +203,16 @@ Wire Wire Line
 Wire Wire Line
 	1950 2900 3400 2900
 $Comp
-L Device:R R?
+L Device:R R33
 U 1 1 5DA32B15
 P 2500 3000
-F 0 "R?" V 2580 3000 50  0000 C CNN
+AR Path="/5D9AC27F/5DA32B15" Ref="R33"  Part="1" 
+AR Path="/5D9BDACA/5DA32B15" Ref="R40"  Part="1" 
+AR Path="/5D9ACC15/5DA32B15" Ref="R47"  Part="1" 
+AR Path="/5D9ACC1B/5DA32B15" Ref="R54"  Part="1" 
+AR Path="/5D9B81A1/5DA32B15" Ref="R61"  Part="1" 
+AR Path="/5D9B81A7/5DA32B15" Ref="R68"  Part="1" 
+F 0 "R61" V 2580 3000 50  0000 C CNN
 F 1 "47K" V 2500 3000 50  0000 C CNN
 F 2 "" V 2430 3000 50  0001 C CNN
 F 3 "~" H 2500 3000 50  0001 C CNN
@@ -196,10 +220,16 @@ F 3 "~" H 2500 3000 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R35
 U 1 1 5DA32B35
 P 3200 3100
-F 0 "R?" V 3280 3100 50  0000 C CNN
+AR Path="/5D9AC27F/5DA32B35" Ref="R35"  Part="1" 
+AR Path="/5D9BDACA/5DA32B35" Ref="R42"  Part="1" 
+AR Path="/5D9ACC15/5DA32B35" Ref="R49"  Part="1" 
+AR Path="/5D9ACC1B/5DA32B35" Ref="R56"  Part="1" 
+AR Path="/5D9B81A1/5DA32B35" Ref="R63"  Part="1" 
+AR Path="/5D9B81A7/5DA32B35" Ref="R70"  Part="1" 
+F 0 "R63" V 3280 3100 50  0000 C CNN
 F 1 "47K" V 3200 3100 50  0000 C CNN
 F 2 "" V 3130 3100 50  0001 C CNN
 F 3 "~" H 3200 3100 50  0001 C CNN
@@ -213,10 +243,16 @@ Wire Wire Line
 Wire Wire Line
 	3400 3500 3400 3200
 $Comp
-L Device:R R?
+L Device:R R34
 U 1 1 5DA354E5
 P 3000 3300
-F 0 "R?" V 3080 3300 50  0000 C CNN
+AR Path="/5D9AC27F/5DA354E5" Ref="R34"  Part="1" 
+AR Path="/5D9BDACA/5DA354E5" Ref="R41"  Part="1" 
+AR Path="/5D9ACC15/5DA354E5" Ref="R48"  Part="1" 
+AR Path="/5D9ACC1B/5DA354E5" Ref="R55"  Part="1" 
+AR Path="/5D9B81A1/5DA354E5" Ref="R62"  Part="1" 
+AR Path="/5D9B81A7/5DA354E5" Ref="R69"  Part="1" 
+F 0 "R62" V 3080 3300 50  0000 C CNN
 F 1 "91K" V 3000 3300 50  0000 C CNN
 F 2 "" V 2930 3300 50  0001 C CNN
 F 3 "~" H 3000 3300 50  0001 C CNN
@@ -229,10 +265,16 @@ Wire Wire Line
 	3000 3100 2900 3100
 Connection ~ 3000 3100
 $Comp
-L Device:R R?
+L Device:R R29
 U 1 1 5DA3726A
 P 1600 3100
-F 0 "R?" V 1680 3100 50  0000 C CNN
+AR Path="/5D9AC27F/5DA3726A" Ref="R29"  Part="1" 
+AR Path="/5D9BDACA/5DA3726A" Ref="R36"  Part="1" 
+AR Path="/5D9ACC15/5DA3726A" Ref="R43"  Part="1" 
+AR Path="/5D9ACC1B/5DA3726A" Ref="R50"  Part="1" 
+AR Path="/5D9B81A1/5DA3726A" Ref="R57"  Part="1" 
+AR Path="/5D9B81A7/5DA3726A" Ref="R64"  Part="1" 
+F 0 "R57" V 1680 3100 50  0000 C CNN
 F 1 "91K" V 1600 3100 50  0000 C CNN
 F 2 "" V 1530 3100 50  0001 C CNN
 F 3 "~" H 1600 3100 50  0001 C CNN
