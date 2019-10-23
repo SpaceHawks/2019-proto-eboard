@@ -28,4 +28,13 @@ D CUI PDQXX-D DC-DC converter, single channel
 K DC-DC, converter
 $ENDCMP
 #
+$CMP SW_SPST_LED
+D Powerwerx panel mount switch switch with 15mA lamp
+K switch SPST LED OFF-ON lamp
+$ENDCMP
+#
+$CMP Wireless_Relay
+D Wireless SPST relay
+$ENDCMP
+#
 #End Doc Library
