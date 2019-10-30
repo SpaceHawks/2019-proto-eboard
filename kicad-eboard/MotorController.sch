@@ -56,46 +56,6 @@ F 3 "~" H 3650 1660 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2650 2450
-$Comp
-L Device:R R31
-U 1 1 5D9AC6E4
-P 1500 2150
-AR Path="/5D9AC27F/5D9AC6E4" Ref="R31"  Part="1" 
-AR Path="/5D9BDACA/5D9AC6E4" Ref="R38"  Part="1" 
-AR Path="/5D981157/5D9AC6E4" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5D9AC6E4" Ref="R45"  Part="1" 
-AR Path="/5D9ACC1B/5D9AC6E4" Ref="R52"  Part="1" 
-AR Path="/5D9B81A1/5D9AC6E4" Ref="R59"  Part="1" 
-AR Path="/5D9B81A7/5D9AC6E4" Ref="R66"  Part="1" 
-AR Path="/5DFA76F5/5D9AC6E4" Ref="R43"  Part="1" 
-AR Path="/5DFB097B/5D9AC6E4" Ref="R57"  Part="1" 
-F 0 "R31" V 1580 2150 50  0000 C CNN
-F 1 "10K" V 1500 2150 50  0000 C CNN
-F 2 "" V 1430 2150 50  0001 C CNN
-F 3 "~" H 1500 2150 50  0001 C CNN
-	1    1500 2150
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:C_Small C15
-U 1 1 5D9AC6EB
-P 1650 2450
-AR Path="/5D9AC27F/5D9AC6EB" Ref="C15"  Part="1" 
-AR Path="/5D9BDACA/5D9AC6EB" Ref="C16"  Part="1" 
-AR Path="/5D981157/5D9AC6EB" Ref="C?"  Part="1" 
-AR Path="/5D9ACC15/5D9AC6EB" Ref="C17"  Part="1" 
-AR Path="/5D9ACC1B/5D9AC6EB" Ref="C18"  Part="1" 
-AR Path="/5D9B81A1/5D9AC6EB" Ref="C19"  Part="1" 
-AR Path="/5D9B81A7/5D9AC6EB" Ref="C20"  Part="1" 
-AR Path="/5DFA76F5/5D9AC6EB" Ref="C17"  Part="1" 
-AR Path="/5DFB097B/5D9AC6EB" Ref="C19"  Part="1" 
-F 0 "C15" H 1660 2520 50  0000 L CNN
-F 1 "0.1u" H 1660 2370 50  0000 L CNN
-F 2 "" H 1650 2450 50  0001 C CNN
-F 3 "~" H 1650 2450 50  0001 C CNN
-	1    1650 2450
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	1550 1700 2300 1700
 Wire Wire Line
@@ -309,8 +269,6 @@ Wire Wire Line
 	6150 1950 6550 1950
 Wire Wire Line
 	2750 2450 2750 2600
-Wire Wire Line
-	1400 2600 1650 2600
 Text HLabel 2000 2250 0    50   Input ~ 0
 PWM2
 $Comp
@@ -357,13 +315,6 @@ Wire Wire Line
 	2300 2350 2300 2250
 Connection ~ 2300 2250
 Wire Wire Line
-	1650 2350 1650 2150
-Wire Wire Line
-	1650 2550 1650 2600
-Connection ~ 1650 2600
-Wire Wire Line
-	1650 2600 2300 2600
-Wire Wire Line
 	2300 2550 2300 2600
 Connection ~ 2300 2600
 Wire Wire Line
@@ -404,9 +355,6 @@ Wire Wire Line
 	3250 2650 3650 2650
 Wire Wire Line
 	1350 2150 1300 2150
-Connection ~ 1650 2150
-Wire Wire Line
-	1650 2150 2300 2150
 Text Notes 4400 3050 0    50   ~ 0
 TinkerBoard GPIO is not 5V tolerant; voltage divider steps down to 3.3V.
 $Comp
@@ -600,4 +548,56 @@ Wire Wire Line
 Connection ~ 6150 2850
 Wire Wire Line
 	6150 2850 6550 2850
+Wire Wire Line
+	1650 2150 2300 2150
+Wire Wire Line
+	1650 2600 2300 2600
+Wire Wire Line
+	1400 2600 1650 2600
+Connection ~ 1650 2600
+Wire Wire Line
+	1650 2550 1650 2600
+Wire Wire Line
+	1650 2350 1650 2150
+$Comp
+L Device:C_Small C15
+U 1 1 5D9AC6EB
+P 1650 2450
+AR Path="/5D9AC27F/5D9AC6EB" Ref="C15"  Part="1" 
+AR Path="/5D9BDACA/5D9AC6EB" Ref="C16"  Part="1" 
+AR Path="/5D981157/5D9AC6EB" Ref="C?"  Part="1" 
+AR Path="/5D9ACC15/5D9AC6EB" Ref="C17"  Part="1" 
+AR Path="/5D9ACC1B/5D9AC6EB" Ref="C18"  Part="1" 
+AR Path="/5D9B81A1/5D9AC6EB" Ref="C19"  Part="1" 
+AR Path="/5D9B81A7/5D9AC6EB" Ref="C20"  Part="1" 
+AR Path="/5DFA76F5/5D9AC6EB" Ref="C17"  Part="1" 
+AR Path="/5DFB097B/5D9AC6EB" Ref="C19"  Part="1" 
+F 0 "C15" H 1660 2520 50  0000 L CNN
+F 1 "0.1u" H 1660 2370 50  0000 L CNN
+F 2 "" H 1650 2450 50  0001 C CNN
+F 3 "~" H 1650 2450 50  0001 C CNN
+	1    1650 2450
+	1    0    0    -1  
+$EndComp
+Connection ~ 1650 2150
+$Comp
+L Device:R R31
+U 1 1 5D9AC6E4
+P 1500 2150
+AR Path="/5D9AC27F/5D9AC6E4" Ref="R31"  Part="1" 
+AR Path="/5D9BDACA/5D9AC6E4" Ref="R38"  Part="1" 
+AR Path="/5D981157/5D9AC6E4" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5D9AC6E4" Ref="R45"  Part="1" 
+AR Path="/5D9ACC1B/5D9AC6E4" Ref="R52"  Part="1" 
+AR Path="/5D9B81A1/5D9AC6E4" Ref="R59"  Part="1" 
+AR Path="/5D9B81A7/5D9AC6E4" Ref="R66"  Part="1" 
+AR Path="/5DFA76F5/5D9AC6E4" Ref="R43"  Part="1" 
+AR Path="/5DFB097B/5D9AC6E4" Ref="R57"  Part="1" 
+F 0 "R31" V 1580 2150 50  0000 C CNN
+F 1 "10K" V 1500 2150 50  0000 C CNN
+F 2 "" V 1430 2150 50  0001 C CNN
+F 3 "~" H 1500 2150 50  0001 C CNN
+	1    1500 2150
+	0    1    1    0   
+$EndComp
 $EndSCHEMATC
