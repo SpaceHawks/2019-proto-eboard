@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
-Sheet 2 9
+Sheet 2 6
 Title "PCA9685 Rev C"
 Date ""
 Rev ""
