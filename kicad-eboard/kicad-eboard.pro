@@ -1,4 +1,4 @@
-update=Mon 07 Oct 2019 03:55:45 PM CDT
+update=Wed 09 Oct 2019 08:23:42 PM CDT
 version=1
 last_client=kicad
 [general]
@@ -34,7 +34,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=/home/gabe/Documents/Temp/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
