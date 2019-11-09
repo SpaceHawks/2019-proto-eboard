@@ -30,9 +30,9 @@ L Device:CircuitBreaker_1P CB1
 U 1 1 5D911FF4
 P 1850 1200
 F 0 "CB1" V 1585 1200 50  0000 C CNN
-F 1 "CircuitBreaker_1P" V 1676 1200 50  0000 C CNN
+F 1 "MRCB_187080F-03-1" V 1676 1200 50  0000 C CNN
 F 2 "" H 1850 1200 50  0001 C CNN
-F 3 "~" H 1850 1200 50  0001 C CNN
+F 3 "https://www.solar-electric.com/lib/wind-sun/Bussmann-MRCB.pdf" H 1850 1200 50  0001 C CNN
 	1    1850 1200
 	0    1    1    0   
 $EndComp
@@ -50,7 +50,7 @@ $EndComp
 Wire Wire Line
 	950  1200 1050 1200
 Wire Wire Line
-	2150 1200 2400 1200
+	2150 1200 2250 1200
 Wire Wire Line
 	2400 1200 2400 1250
 Wire Wire Line
@@ -824,13 +824,13 @@ Ethernet->TinkerBoard not shown
 $Comp
 L power:PWR_FLAG #FLG0104
 U 1 1 5DFDCACB
-P 2400 1200
-F 0 "#FLG0104" H 2400 1275 50  0001 C CNN
-F 1 "PWR_FLAG" H 2400 1350 50  0000 C CNN
-F 2 "" H 2400 1200 50  0001 C CNN
-F 3 "~" H 2400 1200 50  0001 C CNN
-	1    2400 1200
-	1    0    0    -1  
+P 2250 1200
+F 0 "#FLG0104" H 2250 1275 50  0001 C CNN
+F 1 "PWR_FLAG" H 2250 1350 50  0000 C CNN
+F 2 "" H 2250 1200 50  0001 C CNN
+F 3 "~" H 2250 1200 50  0001 C CNN
+	1    2250 1200
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:PWR_FLAG #FLG0105
@@ -876,7 +876,6 @@ $EndComp
 Connection ~ 5850 1450
 Wire Wire Line
 	5850 1450 6150 1450
-Connection ~ 2400 1200
 Wire Wire Line
 	4800 1200 4800 1450
 Wire Wire Line
@@ -3081,4 +3080,7 @@ F 3 "" H 2000 3300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 3200 5300
+Connection ~ 2250 1200
+Wire Wire Line
+	2250 1200 2400 1200
 $EndSCHEMATC
