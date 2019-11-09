@@ -1638,10 +1638,6 @@ F 3 "~" H 3700 6500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	3900 6500 3950 6500
-Wire Wire Line
-	3950 6600 3900 6600
-Wire Wire Line
 	3950 6800 4250 6800
 Wire Wire Line
 	4250 6600 4250 6800
@@ -1867,6 +1863,22 @@ Text HLabel 2250 6800 2    50   Input ~ 0
 OE
 Text HLabel 2250 6900 2    50   Input ~ 0
 GND
+Wire Wire Line
+	3950 6600 3900 6600
+Wire Wire Line
+	3950 6500 3900 6500
 Wire Bus Line
 	6400 1950 6400 3700
+$Comp
+L power:PWR_FLAG #FLG0107
+U 1 1 5E0815A6
+P 3950 6300
+F 0 "#FLG0107" H 3950 6375 50  0001 C CNN
+F 1 "PWR_FLAG" H 3950 6450 50  0000 C CNN
+F 2 "" H 3950 6300 50  0001 C CNN
+F 3 "~" H 3950 6300 50  0001 C CNN
+	1    3950 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 3950 6300
 $EndSCHEMATC
