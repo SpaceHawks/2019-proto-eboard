@@ -1,6 +1,5 @@
 EESchema Schematic File Version 4
-LIBS:kicad-eboard-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A 11000 8500
 encoding utf-8
@@ -68,7 +67,7 @@ Text Label 5250 3600 0    70   ~ 0
 VIO
 $Comp
 L Device:C C14
-U 1 0 9F1C139701909D13
+U 1 1 01909D13
 P 6750 5600
 AR Path="/5DAF980D/01909D13" Ref="C14"  Part="1" 
 AR Path="/5DCD5C02/01909D13" Ref="C14"  Part="1" 
@@ -82,7 +81,7 @@ F 3 "" H 6750 5600 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C13
-U 1 0 563B591DDAA3AADF
+U 1 1 DAA3AADF
 P 6300 4000
 AR Path="/5DAF980D/DAA3AADF" Ref="C13"  Part="1" 
 AR Path="/5DCD5C02/DAA3AADF" Ref="C13"  Part="1" 
@@ -96,7 +95,7 @@ F 3 "" H 6300 4000 50  0001 C CNN
 $EndComp
 $Comp
 L Device:C C11
-U 1 0 D84F9FB4EEBC4EF1
+U 1 1 EEBC4EF1
 P 5100 3900
 AR Path="/5DAF980D/EEBC4EF1" Ref="C11"  Part="1" 
 AR Path="/5DCD5C02/EEBC4EF1" Ref="C11"  Part="1" 
@@ -311,7 +310,7 @@ Wire Wire Line
 	6300 4200 6300 4150
 $Comp
 L Device:C C12
-U 1 0 5DAF08EE
+U 1 1 5DAF08EE
 P 6200 5750
 AR Path="/5DAF980D/5DAF08EE" Ref="C12"  Part="1" 
 AR Path="/5DCD5C02/5DAF08EE" Ref="C?"  Part="1" 
