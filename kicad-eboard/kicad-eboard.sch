@@ -867,10 +867,6 @@ Wire Wire Line
 	5850 1450 6150 1450
 Wire Wire Line
 	4800 1200 4800 1450
-Wire Wire Line
-	3200 2650 3350 2650
-Wire Wire Line
-	3200 2750 3500 2750
 NoConn ~ 3200 3200
 Wire Wire Line
 	3200 2850 3650 2850
@@ -1222,130 +1218,10 @@ F 3 "~" H 7100 2300 50  0001 C CNN
 $EndComp
 Text Label 7250 2300 0    50   ~ 0
 ENC1_A
-$Comp
-L Device:R R?
-U 1 1 5E3107E1
-P 7800 2300
-AR Path="/5D9AC27F/5E3107E1" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E3107E1" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E3107E1" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E3107E1" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E3107E1" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E3107E1" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E3107E1" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E3107E1" Ref="R?"  Part="1" 
-AR Path="/5E3107E1" Ref="R19"  Part="1" 
-F 0 "R19" V 7750 2475 50  0000 C CNN
-F 1 "47K" V 7800 2300 50  0000 C CNN
-F 2 "" V 7730 2300 50  0001 C CNN
-F 3 "~" H 7800 2300 50  0001 C CNN
-	1    7800 2300
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E310873
-P 8175 2300
-AR Path="/5D9AC27F/5E310873" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E310873" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E310873" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E310873" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E310873" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E310873" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E310873" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E310873" Ref="R?"  Part="1" 
-AR Path="/5E310873" Ref="R34"  Part="1" 
-F 0 "R34" V 8125 2475 50  0000 C CNN
-F 1 "47K" V 8175 2300 50  0000 C CNN
-F 2 "" V 8105 2300 50  0001 C CNN
-F 3 "~" H 8175 2300 50  0001 C CNN
-	1    8175 2300
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	8025 2300 7950 2300
-$Comp
-L Device:R R?
-U 1 1 5E32CAD0
-P 7800 2200
-AR Path="/5D9AC27F/5E32CAD0" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E32CAD0" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E32CAD0" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E32CAD0" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E32CAD0" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E32CAD0" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E32CAD0" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E32CAD0" Ref="R?"  Part="1" 
-AR Path="/5E32CAD0" Ref="R18"  Part="1" 
-F 0 "R18" V 7750 2375 50  0000 C CNN
-F 1 "47K" V 7800 2200 50  0000 C CNN
-F 2 "" V 7730 2200 50  0001 C CNN
-F 3 "~" H 7800 2200 50  0001 C CNN
-	1    7800 2200
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E32CB44
-P 8175 2200
-AR Path="/5D9AC27F/5E32CB44" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E32CB44" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E32CB44" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E32CB44" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E32CB44" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E32CB44" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E32CB44" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E32CB44" Ref="R?"  Part="1" 
-AR Path="/5E32CB44" Ref="R33"  Part="1" 
-F 0 "R33" V 8125 2375 50  0000 C CNN
-F 1 "47K" V 8175 2200 50  0000 C CNN
-F 2 "" V 8105 2200 50  0001 C CNN
-F 3 "~" H 8175 2200 50  0001 C CNN
-	1    8175 2200
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	7950 2200 8025 2200
-$Comp
-L Device:R R?
-U 1 1 5E33AD95
-P 8175 2400
-AR Path="/5D9AC27F/5E33AD95" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E33AD95" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E33AD95" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E33AD95" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E33AD95" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E33AD95" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E33AD95" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E33AD95" Ref="R?"  Part="1" 
-AR Path="/5E33AD95" Ref="R35"  Part="1" 
-F 0 "R35" V 8125 2575 50  0000 C CNN
-F 1 "47K" V 8175 2400 50  0000 C CNN
-F 2 "" V 8105 2400 50  0001 C CNN
-F 3 "~" H 8175 2400 50  0001 C CNN
-	1    8175 2400
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E33AE07
-P 7800 2400
-AR Path="/5D9AC27F/5E33AE07" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E33AE07" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E33AE07" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E33AE07" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E33AE07" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E33AE07" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E33AE07" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E33AE07" Ref="R?"  Part="1" 
-AR Path="/5E33AE07" Ref="R20"  Part="1" 
-F 0 "R20" V 7750 2575 50  0000 C CNN
-F 1 "47K" V 7800 2400 50  0000 C CNN
-F 2 "" V 7730 2400 50  0001 C CNN
-F 3 "~" H 7800 2400 50  0001 C CNN
-	1    7800 2400
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5E33AE79
@@ -1378,25 +1254,6 @@ Wire Wire Line
 	7250 2300 7650 2300
 Wire Wire Line
 	7250 2400 7650 2400
-$Comp
-L power:GNDD #PWR060
-U 1 1 5E3BD1F8
-P 8325 2500
-F 0 "#PWR060" H 8325 2250 50  0001 C CNN
-F 1 "GNDD" H 8325 2375 50  0000 C CNN
-F 2 "" H 8325 2500 50  0001 C CNN
-F 3 "" H 8325 2500 50  0001 C CNN
-	1    8325 2500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8325 2200 8325 2300
-Connection ~ 8325 2300
-Wire Wire Line
-	8325 2300 8325 2400
-Connection ~ 8325 2400
-Wire Wire Line
-	8325 2400 8325 2500
 Wire Wire Line
 	6850 2500 6950 2500
 $Comp
@@ -1465,130 +1322,10 @@ F 3 "~" H 7100 2900 50  0001 C CNN
 	1    7100 2900
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5E4427DF
-P 7800 2900
-AR Path="/5D9AC27F/5E4427DF" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4427DF" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4427DF" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4427DF" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4427DF" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4427DF" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4427DF" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4427DF" Ref="R?"  Part="1" 
-AR Path="/5E4427DF" Ref="R22"  Part="1" 
-F 0 "R22" V 7750 3075 50  0000 C CNN
-F 1 "47K" V 7800 2900 50  0000 C CNN
-F 2 "" V 7730 2900 50  0001 C CNN
-F 3 "~" H 7800 2900 50  0001 C CNN
-	1    7800 2900
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E4427E5
-P 8175 2900
-AR Path="/5D9AC27F/5E4427E5" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4427E5" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4427E5" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4427E5" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4427E5" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4427E5" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4427E5" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4427E5" Ref="R?"  Part="1" 
-AR Path="/5E4427E5" Ref="R37"  Part="1" 
-F 0 "R37" V 8125 3075 50  0000 C CNN
-F 1 "47K" V 8175 2900 50  0000 C CNN
-F 2 "" V 8105 2900 50  0001 C CNN
-F 3 "~" H 8175 2900 50  0001 C CNN
-	1    8175 2900
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	8025 2900 7950 2900
-$Comp
-L Device:R R?
-U 1 1 5E4427EC
-P 7800 2800
-AR Path="/5D9AC27F/5E4427EC" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4427EC" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4427EC" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4427EC" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4427EC" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4427EC" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4427EC" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4427EC" Ref="R?"  Part="1" 
-AR Path="/5E4427EC" Ref="R21"  Part="1" 
-F 0 "R21" V 7750 2975 50  0000 C CNN
-F 1 "47K" V 7800 2800 50  0000 C CNN
-F 2 "" V 7730 2800 50  0001 C CNN
-F 3 "~" H 7800 2800 50  0001 C CNN
-	1    7800 2800
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E4427F2
-P 8175 2800
-AR Path="/5D9AC27F/5E4427F2" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4427F2" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4427F2" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4427F2" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4427F2" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4427F2" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4427F2" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4427F2" Ref="R?"  Part="1" 
-AR Path="/5E4427F2" Ref="R36"  Part="1" 
-F 0 "R36" V 8125 2975 50  0000 C CNN
-F 1 "47K" V 8175 2800 50  0000 C CNN
-F 2 "" V 8105 2800 50  0001 C CNN
-F 3 "~" H 8175 2800 50  0001 C CNN
-	1    8175 2800
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	7950 2800 8025 2800
-$Comp
-L Device:R R?
-U 1 1 5E4427F9
-P 8175 3000
-AR Path="/5D9AC27F/5E4427F9" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4427F9" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4427F9" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4427F9" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4427F9" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4427F9" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4427F9" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4427F9" Ref="R?"  Part="1" 
-AR Path="/5E4427F9" Ref="R38"  Part="1" 
-F 0 "R38" V 8125 3175 50  0000 C CNN
-F 1 "47K" V 8175 3000 50  0000 C CNN
-F 2 "" V 8105 3000 50  0001 C CNN
-F 3 "~" H 8175 3000 50  0001 C CNN
-	1    8175 3000
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E4427FF
-P 7800 3000
-AR Path="/5D9AC27F/5E4427FF" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4427FF" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4427FF" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4427FF" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4427FF" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4427FF" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4427FF" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4427FF" Ref="R?"  Part="1" 
-AR Path="/5E4427FF" Ref="R23"  Part="1" 
-F 0 "R23" V 7750 3175 50  0000 C CNN
-F 1 "47K" V 7800 3000 50  0000 C CNN
-F 2 "" V 7730 3000 50  0001 C CNN
-F 3 "~" H 7800 3000 50  0001 C CNN
-	1    7800 3000
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5E442805
@@ -1615,25 +1352,6 @@ Wire Wire Line
 	6850 3000 6950 3000
 Wire Wire Line
 	6850 2900 6950 2900
-$Comp
-L power:GNDD #PWR061
-U 1 1 5E442811
-P 8325 3100
-F 0 "#PWR061" H 8325 2850 50  0001 C CNN
-F 1 "GNDD" H 8325 2975 50  0000 C CNN
-F 2 "" H 8325 3100 50  0001 C CNN
-F 3 "" H 8325 3100 50  0001 C CNN
-	1    8325 3100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8325 2800 8325 2900
-Connection ~ 8325 2900
-Wire Wire Line
-	8325 2900 8325 3000
-Connection ~ 8325 3000
-Wire Wire Line
-	8325 3000 8325 3100
 Wire Wire Line
 	6850 3100 6950 3100
 $Comp
@@ -1702,130 +1420,10 @@ F 3 "~" H 7100 3500 50  0001 C CNN
 	1    7100 3500
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5E453471
-P 7800 3500
-AR Path="/5D9AC27F/5E453471" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E453471" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E453471" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E453471" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E453471" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E453471" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E453471" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E453471" Ref="R?"  Part="1" 
-AR Path="/5E453471" Ref="R25"  Part="1" 
-F 0 "R25" V 7750 3675 50  0000 C CNN
-F 1 "47K" V 7800 3500 50  0000 C CNN
-F 2 "" V 7730 3500 50  0001 C CNN
-F 3 "~" H 7800 3500 50  0001 C CNN
-	1    7800 3500
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E453477
-P 8175 3500
-AR Path="/5D9AC27F/5E453477" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E453477" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E453477" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E453477" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E453477" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E453477" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E453477" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E453477" Ref="R?"  Part="1" 
-AR Path="/5E453477" Ref="R40"  Part="1" 
-F 0 "R40" V 8125 3675 50  0000 C CNN
-F 1 "47K" V 8175 3500 50  0000 C CNN
-F 2 "" V 8105 3500 50  0001 C CNN
-F 3 "~" H 8175 3500 50  0001 C CNN
-	1    8175 3500
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	8025 3500 7950 3500
-$Comp
-L Device:R R?
-U 1 1 5E45347E
-P 7800 3400
-AR Path="/5D9AC27F/5E45347E" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E45347E" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E45347E" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E45347E" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E45347E" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E45347E" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E45347E" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E45347E" Ref="R?"  Part="1" 
-AR Path="/5E45347E" Ref="R24"  Part="1" 
-F 0 "R24" V 7750 3575 50  0000 C CNN
-F 1 "47K" V 7800 3400 50  0000 C CNN
-F 2 "" V 7730 3400 50  0001 C CNN
-F 3 "~" H 7800 3400 50  0001 C CNN
-	1    7800 3400
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E453484
-P 8175 3400
-AR Path="/5D9AC27F/5E453484" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E453484" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E453484" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E453484" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E453484" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E453484" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E453484" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E453484" Ref="R?"  Part="1" 
-AR Path="/5E453484" Ref="R39"  Part="1" 
-F 0 "R39" V 8125 3575 50  0000 C CNN
-F 1 "47K" V 8175 3400 50  0000 C CNN
-F 2 "" V 8105 3400 50  0001 C CNN
-F 3 "~" H 8175 3400 50  0001 C CNN
-	1    8175 3400
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	7950 3400 8025 3400
-$Comp
-L Device:R R?
-U 1 1 5E45348B
-P 8175 3600
-AR Path="/5D9AC27F/5E45348B" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E45348B" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E45348B" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E45348B" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E45348B" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E45348B" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E45348B" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E45348B" Ref="R?"  Part="1" 
-AR Path="/5E45348B" Ref="R41"  Part="1" 
-F 0 "R41" V 8125 3775 50  0000 C CNN
-F 1 "47K" V 8175 3600 50  0000 C CNN
-F 2 "" V 8105 3600 50  0001 C CNN
-F 3 "~" H 8175 3600 50  0001 C CNN
-	1    8175 3600
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E453491
-P 7800 3600
-AR Path="/5D9AC27F/5E453491" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E453491" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E453491" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E453491" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E453491" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E453491" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E453491" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E453491" Ref="R?"  Part="1" 
-AR Path="/5E453491" Ref="R26"  Part="1" 
-F 0 "R26" V 7750 3775 50  0000 C CNN
-F 1 "47K" V 7800 3600 50  0000 C CNN
-F 2 "" V 7730 3600 50  0001 C CNN
-F 3 "~" H 7800 3600 50  0001 C CNN
-	1    7800 3600
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5E453497
@@ -1852,25 +1450,6 @@ Wire Wire Line
 	6850 3600 6950 3600
 Wire Wire Line
 	6850 3500 6950 3500
-$Comp
-L power:GNDD #PWR062
-U 1 1 5E4534A3
-P 8325 3700
-F 0 "#PWR062" H 8325 3450 50  0001 C CNN
-F 1 "GNDD" H 8325 3575 50  0000 C CNN
-F 2 "" H 8325 3700 50  0001 C CNN
-F 3 "" H 8325 3700 50  0001 C CNN
-	1    8325 3700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8325 3400 8325 3500
-Connection ~ 8325 3500
-Wire Wire Line
-	8325 3500 8325 3600
-Connection ~ 8325 3600
-Wire Wire Line
-	8325 3600 8325 3700
 Wire Wire Line
 	6850 3700 6950 3700
 $Comp
@@ -1939,130 +1518,10 @@ F 3 "~" H 7100 4100 50  0001 C CNN
 	1    7100 4100
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5E466218
-P 7800 4100
-AR Path="/5D9AC27F/5E466218" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E466218" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E466218" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E466218" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E466218" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E466218" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E466218" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E466218" Ref="R?"  Part="1" 
-AR Path="/5E466218" Ref="R28"  Part="1" 
-F 0 "R28" V 7750 4275 50  0000 C CNN
-F 1 "47K" V 7800 4100 50  0000 C CNN
-F 2 "" V 7730 4100 50  0001 C CNN
-F 3 "~" H 7800 4100 50  0001 C CNN
-	1    7800 4100
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E46621E
-P 8175 4100
-AR Path="/5D9AC27F/5E46621E" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E46621E" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E46621E" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E46621E" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E46621E" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E46621E" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E46621E" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E46621E" Ref="R?"  Part="1" 
-AR Path="/5E46621E" Ref="R43"  Part="1" 
-F 0 "R43" V 8125 4275 50  0000 C CNN
-F 1 "47K" V 8175 4100 50  0000 C CNN
-F 2 "" V 8105 4100 50  0001 C CNN
-F 3 "~" H 8175 4100 50  0001 C CNN
-	1    8175 4100
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	8025 4100 7950 4100
-$Comp
-L Device:R R?
-U 1 1 5E466225
-P 7800 4000
-AR Path="/5D9AC27F/5E466225" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E466225" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E466225" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E466225" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E466225" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E466225" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E466225" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E466225" Ref="R?"  Part="1" 
-AR Path="/5E466225" Ref="R27"  Part="1" 
-F 0 "R27" V 7750 4175 50  0000 C CNN
-F 1 "47K" V 7800 4000 50  0000 C CNN
-F 2 "" V 7730 4000 50  0001 C CNN
-F 3 "~" H 7800 4000 50  0001 C CNN
-	1    7800 4000
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E46622B
-P 8175 4000
-AR Path="/5D9AC27F/5E46622B" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E46622B" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E46622B" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E46622B" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E46622B" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E46622B" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E46622B" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E46622B" Ref="R?"  Part="1" 
-AR Path="/5E46622B" Ref="R42"  Part="1" 
-F 0 "R42" V 8125 4175 50  0000 C CNN
-F 1 "47K" V 8175 4000 50  0000 C CNN
-F 2 "" V 8105 4000 50  0001 C CNN
-F 3 "~" H 8175 4000 50  0001 C CNN
-	1    8175 4000
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	7950 4000 8025 4000
-$Comp
-L Device:R R?
-U 1 1 5E466232
-P 8175 4200
-AR Path="/5D9AC27F/5E466232" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E466232" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E466232" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E466232" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E466232" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E466232" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E466232" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E466232" Ref="R?"  Part="1" 
-AR Path="/5E466232" Ref="R44"  Part="1" 
-F 0 "R44" V 8125 4375 50  0000 C CNN
-F 1 "47K" V 8175 4200 50  0000 C CNN
-F 2 "" V 8105 4200 50  0001 C CNN
-F 3 "~" H 8175 4200 50  0001 C CNN
-	1    8175 4200
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E466238
-P 7800 4200
-AR Path="/5D9AC27F/5E466238" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E466238" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E466238" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E466238" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E466238" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E466238" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E466238" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E466238" Ref="R?"  Part="1" 
-AR Path="/5E466238" Ref="R29"  Part="1" 
-F 0 "R29" V 7750 4375 50  0000 C CNN
-F 1 "47K" V 7800 4200 50  0000 C CNN
-F 2 "" V 7730 4200 50  0001 C CNN
-F 3 "~" H 7800 4200 50  0001 C CNN
-	1    7800 4200
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5E46623E
@@ -2089,25 +1548,6 @@ Wire Wire Line
 	6850 4200 6950 4200
 Wire Wire Line
 	6850 4100 6950 4100
-$Comp
-L power:GNDD #PWR063
-U 1 1 5E46624A
-P 8325 4300
-F 0 "#PWR063" H 8325 4050 50  0001 C CNN
-F 1 "GNDD" H 8325 4175 50  0000 C CNN
-F 2 "" H 8325 4300 50  0001 C CNN
-F 3 "" H 8325 4300 50  0001 C CNN
-	1    8325 4300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8325 4000 8325 4100
-Connection ~ 8325 4100
-Wire Wire Line
-	8325 4100 8325 4200
-Connection ~ 8325 4200
-Wire Wire Line
-	8325 4200 8325 4300
 Wire Wire Line
 	6850 4300 6950 4300
 $Comp
@@ -2176,130 +1616,10 @@ F 3 "~" H 7100 4700 50  0001 C CNN
 	1    7100 4700
 	0    -1   1    0   
 $EndComp
-$Comp
-L Device:R R?
-U 1 1 5E4ADD3C
-P 7800 4700
-AR Path="/5D9AC27F/5E4ADD3C" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4ADD3C" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4ADD3C" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4ADD3C" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4ADD3C" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4ADD3C" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4ADD3C" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4ADD3C" Ref="R?"  Part="1" 
-AR Path="/5E4ADD3C" Ref="R31"  Part="1" 
-F 0 "R31" V 7750 4875 50  0000 C CNN
-F 1 "47K" V 7800 4700 50  0000 C CNN
-F 2 "" V 7730 4700 50  0001 C CNN
-F 3 "~" H 7800 4700 50  0001 C CNN
-	1    7800 4700
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E4ADD42
-P 8175 4700
-AR Path="/5D9AC27F/5E4ADD42" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4ADD42" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4ADD42" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4ADD42" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4ADD42" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4ADD42" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4ADD42" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4ADD42" Ref="R?"  Part="1" 
-AR Path="/5E4ADD42" Ref="R46"  Part="1" 
-F 0 "R46" V 8125 4875 50  0000 C CNN
-F 1 "47K" V 8175 4700 50  0000 C CNN
-F 2 "" V 8105 4700 50  0001 C CNN
-F 3 "~" H 8175 4700 50  0001 C CNN
-	1    8175 4700
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	8025 4700 7950 4700
-$Comp
-L Device:R R?
-U 1 1 5E4ADD49
-P 7800 4600
-AR Path="/5D9AC27F/5E4ADD49" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4ADD49" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4ADD49" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4ADD49" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4ADD49" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4ADD49" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4ADD49" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4ADD49" Ref="R?"  Part="1" 
-AR Path="/5E4ADD49" Ref="R30"  Part="1" 
-F 0 "R30" V 7750 4775 50  0000 C CNN
-F 1 "47K" V 7800 4600 50  0000 C CNN
-F 2 "" V 7730 4600 50  0001 C CNN
-F 3 "~" H 7800 4600 50  0001 C CNN
-	1    7800 4600
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E4ADD4F
-P 8175 4600
-AR Path="/5D9AC27F/5E4ADD4F" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4ADD4F" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4ADD4F" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4ADD4F" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4ADD4F" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4ADD4F" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4ADD4F" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4ADD4F" Ref="R?"  Part="1" 
-AR Path="/5E4ADD4F" Ref="R45"  Part="1" 
-F 0 "R45" V 8125 4775 50  0000 C CNN
-F 1 "47K" V 8175 4600 50  0000 C CNN
-F 2 "" V 8105 4600 50  0001 C CNN
-F 3 "~" H 8175 4600 50  0001 C CNN
-	1    8175 4600
-	0    -1   1    0   
-$EndComp
 Wire Wire Line
 	7950 4600 8025 4600
-$Comp
-L Device:R R?
-U 1 1 5E4ADD56
-P 8175 4800
-AR Path="/5D9AC27F/5E4ADD56" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4ADD56" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4ADD56" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4ADD56" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4ADD56" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4ADD56" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4ADD56" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4ADD56" Ref="R?"  Part="1" 
-AR Path="/5E4ADD56" Ref="R47"  Part="1" 
-F 0 "R47" V 8125 4975 50  0000 C CNN
-F 1 "47K" V 8175 4800 50  0000 C CNN
-F 2 "" V 8105 4800 50  0001 C CNN
-F 3 "~" H 8175 4800 50  0001 C CNN
-	1    8175 4800
-	0    -1   1    0   
-$EndComp
-$Comp
-L Device:R R?
-U 1 1 5E4ADD5C
-P 7800 4800
-AR Path="/5D9AC27F/5E4ADD5C" Ref="R?"  Part="1" 
-AR Path="/5D9BDACA/5E4ADD5C" Ref="R?"  Part="1" 
-AR Path="/5D9ACC15/5E4ADD5C" Ref="R?"  Part="1" 
-AR Path="/5D9ACC1B/5E4ADD5C" Ref="R?"  Part="1" 
-AR Path="/5D9B81A1/5E4ADD5C" Ref="R?"  Part="1" 
-AR Path="/5D9B81A7/5E4ADD5C" Ref="R?"  Part="1" 
-AR Path="/5DFA76F5/5E4ADD5C" Ref="R?"  Part="1" 
-AR Path="/5DFB097B/5E4ADD5C" Ref="R?"  Part="1" 
-AR Path="/5E4ADD5C" Ref="R32"  Part="1" 
-F 0 "R32" V 7750 4975 50  0000 C CNN
-F 1 "47K" V 7800 4800 50  0000 C CNN
-F 2 "" V 7730 4800 50  0001 C CNN
-F 3 "~" H 7800 4800 50  0001 C CNN
-	1    7800 4800
-	0    -1   1    0   
-$EndComp
 $Comp
 L Device:R R?
 U 1 1 5E4ADD62
@@ -2326,25 +1646,6 @@ Wire Wire Line
 	6850 4800 6950 4800
 Wire Wire Line
 	6850 4700 6950 4700
-$Comp
-L power:GNDD #PWR064
-U 1 1 5E4ADD6E
-P 8325 4900
-F 0 "#PWR064" H 8325 4650 50  0001 C CNN
-F 1 "GNDD" H 8325 4775 50  0000 C CNN
-F 2 "" H 8325 4900 50  0001 C CNN
-F 3 "" H 8325 4900 50  0001 C CNN
-	1    8325 4900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8325 4600 8325 4700
-Connection ~ 8325 4700
-Wire Wire Line
-	8325 4700 8325 4800
-Connection ~ 8325 4800
-Wire Wire Line
-	8325 4800 8325 4900
 Wire Wire Line
 	6850 4900 6950 4900
 NoConn ~ 5150 6050
@@ -2471,8 +1772,6 @@ Wire Wire Line
 Wire Wire Line
 	4300 2650 4300 3850
 Connection ~ 4300 3850
-Wire Wire Line
-	4300 3850 4150 3850
 Wire Wire Line
 	4300 3850 4800 3850
 Wire Wire Line
@@ -3095,6 +2394,17 @@ F 3 "" H 7550 650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
+L power:GNDPWR #PWR069
+U 1 1 5DCBA260
+P 8650 1100
+F 0 "#PWR069" H 8650 900 50  0001 C CNN
+F 1 "GNDPWR" H 8654 946 50  0000 C CNN
+F 2 "" H 8650 1050 50  0001 C CNN
+F 3 "" H 8650 1050 50  0001 C CNN
+	1    8650 1100
+	1    0    0    -1  
+$EndComp
+$Comp
 L power:+BATT #PWR065
 U 1 1 5DCA1541
 P 7550 1100
@@ -3104,6 +2414,17 @@ F 2 "" H 7550 1100 50  0001 C CNN
 F 3 "" H 7550 1100 50  0001 C CNN
 	1    7550 1100
 	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP5
+U 1 1 5DCA1990
+P 7550 1100
+F 0 "TP5" H 7492 1126 50  0000 R CNN
+F 1 "TestPoint" H 7492 1217 50  0000 R CNN
+F 2 "" H 7750 1100 50  0001 C CNN
+F 3 "~" H 7750 1100 50  0001 C CNN
+	1    7550 1100
+	-1   0    0    1   
 $EndComp
 $Comp
 L power:+12V #PWR066
@@ -3128,28 +2449,6 @@ F 3 "" H 8000 650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR068
-U 1 1 5DCA23FA
-P 8000 1100
-F 0 "#PWR068" H 8000 950 50  0001 C CNN
-F 1 "+3.3V" H 8000 1240 50  0000 C CNN
-F 2 "" H 8000 1100 50  0001 C CNN
-F 3 "" H 8000 1100 50  0001 C CNN
-	1    8000 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDPWR #PWR069
-U 1 1 5DCBA260
-P 8650 1100
-F 0 "#PWR069" H 8650 900 50  0001 C CNN
-F 1 "GNDPWR" H 8654 946 50  0000 C CNN
-F 2 "" H 8650 1050 50  0001 C CNN
-F 3 "" H 8650 1050 50  0001 C CNN
-	1    8650 1100
-	1    0    0    -1  
-$EndComp
-$Comp
 L Connector:TestPoint TP7
 U 1 1 5DCBC539
 P 8000 650
@@ -3159,6 +2458,17 @@ F 2 "" H 8200 650 50  0001 C CNN
 F 3 "~" H 8200 650 50  0001 C CNN
 	1    8000 650 
 	-1   0    0    1   
+$EndComp
+$Comp
+L power:+3.3V #PWR068
+U 1 1 5DCA23FA
+P 8000 1100
+F 0 "#PWR068" H 8000 950 50  0001 C CNN
+F 1 "+3.3V" H 8000 1240 50  0000 C CNN
+F 2 "" H 8000 1100 50  0001 C CNN
+F 3 "" H 8000 1100 50  0001 C CNN
+	1    8000 1100
+	1    0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP8
@@ -3172,28 +2482,6 @@ F 3 "~" H 8200 1100 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector:TestPoint TP6
-U 1 1 5DCBC301
-P 7550 1500
-F 0 "TP6" H 7492 1526 50  0000 R CNN
-F 1 "TestPoint" H 7492 1617 50  0000 R CNN
-F 2 "" H 7750 1500 50  0001 C CNN
-F 3 "~" H 7750 1500 50  0001 C CNN
-	1    7550 1500
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector:TestPoint TP5
-U 1 1 5DCA1990
-P 7550 1100
-F 0 "TP5" H 7492 1126 50  0000 R CNN
-F 1 "TestPoint" H 7492 1217 50  0000 R CNN
-F 2 "" H 7750 1100 50  0001 C CNN
-F 3 "~" H 7750 1100 50  0001 C CNN
-	1    7550 1100
-	-1   0    0    1   
-$EndComp
-$Comp
 L Connector:TestPoint TP3
 U 1 1 5DD30A1C
 P 4150 3850
@@ -3204,9 +2492,11 @@ F 3 "~" H 4350 3850 50  0001 C CNN
 	1    4150 3850
 	1    0    0    -1  
 $EndComp
-Connection ~ 4150 3850
+Wire Wire Line
+	4300 3850 4150 3850
 Wire Wire Line
 	4150 3850 3700 3850
+Connection ~ 4150 3850
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5DD312C3
@@ -3218,9 +2508,11 @@ F 3 "~" H 3550 2650 50  0001 C CNN
 	1    3350 2650
 	1    0    0    -1  
 $EndComp
-Connection ~ 3350 2650
+Wire Wire Line
+	3200 2650 3350 2650
 Wire Wire Line
 	3350 2650 3650 2650
+Connection ~ 3350 2650
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5DD318AA
@@ -3232,7 +2524,415 @@ F 3 "~" H 3700 2750 50  0001 C CNN
 	1    3500 2750
 	1    0    0    -1  
 $EndComp
-Connection ~ 3500 2750
+Wire Wire Line
+	3200 2750 3500 2750
 Wire Wire Line
 	3500 2750 3650 2750
+Connection ~ 3500 2750
+$Comp
+L Connector:TestPoint TP6
+U 1 1 5DCBC301
+P 7550 1500
+F 0 "TP6" H 7492 1526 50  0000 R CNN
+F 1 "TestPoint" H 7492 1617 50  0000 R CNN
+F 2 "" H 7750 1500 50  0001 C CNN
+F 3 "~" H 7750 1500 50  0001 C CNN
+	1    7550 1500
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E32CAD0
+P 7800 2200
+AR Path="/5D9AC27F/5E32CAD0" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5E32CAD0" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5E32CAD0" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5E32CAD0" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5E32CAD0" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5E32CAD0" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5E32CAD0" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5E32CAD0" Ref="R?"  Part="1" 
+AR Path="/5E32CAD0" Ref="R18"  Part="1" 
+F 0 "R18" V 7750 2375 50  0000 C CNN
+F 1 "91K" V 7800 2200 50  0000 C CNN
+F 2 "" V 7730 2200 50  0001 C CNN
+F 3 "~" H 7800 2200 50  0001 C CNN
+	1    7800 2200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD50746
+P 7800 2300
+AR Path="/5D9AC27F/5DD50746" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD50746" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD50746" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD50746" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD50746" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD50746" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD50746" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD50746" Ref="R?"  Part="1" 
+AR Path="/5DD50746" Ref="R19"  Part="1" 
+F 0 "R19" V 7750 2475 50  0000 C CNN
+F 1 "91K" V 7800 2300 50  0000 C CNN
+F 2 "" V 7730 2300 50  0001 C CNN
+F 3 "~" H 7800 2300 50  0001 C CNN
+	1    7800 2300
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD5088B
+P 7800 2400
+AR Path="/5D9AC27F/5DD5088B" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD5088B" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD5088B" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD5088B" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD5088B" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD5088B" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD5088B" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD5088B" Ref="R?"  Part="1" 
+AR Path="/5DD5088B" Ref="R20"  Part="1" 
+F 0 "R20" V 7750 2575 50  0000 C CNN
+F 1 "91K" V 7800 2400 50  0000 C CNN
+F 2 "" V 7730 2400 50  0001 C CNN
+F 3 "~" H 7800 2400 50  0001 C CNN
+	1    7800 2400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD670FE
+P 7800 2800
+AR Path="/5D9AC27F/5DD670FE" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD670FE" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD670FE" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD670FE" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD670FE" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD670FE" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD670FE" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD670FE" Ref="R?"  Part="1" 
+AR Path="/5DD670FE" Ref="R21"  Part="1" 
+F 0 "R21" V 7750 2975 50  0000 C CNN
+F 1 "91K" V 7800 2800 50  0000 C CNN
+F 2 "" V 7730 2800 50  0001 C CNN
+F 3 "~" H 7800 2800 50  0001 C CNN
+	1    7800 2800
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD67108
+P 7800 2900
+AR Path="/5D9AC27F/5DD67108" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD67108" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD67108" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD67108" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD67108" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD67108" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD67108" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD67108" Ref="R?"  Part="1" 
+AR Path="/5DD67108" Ref="R22"  Part="1" 
+F 0 "R22" V 7750 3075 50  0000 C CNN
+F 1 "91K" V 7800 2900 50  0000 C CNN
+F 2 "" V 7730 2900 50  0001 C CNN
+F 3 "~" H 7800 2900 50  0001 C CNN
+	1    7800 2900
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD67112
+P 7800 3000
+AR Path="/5D9AC27F/5DD67112" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD67112" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD67112" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD67112" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD67112" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD67112" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD67112" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD67112" Ref="R?"  Part="1" 
+AR Path="/5DD67112" Ref="R23"  Part="1" 
+F 0 "R23" V 7750 3175 50  0000 C CNN
+F 1 "91K" V 7800 3000 50  0000 C CNN
+F 2 "" V 7730 3000 50  0001 C CNN
+F 3 "~" H 7800 3000 50  0001 C CNN
+	1    7800 3000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD94D18
+P 7800 3400
+AR Path="/5D9AC27F/5DD94D18" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD94D18" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD94D18" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD94D18" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD94D18" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD94D18" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD94D18" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD94D18" Ref="R?"  Part="1" 
+AR Path="/5DD94D18" Ref="R24"  Part="1" 
+F 0 "R24" V 7750 3575 50  0000 C CNN
+F 1 "91K" V 7800 3400 50  0000 C CNN
+F 2 "" V 7730 3400 50  0001 C CNN
+F 3 "~" H 7800 3400 50  0001 C CNN
+	1    7800 3400
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD94D22
+P 7800 3500
+AR Path="/5D9AC27F/5DD94D22" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD94D22" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD94D22" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD94D22" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD94D22" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD94D22" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD94D22" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD94D22" Ref="R?"  Part="1" 
+AR Path="/5DD94D22" Ref="R25"  Part="1" 
+F 0 "R25" V 7750 3675 50  0000 C CNN
+F 1 "91K" V 7800 3500 50  0000 C CNN
+F 2 "" V 7730 3500 50  0001 C CNN
+F 3 "~" H 7800 3500 50  0001 C CNN
+	1    7800 3500
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD94D2C
+P 7800 3600
+AR Path="/5D9AC27F/5DD94D2C" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD94D2C" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD94D2C" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD94D2C" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD94D2C" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD94D2C" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD94D2C" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD94D2C" Ref="R?"  Part="1" 
+AR Path="/5DD94D2C" Ref="R26"  Part="1" 
+F 0 "R26" V 7750 3775 50  0000 C CNN
+F 1 "91K" V 7800 3600 50  0000 C CNN
+F 2 "" V 7730 3600 50  0001 C CNN
+F 3 "~" H 7800 3600 50  0001 C CNN
+	1    7800 3600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD94D36
+P 7800 4000
+AR Path="/5D9AC27F/5DD94D36" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD94D36" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD94D36" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD94D36" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD94D36" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD94D36" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD94D36" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD94D36" Ref="R?"  Part="1" 
+AR Path="/5DD94D36" Ref="R27"  Part="1" 
+F 0 "R27" V 7750 4175 50  0000 C CNN
+F 1 "91K" V 7800 4000 50  0000 C CNN
+F 2 "" V 7730 4000 50  0001 C CNN
+F 3 "~" H 7800 4000 50  0001 C CNN
+	1    7800 4000
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD94D40
+P 7800 4100
+AR Path="/5D9AC27F/5DD94D40" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD94D40" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD94D40" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD94D40" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD94D40" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD94D40" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD94D40" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD94D40" Ref="R?"  Part="1" 
+AR Path="/5DD94D40" Ref="R28"  Part="1" 
+F 0 "R28" V 7750 4275 50  0000 C CNN
+F 1 "91K" V 7800 4100 50  0000 C CNN
+F 2 "" V 7730 4100 50  0001 C CNN
+F 3 "~" H 7800 4100 50  0001 C CNN
+	1    7800 4100
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DD94D4A
+P 7800 4200
+AR Path="/5D9AC27F/5DD94D4A" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DD94D4A" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DD94D4A" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DD94D4A" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DD94D4A" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DD94D4A" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DD94D4A" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DD94D4A" Ref="R?"  Part="1" 
+AR Path="/5DD94D4A" Ref="R29"  Part="1" 
+F 0 "R29" V 7750 4375 50  0000 C CNN
+F 1 "91K" V 7800 4200 50  0000 C CNN
+F 2 "" V 7730 4200 50  0001 C CNN
+F 3 "~" H 7800 4200 50  0001 C CNN
+	1    7800 4200
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DDC30F2
+P 7800 4600
+AR Path="/5D9AC27F/5DDC30F2" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DDC30F2" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DDC30F2" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DDC30F2" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DDC30F2" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DDC30F2" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DDC30F2" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DDC30F2" Ref="R?"  Part="1" 
+AR Path="/5DDC30F2" Ref="R30"  Part="1" 
+F 0 "R30" V 7750 4775 50  0000 C CNN
+F 1 "91K" V 7800 4600 50  0000 C CNN
+F 2 "" V 7730 4600 50  0001 C CNN
+F 3 "~" H 7800 4600 50  0001 C CNN
+	1    7800 4600
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DDC30FC
+P 7800 4700
+AR Path="/5D9AC27F/5DDC30FC" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DDC30FC" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DDC30FC" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DDC30FC" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DDC30FC" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DDC30FC" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DDC30FC" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DDC30FC" Ref="R?"  Part="1" 
+AR Path="/5DDC30FC" Ref="R31"  Part="1" 
+F 0 "R31" V 7750 4875 50  0000 C CNN
+F 1 "91K" V 7800 4700 50  0000 C CNN
+F 2 "" V 7730 4700 50  0001 C CNN
+F 3 "~" H 7800 4700 50  0001 C CNN
+	1    7800 4700
+	0    -1   1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5DDC3106
+P 7800 4800
+AR Path="/5D9AC27F/5DDC3106" Ref="R?"  Part="1" 
+AR Path="/5D9BDACA/5DDC3106" Ref="R?"  Part="1" 
+AR Path="/5D9ACC15/5DDC3106" Ref="R?"  Part="1" 
+AR Path="/5D9ACC1B/5DDC3106" Ref="R?"  Part="1" 
+AR Path="/5D9B81A1/5DDC3106" Ref="R?"  Part="1" 
+AR Path="/5D9B81A7/5DDC3106" Ref="R?"  Part="1" 
+AR Path="/5DFA76F5/5DDC3106" Ref="R?"  Part="1" 
+AR Path="/5DFB097B/5DDC3106" Ref="R?"  Part="1" 
+AR Path="/5DDC3106" Ref="R32"  Part="1" 
+F 0 "R32" V 7750 4975 50  0000 C CNN
+F 1 "91K" V 7800 4800 50  0000 C CNN
+F 2 "" V 7730 4800 50  0001 C CNN
+F 3 "~" H 7800 4800 50  0001 C CNN
+	1    7800 4800
+	0    -1   1    0   
+$EndComp
+$Comp
+L power:GNDD #PWR060
+U 1 1 5E3BD1F8
+P 8025 2500
+F 0 "#PWR060" H 8025 2250 50  0001 C CNN
+F 1 "GNDD" H 8025 2375 50  0000 C CNN
+F 2 "" H 8025 2500 50  0001 C CNN
+F 3 "" H 8025 2500 50  0001 C CNN
+	1    8025 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR061
+U 1 1 5E442811
+P 8025 3100
+F 0 "#PWR061" H 8025 2850 50  0001 C CNN
+F 1 "GNDD" H 8025 2975 50  0000 C CNN
+F 2 "" H 8025 3100 50  0001 C CNN
+F 3 "" H 8025 3100 50  0001 C CNN
+	1    8025 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR062
+U 1 1 5E4534A3
+P 8025 3700
+F 0 "#PWR062" H 8025 3450 50  0001 C CNN
+F 1 "GNDD" H 8025 3575 50  0000 C CNN
+F 2 "" H 8025 3700 50  0001 C CNN
+F 3 "" H 8025 3700 50  0001 C CNN
+	1    8025 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR063
+U 1 1 5E46624A
+P 8025 4300
+F 0 "#PWR063" H 8025 4050 50  0001 C CNN
+F 1 "GNDD" H 8025 4175 50  0000 C CNN
+F 2 "" H 8025 4300 50  0001 C CNN
+F 3 "" H 8025 4300 50  0001 C CNN
+	1    8025 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR064
+U 1 1 5E4ADD6E
+P 8025 4900
+F 0 "#PWR064" H 8025 4650 50  0001 C CNN
+F 1 "GNDD" H 8025 4775 50  0000 C CNN
+F 2 "" H 8025 4900 50  0001 C CNN
+F 3 "" H 8025 4900 50  0001 C CNN
+	1    8025 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8025 2200 8025 2300
+Connection ~ 8025 2300
+Wire Wire Line
+	8025 2300 8025 2400
+Wire Wire Line
+	8025 2400 8025 2500
+Connection ~ 8025 2400
+Wire Wire Line
+	8025 2800 8025 2900
+Connection ~ 8025 2900
+Wire Wire Line
+	8025 2900 8025 3000
+Wire Wire Line
+	8025 3000 8025 3100
+Connection ~ 8025 3000
+Wire Wire Line
+	8025 3400 8025 3500
+Connection ~ 8025 3500
+Wire Wire Line
+	8025 3500 8025 3600
+Wire Wire Line
+	8025 3600 8025 3700
+Connection ~ 8025 3600
+Wire Wire Line
+	8025 4000 8025 4100
+Connection ~ 8025 4100
+Wire Wire Line
+	8025 4100 8025 4200
+Wire Wire Line
+	8025 4200 8025 4300
+Connection ~ 8025 4200
+Wire Wire Line
+	8025 4600 8025 4700
+Connection ~ 8025 4700
+Wire Wire Line
+	8025 4700 8025 4800
+Wire Wire Line
+	8025 4800 8025 4900
+Connection ~ 8025 4800
 $EndSCHEMATC
