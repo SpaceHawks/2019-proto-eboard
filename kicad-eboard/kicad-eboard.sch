@@ -15,33 +15,33 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Device:Battery BT1
+L Device:Battery #BT1
 U 1 1 5D911E0B
 P 600 1150
-F 0 "BT1" H 708 1196 50  0000 L CNN
-F 1 "#Battery" H 708 1105 50  0000 L CNN
+F 0 "#BT1" H 708 1196 50  0000 L CNN
+F 1 "Battery" H 708 1105 50  0000 L CNN
 F 2 "" V 600 1210 50  0001 C CNN
 F 3 "~" V 600 1210 50  0001 C CNN
 	1    600  1150
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:CircuitBreaker_1P CB1
+L Device:CircuitBreaker_1P #CB1
 U 1 1 5D911FF4
 P 1500 950
-F 0 "CB1" V 1235 950 50  0000 C CNN
-F 1 "#MRCB_187080F-03-1" V 1326 950 50  0000 C CNN
+F 0 "#CB1" V 1235 950 50  0000 C CNN
+F 1 "MRCB_187080F-03-1" V 1326 950 50  0000 C CNN
 F 2 "" H 1500 950 50  0001 C CNN
 F 3 "https://www.solar-electric.com/lib/wind-sun/Bussmann-MRCB.pdf" H 1500 950 50  0001 C CNN
 	1    1500 950 
 	0    1    1    0   
 $EndComp
 $Comp
-L 2019Spacehawks:WattMeter U2
+L 2019Spacehawks:WattMeter #U2
 U 1 1 5D9123C3
 P 2450 1100
-F 0 "U2" H 2450 1425 50  0000 C CNN
-F 1 "#WattMeter" H 2450 1334 50  0000 C CNN
+F 0 "#U2" H 2450 1425 50  0000 C CNN
+F 1 "WattMeter" H 2450 1334 50  0000 C CNN
 F 2 "" H 2450 1100 50  0001 C CNN
 F 3 "" H 2450 1100 50  0001 C CNN
 	1    2450 1100
@@ -58,10 +58,10 @@ Wire Wire Line
 Wire Wire Line
 	2050 1350 1100 1350
 $Comp
-L Relay_SolidState:34.81-8240 U3
+L Relay_SolidState:34.81-8240 #U3
 U 1 1 5D913EE3
 P 5000 1100
-F 0 "U3" H 5000 1425 50  0000 C CNN
+F 0 "#U3" H 5000 1425 50  0000 C CNN
 F 1 "#DC100D100CH" H 5000 1334 50  0000 C CNN
 F 2 "" H 4800 900 50  0001 L CIN
 F 3 "https://www.mouser.com/datasheet/2/657/power-plus-dc-series-100-dc-panel-mount-1370752.pdf" H 4975 1100 50  0001 L CNN
@@ -69,11 +69,11 @@ F 3 "https://www.mouser.com/datasheet/2/657/power-plus-dc-series-100-dc-panel-mo
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW1
+L Switch:SW_SPST #SW1
 U 1 1 5D914CA6
 P 3200 900
-F 0 "SW1" H 3200 1135 50  0000 C CNN
-F 1 "#ESTOP" H 3200 1044 50  0000 C CNN
+F 0 "#SW1" H 3200 1135 50  0000 C CNN
+F 1 "ESTOP" H 3200 1044 50  0000 C CNN
 F 2 "" H 3200 900 50  0001 C CNN
 F 3 "" H 3200 900 50  0001 C CNN
 	1    3200 900 
@@ -92,11 +92,11 @@ Wire Wire Line
 Wire Wire Line
 	5300 600  5300 1000
 $Comp
-L Device:Battery BT2
+L Device:Battery #BT2
 U 1 1 5D9D77E5
 P 1100 1150
-F 0 "BT2" H 1208 1196 50  0000 L CNN
-F 1 "#Battery" H 1208 1105 50  0000 L CNN
+F 0 "#BT2" H 1208 1196 50  0000 L CNN
+F 1 "Battery" H 1208 1105 50  0000 L CNN
 F 2 "" V 1100 1210 50  0001 C CNN
 F 3 "~" V 1100 1210 50  0001 C CNN
 	1    1100 1150
@@ -277,10 +277,10 @@ Connection ~ 700  1350
 Wire Wire Line
 	700  1350 600  1350
 $Comp
-L Device:Voltmeter_DC MES1
+L Device:Voltmeter_DC #MES1
 U 1 1 5DA52428
 P 6600 1050
-F 0 "MES1" H 6470 1090 50  0000 R CNN
+F 0 "#MES1" H 6470 1090 50  0000 R CNN
 F 1 "#Voltmeter_DC" H 6470 1020 50  0000 R CNN
 F 2 "" V 6600 1150 50  0001 C CNN
 F 3 "~" V 6600 1150 50  0001 C CNN
@@ -742,10 +742,10 @@ $EndComp
 Wire Wire Line
 	3200 2500 3300 2500
 $Comp
-L 2019Spacehawks:Wireless_Relay SW2
+L 2019Spacehawks:Wireless_Relay #SW2
 U 1 1 5DB15C61
 P 3700 900
-F 0 "SW2" H 3800 1100 50  0000 C CNN
+F 0 "#SW2" H 3800 1100 50  0000 C CNN
 F 1 "#REMOTE" H 3700 700 50  0000 C CNN
 F 2 "" H 3700 900 50  0001 C CNN
 F 3 "" H 3700 900 50  0001 C CNN
@@ -780,10 +780,10 @@ Connection ~ 4650 1200
 Wire Wire Line
 	4650 1200 4450 1200
 $Comp
-L 2019Spacehawks:SW_SPST_LED SW3
+L 2019Spacehawks:SW_SPST_LED #SW3
 U 1 1 5DBF72D0
 P 4250 900
-F 0 "SW3" H 4275 1125 50  0000 L CNN
+F 0 "#SW3" H 4275 1125 50  0000 L CNN
 F 1 "#POWER" H 4250 725 50  0000 C CNN
 F 2 "" H 4250 1200 50  0001 C CNN
 F 3 "" H 4250 1200 50  0001 C CNN
@@ -888,27 +888,6 @@ Wire Wire Line
 	5750 2750 5750 3150
 Wire Wire Line
 	5750 3150 5950 3150
-$Comp
-L 2019Spacehawks:Sabertooth2x60 U?
-U 1 1 5DDDCDE4
-P 5300 2500
-AR Path="/5D9AC27F/5DDDCDE4" Ref="U?"  Part="1" 
-AR Path="/5D9BDACA/5DDDCDE4" Ref="U?"  Part="1" 
-AR Path="/5D981157/5DDDCDE4" Ref="U?"  Part="1" 
-AR Path="/5D9ACC15/5DDDCDE4" Ref="U?"  Part="1" 
-AR Path="/5D9ACC1B/5DDDCDE4" Ref="U?"  Part="1" 
-AR Path="/5D9B81A1/5DDDCDE4" Ref="U?"  Part="1" 
-AR Path="/5D9B81A7/5DDDCDE4" Ref="U?"  Part="1" 
-AR Path="/5DFA76F5/5DDDCDE4" Ref="U?"  Part="1" 
-AR Path="/5DFB097B/5DDDCDE4" Ref="U?"  Part="1" 
-AR Path="/5DDDCDE4" Ref="U8"  Part="1" 
-F 0 "U8" H 5500 2800 50  0000 C CNN
-F 1 "Sabertooth2x60" H 5250 2700 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5300 2500 50  0001 C CNN
-F 3 "" H 5300 2500 50  0001 C CNN
-	1    5300 2500
-	1    0    0    -1  
-$EndComp
 NoConn ~ 4800 2750
 $Comp
 L power:+BATT #PWR024
@@ -1707,11 +1686,11 @@ $EndComp
 Wire Wire Line
 	5750 5150 5950 5150
 $Comp
-L Motor:Motor_DC M6
+L Motor:Motor_DC #M6
 U 1 1 5E53431B
 P 5950 5350
-F 0 "M6" H 6050 5100 50  0000 L CNN
-F 1 "#Lin_Actuator" H 5700 5050 50  0000 L TNN
+F 0 "#M6" H 6050 5100 50  0000 L CNN
+F 1 "Lin_Actuator" H 5700 5050 50  0000 L TNN
 F 2 "" H 5950 5260 50  0001 C CNN
 F 3 "https://cdn.shopify.com/s/files/1/0615/2193/files/firgelli-feedback-rod-linear-actuator-spec-sheet.pdf?88045" H 5950 5260 50  0001 C CNN
 	1    5950 5350
@@ -1981,33 +1960,33 @@ ACT_POT_4
 Wire Wire Line
 	3600 5200 3200 5200
 $Comp
-L Motor:Motor_DC M7
+L Motor:Motor_DC #M7
 U 1 1 5EA9C69C
 P 5950 5950
-F 0 "M7" H 6050 5700 50  0000 L CNN
-F 1 "#Lin_Actuator" H 5700 5650 50  0000 L TNN
+F 0 "#M7" H 6050 5700 50  0000 L CNN
+F 1 "Lin_Actuator" H 5700 5650 50  0000 L TNN
 F 2 "" H 5950 5860 50  0001 C CNN
 F 3 "https://cdn.shopify.com/s/files/1/0615/2193/files/firgelli-feedback-rod-linear-actuator-spec-sheet.pdf?88045" H 5950 5860 50  0001 C CNN
 	1    5950 5950
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor:Motor_DC M8
+L Motor:Motor_DC #M8
 U 1 1 5EA9CC29
 P 5950 6600
-F 0 "M8" H 6050 6350 50  0000 L CNN
-F 1 "#Lin_Actuator" H 5700 6300 50  0000 L TNN
+F 0 "#M8" H 6050 6350 50  0000 L CNN
+F 1 "Lin_Actuator" H 5700 6300 50  0000 L TNN
 F 2 "" H 5950 6510 50  0001 C CNN
 F 3 "https://cdn.shopify.com/s/files/1/0615/2193/files/firgelli-feedback-rod-linear-actuator-spec-sheet.pdf?88045" H 5950 6510 50  0001 C CNN
 	1    5950 6600
 	1    0    0    -1  
 $EndComp
 $Comp
-L Motor:Motor_DC M9
+L Motor:Motor_DC #M9
 U 1 1 5EA9CD19
 P 5950 7200
-F 0 "M9" H 6050 6950 50  0000 L CNN
-F 1 "#Lin_Actuator" H 5700 6900 50  0000 L TNN
+F 0 "#M9" H 6050 6950 50  0000 L CNN
+F 1 "Lin_Actuator" H 5700 6900 50  0000 L TNN
 F 2 "" H 5950 7110 50  0001 C CNN
 F 3 "https://cdn.shopify.com/s/files/1/0615/2193/files/firgelli-feedback-rod-linear-actuator-spec-sheet.pdf?88045" H 5950 7110 50  0001 C CNN
 	1    5950 7200
@@ -2158,9 +2137,9 @@ AR Path="/5D9B81A1/5EB6AEB7" Ref="M?"  Part="1"
 AR Path="/5D9B81A7/5EB6AEB7" Ref="M?"  Part="1" 
 AR Path="/5DFA76F5/5EB6AEB7" Ref="M?"  Part="1" 
 AR Path="/5DFB097B/5EB6AEB7" Ref="M?"  Part="1" 
-AR Path="/5EB6AEB7" Ref="M5"  Part="1" 
-F 0 "M5" H 6000 4750 50  0000 L CNN
-F 1 "#Digger_Motor" H 5700 4350 50  0000 L TNN
+AR Path="/5EB6AEB7" Ref="#M5"  Part="1" 
+F 0 "#M5" H 6000 4750 50  0000 L CNN
+F 1 "Digger_Motor" H 5700 4350 50  0000 L TNN
 F 2 "" H 5950 4560 50  0001 C CNN
 F 3 "~" H 5950 4560 50  0001 C CNN
 	1    5950 4650
@@ -2179,9 +2158,9 @@ AR Path="/5D9B81A1/5EB988EA" Ref="M?"  Part="1"
 AR Path="/5D9B81A7/5EB988EA" Ref="M?"  Part="1" 
 AR Path="/5DFA76F5/5EB988EA" Ref="M?"  Part="1" 
 AR Path="/5DFB097B/5EB988EA" Ref="M?"  Part="1" 
-AR Path="/5EB988EA" Ref="M1"  Part="1" 
-F 0 "M1" H 6000 2350 50  0000 L CNN
-F 1 "#Motor_DC" H 5700 1950 50  0000 L TNN
+AR Path="/5EB988EA" Ref="#M1"  Part="1" 
+F 0 "#M1" H 6000 2350 50  0000 L CNN
+F 1 "Motor_DC" H 5700 1950 50  0000 L TNN
 F 2 "" H 5950 2160 50  0001 C CNN
 F 3 "~" H 5950 2160 50  0001 C CNN
 	1    5950 2250
@@ -2221,9 +2200,9 @@ AR Path="/5D9B81A1/5EB98646" Ref="M?"  Part="1"
 AR Path="/5D9B81A7/5EB98646" Ref="M?"  Part="1" 
 AR Path="/5DFA76F5/5EB98646" Ref="M?"  Part="1" 
 AR Path="/5DFB097B/5EB98646" Ref="M?"  Part="1" 
-AR Path="/5EB98646" Ref="M4"  Part="1" 
-F 0 "M4" H 6000 4150 50  0000 L CNN
-F 1 "#Motor_DC" H 5700 3750 50  0000 L TNN
+AR Path="/5EB98646" Ref="#M4"  Part="1" 
+F 0 "#M4" H 6000 4150 50  0000 L CNN
+F 1 "Motor_DC" H 5700 3750 50  0000 L TNN
 F 2 "" H 5950 3960 50  0001 C CNN
 F 3 "~" H 5950 3960 50  0001 C CNN
 	1    5950 4050
@@ -2242,9 +2221,9 @@ AR Path="/5D9B81A1/5EB98726" Ref="M?"  Part="1"
 AR Path="/5D9B81A7/5EB98726" Ref="M?"  Part="1" 
 AR Path="/5DFA76F5/5EB98726" Ref="M?"  Part="1" 
 AR Path="/5DFB097B/5EB98726" Ref="M?"  Part="1" 
-AR Path="/5EB98726" Ref="M3"  Part="1" 
-F 0 "M3" H 6000 3550 50  0000 L CNN
-F 1 "#Motor_DC" H 5700 3150 50  0000 L TNN
+AR Path="/5EB98726" Ref="#M3"  Part="1" 
+F 0 "#M3" H 6000 3550 50  0000 L CNN
+F 1 "Motor_DC" H 5700 3150 50  0000 L TNN
 F 2 "" H 5950 3360 50  0001 C CNN
 F 3 "~" H 5950 3360 50  0001 C CNN
 	1    5950 3450
@@ -2263,9 +2242,9 @@ AR Path="/5D9B81A1/5EB98806" Ref="M?"  Part="1"
 AR Path="/5D9B81A7/5EB98806" Ref="M?"  Part="1" 
 AR Path="/5DFA76F5/5EB98806" Ref="M?"  Part="1" 
 AR Path="/5DFB097B/5EB98806" Ref="M?"  Part="1" 
-AR Path="/5EB98806" Ref="M2"  Part="1" 
-F 0 "M2" H 6000 2950 50  0000 L CNN
-F 1 "#Motor_DC" H 5700 2550 50  0000 L TNN
+AR Path="/5EB98806" Ref="#M2"  Part="1" 
+F 0 "#M2" H 6000 2950 50  0000 L CNN
+F 1 "Motor_DC" H 5700 2550 50  0000 L TNN
 F 2 "" H 5950 2760 50  0001 C CNN
 F 3 "~" H 5950 2760 50  0001 C CNN
 	1    5950 2850
@@ -3028,4 +3007,25 @@ F 3 "~" H 10350 6200 50  0001 C CNN
 $EndComp
 Wire Notes Line
 	8900 5350 11200 5350
+$Comp
+L 2019Spacehawks:Sabertooth2x60 U?
+U 1 1 5DDDCDE4
+P 5300 2500
+AR Path="/5D9AC27F/5DDDCDE4" Ref="U?"  Part="1" 
+AR Path="/5D9BDACA/5DDDCDE4" Ref="U?"  Part="1" 
+AR Path="/5D981157/5DDDCDE4" Ref="U?"  Part="1" 
+AR Path="/5D9ACC15/5DDDCDE4" Ref="U?"  Part="1" 
+AR Path="/5D9ACC1B/5DDDCDE4" Ref="U?"  Part="1" 
+AR Path="/5D9B81A1/5DDDCDE4" Ref="U?"  Part="1" 
+AR Path="/5D9B81A7/5DDDCDE4" Ref="U?"  Part="1" 
+AR Path="/5DFA76F5/5DDDCDE4" Ref="U?"  Part="1" 
+AR Path="/5DFB097B/5DDDCDE4" Ref="U?"  Part="1" 
+AR Path="/5DDDCDE4" Ref="U8"  Part="1" 
+F 0 "U8" H 5500 2800 50  0000 C CNN
+F 1 "Sabertooth2x60" H 5250 2700 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" H 5300 2500 50  0001 C CNN
+F 3 "" H 5300 2500 50  0001 C CNN
+	1    5300 2500
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
