@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:kicad-eboard-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -2020,7 +2020,7 @@ U 1 1 5EAE1997
 P 6350 5400
 F 0 "RV3" V 6175 5400 50  0000 C CNN
 F 1 "10K" V 6250 5400 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B2B-XH-AM_1x02_P2.50mm_Vertical" H 6350 5400 50  0001 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 6350 5400 50  0001 C CNN
 F 3 "~" H 6350 5400 50  0001 C CNN
 	1    6350 5400
 	1    0    0    -1  
