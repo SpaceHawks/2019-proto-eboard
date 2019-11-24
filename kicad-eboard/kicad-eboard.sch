@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:kicad-eboard-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -670,30 +670,30 @@ Wire Wire Line
 	9150 3800 9150 3750
 Wire Wire Line
 	9150 3750 9250 3750
-Text Label 3500 4600 2    50   ~ 0
+Text Label 3500 4800 2    50   ~ 0
 ENC1_X
 Text Label 3500 4700 2    50   ~ 0
 ENC1_A
-Text Label 3500 4800 2    50   ~ 0
+Text Label 3500 4600 2    50   ~ 0
 ENC1_B
 Wire Wire Line
 	3200 4700 3500 4700
 Wire Wire Line
-	3200 4600 3500 4600
-Wire Wire Line
 	3200 4800 3500 4800
-Text Label 3500 4250 2    50   ~ 0
+Wire Wire Line
+	3200 4600 3500 4600
+Text Label 3500 4450 2    50   ~ 0
 ENC2_X
 Text Label 3500 4350 2    50   ~ 0
 ENC2_A
-Text Label 3500 4450 2    50   ~ 0
+Text Label 3500 4250 2    50   ~ 0
 ENC2_B
 Wire Wire Line
 	3200 4350 3500 4350
 Wire Wire Line
-	3200 4250 3500 4250
-Wire Wire Line
 	3200 4450 3500 4450
+Wire Wire Line
+	3200 4250 3500 4250
 Text Label 3500 3950 2    50   ~ 0
 ENC3_X
 Text Label 3500 4050 2    50   ~ 0
