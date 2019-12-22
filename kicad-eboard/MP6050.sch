@@ -255,14 +255,14 @@ Wire Notes Line
 Text Notes 4300 5930 0    59   ~ 0
 ***
 $Comp
-L Connector_Generic:Conn_01x10 #J19
+L Connector_Generic:Conn_01x10 J19
 U 1 1 5DAEBC3C
 P 1700 4300
-AR Path="/5DAF980D/5DAEBC3C" Ref="#J19"  Part="1" 
+AR Path="/5DAF980D/5DAEBC3C" Ref="J19"  Part="1" 
 AR Path="/5DCD5C02/5DAEBC3C" Ref="J?"  Part="1" 
-F 0 "#J19" H 1700 4800 50  0000 C CNN
+F 0 "J19" H 1700 4800 50  0000 C CNN
 F 1 "Conn_01x10" H 1700 3700 50  0000 C CNN
-F 2 "" H 1700 4300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1700 4300 50  0001 C CNN
 F 3 "~" H 1700 4300 50  0001 C CNN
 	1    1700 4300
 	-1   0    0    1   
