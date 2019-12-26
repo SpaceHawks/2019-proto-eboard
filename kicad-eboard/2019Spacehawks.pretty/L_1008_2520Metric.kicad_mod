@@ -1,5 +1,5 @@
 (module L_1008_2520Metric (layer F.Cu) (tedit 5E02C11F)
-  (descr "Inductor SMD 1812 (4532 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: https://www.nikhef.nl/pub/departments/mt/projects/detectorR_D/dtddice/ERJ2G.pdf), generated with kicad-footprint-generator")
+  (descr "Inductor SMD 1008 (2520 Metric), square (rectangular) end terminal (Body size source: https://www.mouser.com/datasheet/2/445/74479887310A-539308.pdf)")
   (tags inductor)
   (attr smd)
   (fp_text reference REF** (at -0.3 -2.1) (layer F.SilkS)
@@ -23,9 +23,4 @@
   (fp_line (start -2.25 1.1) (end -2.25 -1.1) (layer F.Fab) (width 0.1))
   (pad 2 smd roundrect (at -0.1375 0) (size 0.8 2.2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.222))
   (pad 1 smd roundrect (at -2.1375 0) (size 0.8 2.2) (layers F.Cu F.Paste F.Mask) (roundrect_rratio 0.222))
-  (model ${KISYS3DMOD}/Inductor_SMD.3dshapes/L_1812_4532Metric.wrl
-    (at (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
 )
