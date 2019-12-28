@@ -308,7 +308,7 @@ U 1 1 5DA67B8D
 P 10600 950
 F 0 "RV1" V 10425 950 50  0000 C CNN
 F 1 "10K" V 10500 950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_PT-10-V05_Vertical" H 10600 950 50  0001 C CNN
+F 2 "2019Spacehawks:Potentiometer_Piher_PT-10-V05_Vertical_SS" H 10600 950 50  0001 C CNN
 F 3 "~" H 10600 950 50  0001 C CNN
 	1    10600 950 
 	-1   0    0    1   
@@ -329,7 +329,7 @@ U 1 1 5DA7AF90
 P 10600 1950
 F 0 "RV2" V 10425 1950 50  0000 C CNN
 F 1 "10K" V 10500 1950 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Piher_PT-10-V05_Vertical" H 10600 1950 50  0001 C CNN
+F 2 "2019Spacehawks:Potentiometer_Piher_PT-10-V05_Vertical_SS" H 10600 1950 50  0001 C CNN
 F 3 "~" H 10600 1950 50  0001 C CNN
 	1    10600 1950
 	-1   0    0    1   
