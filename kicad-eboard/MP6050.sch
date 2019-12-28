@@ -180,8 +180,6 @@ Wire Wire Line
 Wire Wire Line
 	5400 3600 5400 4400
 Wire Wire Line
-	6250 4800 6200 4800
-Wire Wire Line
 	4700 5400 4800 5400
 Wire Wire Line
 	4400 5300 4800 5300
@@ -372,7 +370,7 @@ Text Label 4600 3700 0    50   ~ 0
 VCC
 Text Label 5600 4100 0    50   ~ 0
 VCC
-Text Label 6300 3700 0    50   ~ 0
+Text Label 6750 4800 0    50   ~ 0
 VCC
 Text Label 5100 4100 0    50   ~ 0
 GND
@@ -390,4 +388,21 @@ Text Label 4400 6300 0    50   ~ 0
 GND
 Text Label 3950 5600 0    50   ~ 0
 GND
+$Comp
+L Device:R R?
+U 1 1 5E24B9D7
+P 6600 4800
+AR Path="/5DAF980D/5E24B9D7" Ref="R?"  Part="1" 
+AR Path="/5DCD5C02/5E24B9D7" Ref="R?"  Part="1" 
+F 0 "R?" V 6680 4800 50  0000 C CNN
+F 1 "10K" V 6600 4800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6530 4800 50  0001 C CNN
+F 3 "~" H 6600 4800 50  0001 C CNN
+	1    6600 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6200 4800 6450 4800
+Text Notes 6500 4700 0    50   ~ 0
+Populate pull-up if set to open-drain mode
 $EndSCHEMATC
