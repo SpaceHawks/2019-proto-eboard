@@ -445,4 +445,6 @@ Wire Wire Line
 Connection ~ 4350 4450
 Text Notes 4100 3400 0    50   ~ 0
 Second pull-ups are optional
+Text Label 6300 3700 0    50   ~ 0
+VCC
 $EndSCHEMATC
