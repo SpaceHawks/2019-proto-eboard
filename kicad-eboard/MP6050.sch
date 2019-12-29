@@ -406,12 +406,12 @@ Wire Wire Line
 Text Notes 6500 4700 0    50   ~ 0
 Populate pull-up if set to open-drain mode
 $Comp
-L Device:R R?
+L Device:R R34
 U 1 1 5E2698DE
 P 4200 4300
-AR Path="/5DAF980D/5E2698DE" Ref="R?"  Part="1" 
+AR Path="/5DAF980D/5E2698DE" Ref="R34"  Part="1" 
 AR Path="/5DCD5C02/5E2698DE" Ref="R?"  Part="1" 
-F 0 "R?" V 4280 4300 50  0000 C CNN
+F 0 "R34" V 4280 4300 50  0000 C CNN
 F 1 "10K" V 4200 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4130 4300 50  0001 C CNN
 F 3 "~" H 4200 4300 50  0001 C CNN
@@ -419,12 +419,12 @@ F 3 "~" H 4200 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R35
 U 1 1 5E269D45
 P 4750 4100
-AR Path="/5DAF980D/5E269D45" Ref="R?"  Part="1" 
+AR Path="/5DAF980D/5E269D45" Ref="R35"  Part="1" 
 AR Path="/5DCD5C02/5E269D45" Ref="R?"  Part="1" 
-F 0 "R?" V 4830 4100 50  0000 C CNN
+F 0 "R35" V 4830 4100 50  0000 C CNN
 F 1 "10K" V 4750 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 4100 50  0001 C CNN
 F 3 "~" H 4750 4100 50  0001 C CNN
