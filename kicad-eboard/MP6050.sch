@@ -389,12 +389,12 @@ GND
 Text Label 3950 5600 0    50   ~ 0
 GND
 $Comp
-L Device:R R?
+L Device:R R33
 U 1 1 5E24B9D7
 P 6600 4800
-AR Path="/5DAF980D/5E24B9D7" Ref="R?"  Part="1" 
+AR Path="/5DAF980D/5E24B9D7" Ref="R33"  Part="1" 
 AR Path="/5DCD5C02/5E24B9D7" Ref="R?"  Part="1" 
-F 0 "R?" V 6680 4800 50  0000 C CNN
+F 0 "R33" V 6680 4800 50  0000 C CNN
 F 1 "10K" V 6600 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 6530 4800 50  0001 C CNN
 F 3 "~" H 6600 4800 50  0001 C CNN
@@ -405,4 +405,44 @@ Wire Wire Line
 	6200 4800 6450 4800
 Text Notes 6500 4700 0    50   ~ 0
 Populate pull-up if set to open-drain mode
+$Comp
+L Device:R R?
+U 1 1 5E2698DE
+P 4200 4300
+AR Path="/5DAF980D/5E2698DE" Ref="R?"  Part="1" 
+AR Path="/5DCD5C02/5E2698DE" Ref="R?"  Part="1" 
+F 0 "R?" V 4280 4300 50  0000 C CNN
+F 1 "10K" V 4200 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4130 4300 50  0001 C CNN
+F 3 "~" H 4200 4300 50  0001 C CNN
+	1    4200 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5E269D45
+P 4750 4100
+AR Path="/5DAF980D/5E269D45" Ref="R?"  Part="1" 
+AR Path="/5DCD5C02/5E269D45" Ref="R?"  Part="1" 
+F 0 "R?" V 4830 4100 50  0000 C CNN
+F 1 "10K" V 4750 4100 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4680 4100 50  0001 C CNN
+F 3 "~" H 4750 4100 50  0001 C CNN
+	1    4750 4100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4750 3950 4600 3950
+Connection ~ 4600 3950
+Wire Wire Line
+	4600 4250 4750 4250
+Connection ~ 4600 4250
+Wire Wire Line
+	4200 4150 4350 4150
+Connection ~ 4350 4150
+Wire Wire Line
+	4200 4450 4350 4450
+Connection ~ 4350 4450
+Text Notes 4100 3400 0    50   ~ 0
+Second pull-ups are optional
 $EndSCHEMATC
