@@ -1,4 +1,4 @@
-# 2019-proto-eboard
+# 2019-eboard
 
 This repository contains the schematic and PCB for the 2019 electrical board.
 
