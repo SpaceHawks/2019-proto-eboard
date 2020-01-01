@@ -15,4 +15,9 @@
   (pad 3 thru_hole circle (at -10.16 10.16) (size 2 2) (drill 1.3) (layers *.Cu *.Mask))
   (pad 4 thru_hole circle (at 0 10.16) (size 2 2) (drill 1.3) (layers *.Cu *.Mask))
   (pad 5 thru_hole circle (at 10.16 10.16) (size 2 2) (drill 1.3) (layers *.Cu *.Mask))
+  (model ${KIPRJMOD}/2019Spacehawks.pretty/PDQXX-D_DC-DC_converter.wrl
+    (offset (xyz -12.7 -12.7 0))
+    (scale (xyz 0.3937 0.3937 0.3937))
+    (rotate (xyz 0 0 0))
+  )
 )
