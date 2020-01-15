@@ -5,7 +5,7 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
-Title "Prototype E-board Schematic"
+Title "Season 4 E-board Schematic"
 Date ""
 Rev ""
 Comp "IIT Scarlet Spacehawks"
