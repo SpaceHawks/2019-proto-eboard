@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:kicad-eboard-cache
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -1573,8 +1573,6 @@ F 3 "https://cdn.shopify.com/s/files/1/0615/2193/files/firgelli-feedback-rod-lin
 	1    5950 5350
 	1    0    0    -1  
 $EndComp
-Text Label 6850 5400 2    50   ~ 0
-ACT_POT_1
 NoConn ~ 5150 7300
 Wire Wire Line
 	5650 6800 5750 6800
@@ -1806,20 +1804,6 @@ Wire Wire Line
 	7250 4800 7650 4800
 Wire Wire Line
 	3200 3300 3500 3300
-Wire Wire Line
-	6850 5400 6450 5400
-Text Label 6850 6000 2    50   ~ 0
-ACT_POT_2
-Wire Wire Line
-	6850 6000 6450 6000
-Text Label 6850 6650 2    50   ~ 0
-ACT_POT_3
-Wire Wire Line
-	6850 6650 6450 6650
-Text Label 6850 7250 2    50   ~ 0
-ACT_POT_4
-Wire Wire Line
-	6850 7250 6450 7250
 Text Label 3600 4900 2    50   ~ 0
 ACT_POT_1
 Wire Wire Line
@@ -2316,35 +2300,25 @@ Connection ~ 4150 3850
 $Comp
 L Connector:TestPoint TP1
 U 1 1 5DD312C3
-P 3350 2650
-F 0 "TP1" H 3292 2676 50  0000 R CNN
-F 1 "TestPoint" H 3292 2767 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 3550 2650 50  0001 C CNN
-F 3 "~" H 3550 2650 50  0001 C CNN
-	1    3350 2650
+P 8650 5700
+F 0 "TP1" H 8850 5800 50  0000 R CNN
+F 1 "TestPoint" H 9050 5700 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8850 5700 50  0001 C CNN
+F 3 "~" H 8850 5700 50  0001 C CNN
+	1    8650 5700
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3200 2650 3350 2650
-Wire Wire Line
-	3350 2650 3650 2650
-Connection ~ 3350 2650
 $Comp
 L Connector:TestPoint TP2
 U 1 1 5DD318AA
-P 3500 2750
-F 0 "TP2" H 3442 2776 50  0000 R CNN
-F 1 "TestPoint" H 3442 2867 50  0000 R CNN
-F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 3700 2750 50  0001 C CNN
-F 3 "~" H 3700 2750 50  0001 C CNN
-	1    3500 2750
+P 8650 6200
+F 0 "TP2" H 8850 6300 50  0000 R CNN
+F 1 "TestPoint" H 9050 6200 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8850 6200 50  0001 C CNN
+F 3 "~" H 8850 6200 50  0001 C CNN
+	1    8650 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	3200 2750 3500 2750
-Wire Wire Line
-	3500 2750 3650 2750
-Connection ~ 3500 2750
 $Comp
 L Connector:TestPoint TP6
 U 1 1 5DCBC301
@@ -2835,7 +2809,7 @@ Wire Wire Line
 Wire Wire Line
 	10600 6250 10700 6250
 Wire Notes Line
-	8900 5350 8900 6500
+	8500 5350 8500 6500
 Text Notes 9650 5350 0    50   ~ 0
 Ports & Test Points
 $Comp
@@ -2882,8 +2856,6 @@ F 3 "~" H 10350 6200 50  0001 C CNN
 	1    10150 6200
 	1    0    0    -1  
 $EndComp
-Wire Notes Line
-	8900 5350 11200 5350
 $Comp
 L 2019Spacehawks:Sabertooth2x60 U?
 U 1 1 5DDDCDE4
@@ -3103,4 +3075,162 @@ Wire Wire Line
 	10500 2150 10850 2150
 Connection ~ 10500 2150
 Connection ~ 10850 2150
+$Comp
+L Analog_ADC:ADS1015IDGS U?
+U 1 1 5E2BCBB2
+P 7350 5800
+F 0 "U?" H 7450 6350 50  0000 C CNN
+F 1 "ADS1015IDGS" H 7650 6250 50  0000 C CNN
+F 2 "Package_SO:TSSOP-10_3x3mm_P0.5mm" H 7350 5300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ads1015.pdf" H 7300 4900 50  0001 C CNN
+	1    7350 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E2BDEE1
+P 7350 5300
+F 0 "#PWR?" H 7350 5150 50  0001 C CNN
+F 1 "+3.3V" H 7350 5440 50  0000 C CNN
+F 2 "" H 7350 5300 50  0001 C CNN
+F 3 "" H 7350 5300 50  0001 C CNN
+	1    7350 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E2D6B3F
+P 7350 6200
+F 0 "#PWR?" H 7350 5950 50  0001 C CNN
+F 1 "GNDD" H 7350 6075 50  0000 C CNN
+F 2 "" H 7350 6200 50  0001 C CNN
+F 3 "" H 7350 6200 50  0001 C CNN
+	1    7350 6200
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E2D6CCA
+P 7750 6100
+F 0 "#PWR?" H 7750 5850 50  0001 C CNN
+F 1 "GNDD" H 7750 5975 50  0000 C CNN
+F 2 "" H 7750 6100 50  0001 C CNN
+F 3 "" H 7750 6100 50  0001 C CNN
+	1    7750 6100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7750 6000 7750 6100
+Text Label 3350 2650 2    50   ~ 0
+SDA
+Text Label 3350 2750 2    50   ~ 0
+SCL
+Wire Wire Line
+	3350 2650 3200 2650
+Wire Wire Line
+	3200 2750 3350 2750
+Text Label 3500 2650 0    50   ~ 0
+SDA
+Text Label 3500 2750 0    50   ~ 0
+SCL
+Wire Wire Line
+	3500 2650 3650 2650
+Wire Wire Line
+	3650 2750 3500 2750
+Text Label 8650 5700 3    50   ~ 0
+SDA
+Text Label 8650 6200 3    50   ~ 0
+SCL
+Wire Notes Line
+	8500 5350 11200 5350
+Text Label 7900 5900 2    50   ~ 0
+SDA
+Wire Wire Line
+	7900 5900 7750 5900
+Text Label 7900 5800 2    50   ~ 0
+SCL
+Wire Wire Line
+	7750 5800 7900 5800
+Wire Wire Line
+	6450 5400 6500 5400
+Wire Wire Line
+	6500 5400 6500 5700
+Wire Wire Line
+	6500 5700 6950 5700
+Wire Wire Line
+	6950 5800 6500 5800
+Wire Wire Line
+	6500 5800 6500 6000
+Wire Wire Line
+	6500 6000 6450 6000
+Wire Wire Line
+	6950 5900 6600 5900
+Wire Wire Line
+	6600 5900 6600 6650
+Wire Wire Line
+	6600 6650 6450 6650
+Wire Wire Line
+	6450 7250 6700 7250
+Wire Wire Line
+	6700 7250 6700 6000
+Wire Wire Line
+	6700 6000 6950 6000
+$Comp
+L Device:R R?
+U 1 1 5E5BBB0B
+P 7900 5600
+AR Path="/5DAF980D/5E5BBB0B" Ref="R?"  Part="1" 
+AR Path="/5DCD5C02/5E5BBB0B" Ref="R?"  Part="1" 
+AR Path="/5E5BBB0B" Ref="R?"  Part="1" 
+F 0 "R?" V 7980 5600 50  0000 C CNN
+F 1 "10K" V 7900 5600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7830 5600 50  0001 C CNN
+F 3 "~" H 7900 5600 50  0001 C CNN
+	1    7900 5600
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E5EF100
+P 8050 5600
+F 0 "#PWR?" H 8050 5450 50  0001 C CNN
+F 1 "+3.3V" H 8050 5740 50  0000 C CNN
+F 2 "" H 8050 5600 50  0001 C CNN
+F 3 "" H 8050 5600 50  0001 C CNN
+	1    8050 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5E609922
+P 6800 5400
+F 0 "C?" H 6810 5470 50  0000 L CNN
+F 1 "0.1uF" H 6810 5320 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6800 5400 50  0001 C CNN
+F 3 "~" H 6800 5400 50  0001 C CNN
+	1    6800 5400
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5E60A506
+P 6800 5500
+F 0 "#PWR?" H 6800 5250 50  0001 C CNN
+F 1 "GNDD" H 6800 5375 50  0000 C CNN
+F 2 "" H 6800 5500 50  0001 C CNN
+F 3 "" H 6800 5500 50  0001 C CNN
+	1    6800 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR?
+U 1 1 5E60A3D5
+P 6800 5300
+F 0 "#PWR?" H 6800 5150 50  0001 C CNN
+F 1 "+3.3V" H 6800 5440 50  0000 C CNN
+F 2 "" H 6800 5300 50  0001 C CNN
+F 3 "" H 6800 5300 50  0001 C CNN
+	1    6800 5300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
