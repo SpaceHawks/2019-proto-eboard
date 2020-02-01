@@ -1,6 +1,6 @@
-(module Potentiometer_Piher_PT-10-V05_Vertical_SS (layer F.Cu) (tedit 5E30EFAD)
-  (descr "Potentiometer, vertical, Piher PT-10-V05, http://www.piher-nacesa.com/pdf/12-PT10v03.pdf")
-  (tags "Potentiometer vertical Piher PT-10-V05")
+(module Potentiometer_Bourns_3306F (layer F.Cu) (tedit 5E34EEE9)
+  (descr https://www.bourns.com/docs/Product-Datasheets/3306.pdf)
+  (tags "Potentiometer vertical Bourns 3306F")
   (fp_text reference RV1 (at -2.25 -6.75 -270) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
@@ -31,9 +31,9 @@
   (pad 3 thru_hole circle (at 0 -5) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 2 thru_hole circle (at 5 -2.5) (size 2 2) (drill 1) (layers *.Cu *.Mask))
   (pad 1 thru_hole circle (at 0 0) (size 2 2) (drill 1) (layers *.Cu *.Mask))
-  (model ${KISYS3DMOD}/Potentiometer_THT.3dshapes/Potentiometer_Piher_PT-10-V05_Vertical.wrl
-    (at (xyz 0 0 0))
+  (model ${KIPRJMOD}/2019Spacehawks.pretty/3306F001.stp
+    (offset (xyz -2.54 6 3.5))
     (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
+    (rotate (xyz 90 180 -90))
   )
 )

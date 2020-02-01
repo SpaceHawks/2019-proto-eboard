@@ -278,7 +278,7 @@ U 1 1 5DA67B8D
 P 10850 950
 F 0 "RV1" V 10675 950 50  0000 C CNN
 F 1 "10K" V 10750 950 50  0000 C CNN
-F 2 "2019Spacehawks:Potentiometer_Piher_PT-10-V05_Vertical_SS" H 10850 950 50  0001 C CNN
+F 2 "2019Spacehawks:Potentiometer_Bourns_3306F" H 10850 950 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3306.pdf" H 10850 950 50  0001 C CNN
 	1    10850 950 
 	-1   0    0    1   
@@ -294,7 +294,7 @@ U 1 1 5DA7AF90
 P 10850 1950
 F 0 "RV2" V 10675 1950 50  0000 C CNN
 F 1 "10K" V 10750 1950 50  0000 C CNN
-F 2 "2019Spacehawks:Potentiometer_Piher_PT-10-V05_Vertical_SS" H 10850 1950 50  0001 C CNN
+F 2 "2019Spacehawks:Potentiometer_Bourns_3306F" H 10850 1950 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3306.pdf" H 10850 1950 50  0001 C CNN
 	1    10850 1950
 	-1   0    0    1   
