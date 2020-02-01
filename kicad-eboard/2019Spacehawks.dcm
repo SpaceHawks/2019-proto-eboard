@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP +BATT_MOTORS
+D Power flag, positive battery voltage
+K power-flag battery
+$ENDCMP
+#
 $CMP AMT10_Encoder
 D Rotary encoder, dual channel, incremental quadrate outputs
 K incremental rotary encoder
