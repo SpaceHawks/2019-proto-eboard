@@ -2563,7 +2563,7 @@ P 7100 2200
 F 0 "R3" V 7050 2000 50  0000 C CNN
 F 1 "47k" V 7100 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 2200 50  0001 C CNN
-F 3 "~" H 7100 2200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 2200 50  0001 C CNN
 	1    7100 2200
 	0    1    1    0   
 $EndComp
@@ -2574,7 +2574,7 @@ P 7100 2300
 F 0 "R3" V 7050 2100 50  0000 C CNN
 F 1 "47k" V 7100 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 2300 50  0001 C CNN
-F 3 "~" H 7100 2300 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 2300 50  0001 C CNN
 	2    7100 2300
 	0    1    1    0   
 $EndComp
@@ -2585,7 +2585,7 @@ P 7100 2400
 F 0 "R3" V 7050 2200 50  0000 C CNN
 F 1 "47k" V 7100 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 2400 50  0001 C CNN
-F 3 "~" H 7100 2400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 2400 50  0001 C CNN
 	3    7100 2400
 	0    1    1    0   
 $EndComp
@@ -2596,7 +2596,7 @@ P 7100 2800
 F 0 "R3" V 7050 2600 50  0000 C CNN
 F 1 "47k" V 7100 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 2800 50  0001 C CNN
-F 3 "~" H 7100 2800 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 2800 50  0001 C CNN
 	4    7100 2800
 	0    1    1    0   
 $EndComp
@@ -2607,7 +2607,7 @@ P 7100 2900
 F 0 "R4" V 7050 2700 50  0000 C CNN
 F 1 "47k" V 7100 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 2900 50  0001 C CNN
-F 3 "~" H 7100 2900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 2900 50  0001 C CNN
 	1    7100 2900
 	0    1    1    0   
 $EndComp
@@ -2618,7 +2618,7 @@ P 7100 3000
 F 0 "R4" V 7050 2800 50  0000 C CNN
 F 1 "47k" V 7100 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 3000 50  0001 C CNN
-F 3 "~" H 7100 3000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 3000 50  0001 C CNN
 	2    7100 3000
 	0    1    1    0   
 $EndComp
@@ -2629,7 +2629,7 @@ P 7100 3400
 F 0 "R4" V 7050 3200 50  0000 C CNN
 F 1 "47k" V 7100 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 3400 50  0001 C CNN
-F 3 "~" H 7100 3400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 3400 50  0001 C CNN
 	3    7100 3400
 	0    1    1    0   
 $EndComp
@@ -2640,7 +2640,7 @@ P 7100 3500
 F 0 "R4" V 7050 3300 50  0000 C CNN
 F 1 "47k" V 7100 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 3500 50  0001 C CNN
-F 3 "~" H 7100 3500 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 3500 50  0001 C CNN
 	4    7100 3500
 	0    1    1    0   
 $EndComp
@@ -2651,7 +2651,7 @@ P 7100 3600
 F 0 "R5" V 7050 3400 50  0000 C CNN
 F 1 "47k" V 7100 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 3600 50  0001 C CNN
-F 3 "~" H 7100 3600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 3600 50  0001 C CNN
 	1    7100 3600
 	0    1    1    0   
 $EndComp
@@ -2662,7 +2662,7 @@ P 7100 4000
 F 0 "R5" V 7050 3800 50  0000 C CNN
 F 1 "47k" V 7100 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 4000 50  0001 C CNN
-F 3 "~" H 7100 4000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 4000 50  0001 C CNN
 	2    7100 4000
 	0    1    1    0   
 $EndComp
@@ -2673,7 +2673,7 @@ P 7100 4100
 F 0 "R5" V 7050 3900 50  0000 C CNN
 F 1 "47k" V 7100 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 4100 50  0001 C CNN
-F 3 "~" H 7100 4100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 4100 50  0001 C CNN
 	3    7100 4100
 	0    1    1    0   
 $EndComp
@@ -2684,7 +2684,7 @@ P 7100 4200
 F 0 "R5" V 7050 4000 50  0000 C CNN
 F 1 "47k" V 7100 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7030 4200 50  0001 C CNN
-F 3 "~" H 7100 4200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7100 4200 50  0001 C CNN
 	4    7100 4200
 	0    1    1    0   
 $EndComp
@@ -2730,7 +2730,7 @@ P 7800 2200
 F 0 "R7" V 7750 2000 50  0000 C CNN
 F 1 "91k" V 7800 2200 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 2200 50  0001 C CNN
-F 3 "~" H 7800 2200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 2200 50  0001 C CNN
 	1    7800 2200
 	0    1    1    0   
 $EndComp
@@ -2741,7 +2741,7 @@ P 7800 2300
 F 0 "R7" V 7750 2100 50  0000 C CNN
 F 1 "91k" V 7800 2300 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 2300 50  0001 C CNN
-F 3 "~" H 7800 2300 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 2300 50  0001 C CNN
 	2    7800 2300
 	0    1    1    0   
 $EndComp
@@ -2752,7 +2752,7 @@ P 7800 2400
 F 0 "R7" V 7750 2200 50  0000 C CNN
 F 1 "91k" V 7800 2400 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 2400 50  0001 C CNN
-F 3 "~" H 7800 2400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 2400 50  0001 C CNN
 	3    7800 2400
 	0    1    1    0   
 $EndComp
@@ -2763,7 +2763,7 @@ P 7800 2800
 F 0 "R7" V 7750 2600 50  0000 C CNN
 F 1 "91k" V 7800 2800 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 2800 50  0001 C CNN
-F 3 "~" H 7800 2800 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 2800 50  0001 C CNN
 	4    7800 2800
 	0    1    1    0   
 $EndComp
@@ -2774,7 +2774,7 @@ P 7800 2900
 F 0 "R8" V 7750 2700 50  0000 C CNN
 F 1 "91k" V 7800 2900 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 2900 50  0001 C CNN
-F 3 "~" H 7800 2900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 2900 50  0001 C CNN
 	1    7800 2900
 	0    1    1    0   
 $EndComp
@@ -2785,7 +2785,7 @@ P 7800 3000
 F 0 "R8" V 7750 2800 50  0000 C CNN
 F 1 "91k" V 7800 3000 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 3000 50  0001 C CNN
-F 3 "~" H 7800 3000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 3000 50  0001 C CNN
 	2    7800 3000
 	0    1    1    0   
 $EndComp
@@ -2796,7 +2796,7 @@ P 7800 3400
 F 0 "R8" V 7750 3200 50  0000 C CNN
 F 1 "91k" V 7800 3400 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 3400 50  0001 C CNN
-F 3 "~" H 7800 3400 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 3400 50  0001 C CNN
 	3    7800 3400
 	0    1    1    0   
 $EndComp
@@ -2807,7 +2807,7 @@ P 7800 3500
 F 0 "R8" V 7750 3300 50  0000 C CNN
 F 1 "91k" V 7800 3500 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 3500 50  0001 C CNN
-F 3 "~" H 7800 3500 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 3500 50  0001 C CNN
 	4    7800 3500
 	0    1    1    0   
 $EndComp
@@ -2818,7 +2818,7 @@ P 7800 3600
 F 0 "R9" V 7750 3400 50  0000 C CNN
 F 1 "91k" V 7800 3600 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 3600 50  0001 C CNN
-F 3 "~" H 7800 3600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 3600 50  0001 C CNN
 	1    7800 3600
 	0    1    1    0   
 $EndComp
@@ -2829,7 +2829,7 @@ P 7800 4000
 F 0 "R9" V 7750 3800 50  0000 C CNN
 F 1 "91k" V 7800 4000 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 4000 50  0001 C CNN
-F 3 "~" H 7800 4000 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 4000 50  0001 C CNN
 	2    7800 4000
 	0    1    1    0   
 $EndComp
@@ -2840,7 +2840,7 @@ P 7800 4100
 F 0 "R9" V 7750 3900 50  0000 C CNN
 F 1 "91k" V 7800 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 4100 50  0001 C CNN
-F 3 "~" H 7800 4100 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 4100 50  0001 C CNN
 	3    7800 4100
 	0    1    1    0   
 $EndComp
@@ -2851,7 +2851,7 @@ P 7800 4200
 F 0 "R9" V 7750 4000 50  0000 C CNN
 F 1 "91k" V 7800 4200 50  0000 C CNN
 F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7730 4200 50  0001 C CNN
-F 3 "~" H 7800 4200 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7800 4200 50  0001 C CNN
 	4    7800 4200
 	0    1    1    0   
 $EndComp
