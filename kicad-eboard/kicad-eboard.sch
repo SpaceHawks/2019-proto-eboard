@@ -2137,7 +2137,7 @@ AR Path="/5DCD5C02/5E5BBB0B" Ref="R?"  Part="1"
 AR Path="/5E5BBB0B" Ref="R36"  Part="1" 
 F 0 "R36" V 7980 5600 50  0000 C CNN
 F 1 "10K" V 7900 5600 50  0000 C CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 7830 5600 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 7830 5600 50  0001 C CNN
 F 3 "~" H 7900 5600 50  0001 C CNN
 	1    7900 5600
 	0    1    1    0   
