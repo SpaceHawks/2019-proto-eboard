@@ -17,20 +17,26 @@ K CB
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_1P_US
-D Single pole circuit breaker, US symbol
-K CB
-F ~
-$ENDCMP
-#
 $CMP Hokuyo_UST-10LX
 D Hokuyo UST-10LX Scanning Laser Rangefinder
 K lidar
 $ENDCMP
 #
+$CMP INA4181
+D Bidirectional, Low- and High-Side Voltage Output, Current-Sense Amplifier, TSSOP-20
+K current monitor shunt sensor bidirectional
+F http://www.ti.com/lit/ds/symlink/ina4181.pdf
+$ENDCMP
+#
 $CMP PDQXX-D_DC-DC_converter
 D CUI PDQXX-D DC-DC converter, single channel
 K DC-DC, converter
+$ENDCMP
+#
+$CMP REF20xx
+D REF20xx Low-Drift, Low-Power, Dual-Output, VREF and VREF / 2 Voltage References
+K voltage reference
+F http://www.ti.com/lit/ds/symlink/ref2033.pdf
 $ENDCMP
 #
 $CMP SW_SPST_LED
