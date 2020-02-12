@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:kicad-eboard-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -581,52 +582,6 @@ Wire Wire Line
 	10250 3550 10250 3500
 Wire Wire Line
 	10250 3500 10350 3500
-Text Label 3000 4450 2    50   ~ 0
-ENC2_X
-Text Label 3000 4550 2    50   ~ 0
-ENC2_A
-Text Label 3000 4650 2    50   ~ 0
-ENC2_B
-Wire Wire Line
-	2700 4550 3000 4550
-Wire Wire Line
-	2700 4450 3000 4450
-Wire Wire Line
-	2700 4650 3000 4650
-Text Label 3000 4150 2    50   ~ 0
-ENC3_X
-Text Label 3000 4350 2    50   ~ 0
-ENC3_A
-Text Label 3000 4250 2    50   ~ 0
-ENC3_B
-Wire Wire Line
-	2700 4250 3000 4250
-Wire Wire Line
-	2700 4150 3000 4150
-Wire Wire Line
-	2700 4350 3000 4350
-Wire Wire Line
-	2700 3900 3000 3900
-Wire Wire Line
-	2700 3800 3000 3800
-Wire Wire Line
-	2700 4000 3000 4000
-Text Label 3000 3800 2    50   ~ 0
-ENC4_X
-Text Label 3000 3900 2    50   ~ 0
-ENC4_A
-Text Label 3000 4000 2    50   ~ 0
-ENC4_B
-Wire Wire Line
-	2700 3600 3000 3600
-Wire Wire Line
-	2700 3700 3000 3700
-Text Label 3000 3500 2    50   ~ 0
-ENC5_X
-Text Label 3000 3600 2    50   ~ 0
-ENC5_A
-Text Label 3000 3700 2    50   ~ 0
-ENC5_B
 $Comp
 L power:+3.3V #PWR09
 U 1 1 5DA38219
@@ -883,176 +838,12 @@ F 3 "" H 4450 5550 50  0001 C CNN
 	1    4450 5550
 	1    0    0    -1  
 $EndComp
-$Comp
-L power:+5V #PWR055
-U 1 1 5DFFF186
-P 6600 2300
-F 0 "#PWR055" H 6600 2150 50  0001 C CNN
-F 1 "+5V" H 6600 2440 50  0000 C CNN
-F 2 "" H 6600 2300 50  0001 C CNN
-F 3 "" H 6600 2300 50  0001 C CNN
-	1    6600 2300
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 2300 6350 2300
-Text Label 6750 2400 0    50   ~ 0
-ENC1_X
-Text Label 6750 2600 0    50   ~ 0
-ENC1_B
-$Comp
-L power:GNDD #PWR042
-U 1 1 5E142949
-P 6450 2700
-F 0 "#PWR042" H 6450 2450 50  0001 C CNN
-F 1 "GNDD" H 6450 2575 50  0000 C CNN
-F 2 "" H 6450 2700 50  0001 C CNN
-F 3 "" H 6450 2700 50  0001 C CNN
-	1    6450 2700
-	1    0    0    -1  
-$EndComp
-Text Label 6750 2500 0    50   ~ 0
-ENC1_A
-Wire Wire Line
-	6450 2400 6350 2400
-Wire Wire Line
-	6350 2600 6450 2600
-Wire Wire Line
-	6350 2500 6450 2500
-Wire Wire Line
-	6750 2600 7150 2600
-Wire Wire Line
-	6750 2500 7150 2500
-Wire Wire Line
-	6750 2400 7150 2400
-Wire Wire Line
-	6350 2700 6450 2700
-$Comp
-L power:+5V #PWR056
-U 1 1 5E4427C2
-P 6600 2900
-F 0 "#PWR056" H 6600 2750 50  0001 C CNN
-F 1 "+5V" H 6600 3040 50  0000 C CNN
-F 2 "" H 6600 2900 50  0001 C CNN
-F 3 "" H 6600 2900 50  0001 C CNN
-	1    6600 2900
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 2900 6350 2900
-$Comp
-L power:GNDD #PWR043
-U 1 1 5E4427CB
-P 6450 3300
-F 0 "#PWR043" H 6450 3050 50  0001 C CNN
-F 1 "GNDD" H 6450 3175 50  0000 C CNN
-F 2 "" H 6450 3300 50  0001 C CNN
-F 3 "" H 6450 3300 50  0001 C CNN
-	1    6450 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 3000 6350 3000
-Wire Wire Line
-	6350 3200 6450 3200
-Wire Wire Line
-	6350 3100 6450 3100
-Wire Wire Line
-	6350 3300 6450 3300
-$Comp
-L power:+5V #PWR057
-U 1 1 5E453454
-P 6600 3500
-F 0 "#PWR057" H 6600 3350 50  0001 C CNN
-F 1 "+5V" H 6600 3640 50  0000 C CNN
-F 2 "" H 6600 3500 50  0001 C CNN
-F 3 "" H 6600 3500 50  0001 C CNN
-	1    6600 3500
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 3500 6350 3500
-$Comp
-L power:GNDD #PWR044
-U 1 1 5E45345D
-P 6450 3900
-F 0 "#PWR044" H 6450 3650 50  0001 C CNN
-F 1 "GNDD" H 6450 3775 50  0000 C CNN
-F 2 "" H 6450 3900 50  0001 C CNN
-F 3 "" H 6450 3900 50  0001 C CNN
-	1    6450 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 3600 6350 3600
-Wire Wire Line
-	6350 3800 6450 3800
-Wire Wire Line
-	6350 3700 6450 3700
-Wire Wire Line
-	6350 3900 6450 3900
-$Comp
-L power:+5V #PWR058
-U 1 1 5E4661FB
-P 6600 4100
-F 0 "#PWR058" H 6600 3950 50  0001 C CNN
-F 1 "+5V" H 6600 4240 50  0000 C CNN
-F 2 "" H 6600 4100 50  0001 C CNN
-F 3 "" H 6600 4100 50  0001 C CNN
-	1    6600 4100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR045
-U 1 1 5E466204
-P 6450 4500
-F 0 "#PWR045" H 6450 4250 50  0001 C CNN
-F 1 "GNDD" H 6450 4375 50  0000 C CNN
-F 2 "" H 6450 4500 50  0001 C CNN
-F 3 "" H 6450 4500 50  0001 C CNN
-	1    6450 4500
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 4200 6350 4200
-Wire Wire Line
-	6350 4400 6450 4400
-Wire Wire Line
-	6350 4300 6450 4300
-Wire Wire Line
-	6350 4500 6450 4500
-$Comp
-L power:+5V #PWR059
-U 1 1 5E4ADD1F
-P 6600 4700
-F 0 "#PWR059" H 6600 4550 50  0001 C CNN
-F 1 "+5V" H 6600 4840 50  0000 C CNN
-F 2 "" H 6600 4700 50  0001 C CNN
-F 3 "" H 6600 4700 50  0001 C CNN
-	1    6600 4700
-	-1   0    0    -1  
-$EndComp
-Wire Wire Line
-	6600 4700 6350 4700
-$Comp
-L power:GNDD #PWR054
-U 1 1 5E4ADD28
-P 6450 5100
-F 0 "#PWR054" H 6450 4850 50  0001 C CNN
-F 1 "GNDD" H 6450 4975 50  0000 C CNN
-F 2 "" H 6450 5100 50  0001 C CNN
-F 3 "" H 6450 5100 50  0001 C CNN
-	1    6450 5100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6450 4800 6350 4800
-Wire Wire Line
-	6350 5000 6450 5000
-Wire Wire Line
-	6350 4900 6450 4900
-Wire Wire Line
-	6350 5100 6450 5100
+Text Label 6800 4900 2    50   ~ 0
+ENC_A
+Text Label 6800 5100 2    50   ~ 0
+ENC_PWM
+Text Label 6800 5000 2    50   ~ 0
+ENC_B
 $Comp
 L 2019Spacehawks:Sabertooth2x60 U?
 U 1 1 5E4F833B
@@ -1108,36 +899,6 @@ Wire Wire Line
 Connection ~ 3800 4050
 Wire Wire Line
 	4000 6450 3800 6450
-Text Label 6750 3000 0    50   ~ 0
-ENC2_X
-Text Label 6750 3100 0    50   ~ 0
-ENC2_A
-Text Label 6750 3200 0    50   ~ 0
-ENC2_B
-Wire Wire Line
-	6750 3000 7150 3000
-Wire Wire Line
-	6750 3100 7150 3100
-Wire Wire Line
-	6750 3200 7150 3200
-Text Label 6750 3600 0    50   ~ 0
-ENC3_X
-Text Label 6750 3700 0    50   ~ 0
-ENC3_A
-Text Label 6750 3800 0    50   ~ 0
-ENC3_B
-Text Label 6750 4200 0    50   ~ 0
-ENC4_X
-Text Label 6750 4300 0    50   ~ 0
-ENC4_A
-Text Label 6750 4400 0    50   ~ 0
-ENC4_B
-Text Label 6750 4800 0    50   ~ 0
-ENC5_X
-Text Label 6750 4900 0    50   ~ 0
-ENC5_A
-Text Label 6750 5000 0    50   ~ 0
-ENC5_B
 Wire Wire Line
 	3400 5500 3500 5500
 Wire Wire Line
@@ -1211,25 +972,11 @@ F 3 "" H 3200 6400 50  0001 C CNN
 	1    3200 6400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	6750 3800 7150 3800
-Wire Wire Line
-	6750 4200 7150 4200
-Wire Wire Line
-	6750 4300 7150 4300
-Wire Wire Line
-	6750 4400 7150 4400
-Wire Wire Line
-	6750 4900 7150 4900
-Wire Wire Line
-	6750 5000 7150 5000
-Wire Wire Line
-	2700 3500 3000 3500
 $Comp
 L Motor:Motor_DC #M7
 U 1 1 5EA9C69C
 P 5500 6050
-F 0 "#M7" H 5600 5800 50  0000 L CNN
+F 0 "#M7" H 5200 5900 50  0000 L CNN
 F 1 "Lin_Actuator" H 5000 5850 50  0000 L TNN
 F 2 "" H 5500 5960 50  0001 C CNN
 F 3 "https://cdn.shopify.com/s/files/1/0615/2193/files/firgelli-feedback-rod-linear-actuator-spec-sheet.pdf?88045" H 5500 5960 50  0001 C CNN
@@ -1240,7 +987,7 @@ $Comp
 L Motor:Motor_DC #M8
 U 1 1 5EA9CC29
 P 5500 6650
-F 0 "#M8" H 5600 6400 50  0000 L CNN
+F 0 "#M8" H 5200 6500 50  0000 L CNN
 F 1 "Lin_Actuator" H 5000 6450 50  0000 L TNN
 F 2 "" H 5500 6560 50  0001 C CNN
 F 3 "https://cdn.shopify.com/s/files/1/0615/2193/files/firgelli-feedback-rod-linear-actuator-spec-sheet.pdf?88045" H 5500 6560 50  0001 C CNN
@@ -1250,89 +997,89 @@ $EndComp
 $Comp
 L power:+3.3V #PWR034
 U 1 1 5EAE198B
-P 5950 5400
-F 0 "#PWR034" H 5950 5250 50  0001 C CNN
-F 1 "+3.3V" H 5950 5540 50  0000 C CNN
-F 2 "" H 5950 5400 50  0001 C CNN
-F 3 "" H 5950 5400 50  0001 C CNN
-	1    5950 5400
+P 5700 5400
+F 0 "#PWR034" H 5700 5250 50  0001 C CNN
+F 1 "+3.3V" H 5700 5540 50  0000 C CNN
+F 2 "" H 5700 5400 50  0001 C CNN
+F 3 "" H 5700 5400 50  0001 C CNN
+	1    5700 5400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR035
 U 1 1 5EAE1991
-P 5950 5600
-F 0 "#PWR035" H 5950 5350 50  0001 C CNN
-F 1 "GNDD" H 5950 5475 50  0000 C CNN
-F 2 "" H 5950 5600 50  0001 C CNN
-F 3 "" H 5950 5600 50  0001 C CNN
-	1    5950 5600
+P 5700 5600
+F 0 "#PWR035" H 5700 5350 50  0001 C CNN
+F 1 "GNDD" H 5700 5475 50  0000 C CNN
+F 2 "" H 5700 5600 50  0001 C CNN
+F 3 "" H 5700 5600 50  0001 C CNN
+	1    5700 5600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR036
 U 1 1 5EAF824F
-P 5950 6000
-F 0 "#PWR036" H 5950 5850 50  0001 C CNN
-F 1 "+3.3V" H 5950 6140 50  0000 C CNN
-F 2 "" H 5950 6000 50  0001 C CNN
-F 3 "" H 5950 6000 50  0001 C CNN
-	1    5950 6000
+P 5700 6000
+F 0 "#PWR036" H 5700 5850 50  0001 C CNN
+F 1 "+3.3V" H 5700 6140 50  0000 C CNN
+F 2 "" H 5700 6000 50  0001 C CNN
+F 3 "" H 5700 6000 50  0001 C CNN
+	1    5700 6000
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR037
 U 1 1 5EAF8255
-P 5950 6200
-F 0 "#PWR037" H 5950 5950 50  0001 C CNN
-F 1 "GNDD" H 5950 6075 50  0000 C CNN
-F 2 "" H 5950 6200 50  0001 C CNN
-F 3 "" H 5950 6200 50  0001 C CNN
-	1    5950 6200
+P 5700 6200
+F 0 "#PWR037" H 5700 5950 50  0001 C CNN
+F 1 "GNDD" H 5700 6075 50  0000 C CNN
+F 2 "" H 5700 6200 50  0001 C CNN
+F 3 "" H 5700 6200 50  0001 C CNN
+	1    5700 6200
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT_Small RV4
 U 1 1 5EAF825B
-P 5950 6100
-F 0 "RV4" V 5775 6100 50  0000 C CNN
-F 1 "10K" V 5850 6100 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 5950 6100 50  0001 C CNN
-F 3 "~" H 5950 6100 50  0001 C CNN
-	1    5950 6100
+P 5700 6100
+F 0 "RV4" H 5825 6175 50  0000 C CNN
+F 1 "10K" H 5825 6050 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 5700 6100 50  0001 C CNN
+F 3 "~" H 5700 6100 50  0001 C CNN
+	1    5700 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR038
 U 1 1 5EB0EB1B
-P 5950 6600
-F 0 "#PWR038" H 5950 6450 50  0001 C CNN
-F 1 "+3.3V" H 5950 6740 50  0000 C CNN
-F 2 "" H 5950 6600 50  0001 C CNN
-F 3 "" H 5950 6600 50  0001 C CNN
-	1    5950 6600
+P 5700 6600
+F 0 "#PWR038" H 5700 6450 50  0001 C CNN
+F 1 "+3.3V" H 5700 6740 50  0000 C CNN
+F 2 "" H 5700 6600 50  0001 C CNN
+F 3 "" H 5700 6600 50  0001 C CNN
+	1    5700 6600
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR039
 U 1 1 5EB0EB21
-P 5950 6800
-F 0 "#PWR039" H 5950 6550 50  0001 C CNN
-F 1 "GNDD" H 5950 6675 50  0000 C CNN
-F 2 "" H 5950 6800 50  0001 C CNN
-F 3 "" H 5950 6800 50  0001 C CNN
-	1    5950 6800
+P 5700 6800
+F 0 "#PWR039" H 5700 6550 50  0001 C CNN
+F 1 "GNDD" H 5700 6675 50  0000 C CNN
+F 2 "" H 5700 6800 50  0001 C CNN
+F 3 "" H 5700 6800 50  0001 C CNN
+	1    5700 6800
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R_POT_Small RV5
 U 1 1 5EB0EB27
-P 5950 6700
-F 0 "RV5" V 5775 6700 50  0000 C CNN
-F 1 "10K" V 5850 6700 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 5950 6700 50  0001 C CNN
-F 3 "~" H 5950 6700 50  0001 C CNN
-	1    5950 6700
+P 5700 6700
+F 0 "RV5" H 5825 6775 50  0000 C CNN
+F 1 "10K" H 5825 6650 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 5700 6700 50  0001 C CNN
+F 3 "~" H 5700 6700 50  0001 C CNN
+	1    5700 6700
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1349,7 +1096,7 @@ AR Path="/5D9B81A7/5EB6AEB7" Ref="M?"  Part="1"
 AR Path="/5DFA76F5/5EB6AEB7" Ref="M?"  Part="1" 
 AR Path="/5DFB097B/5EB6AEB7" Ref="M?"  Part="1" 
 AR Path="/5EB6AEB7" Ref="#M5"  Part="1" 
-F 0 "#M5" H 5550 4950 50  0000 L CNN
+F 0 "#M5" H 5200 4700 50  0000 L CNN
 F 1 "Digger_Motor" H 5000 4650 50  0000 L TNN
 F 2 "" H 5500 4760 50  0001 C CNN
 F 3 "~" H 5500 4760 50  0001 C CNN
@@ -1370,7 +1117,7 @@ AR Path="/5D9B81A7/5EB988EA" Ref="M?"  Part="1"
 AR Path="/5DFA76F5/5EB988EA" Ref="M?"  Part="1" 
 AR Path="/5DFB097B/5EB988EA" Ref="M?"  Part="1" 
 AR Path="/5EB988EA" Ref="#M1"  Part="1" 
-F 0 "#M1" H 5550 2550 50  0000 L CNN
+F 0 "#M1" H 5200 2300 50  0000 L CNN
 F 1 "Motor_DC" H 5100 2250 50  0000 L TNN
 F 2 "" H 5500 2360 50  0001 C CNN
 F 3 "~" H 5500 2360 50  0001 C CNN
@@ -1393,8 +1140,6 @@ F 3 "" H 1500 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 NoConn ~ 2700 5500
-Wire Wire Line
-	6750 3700 7150 3700
 $Comp
 L Motor:Motor_DC M?
 U 1 1 5EB98646
@@ -1409,7 +1154,7 @@ AR Path="/5D9B81A7/5EB98646" Ref="M?"  Part="1"
 AR Path="/5DFA76F5/5EB98646" Ref="M?"  Part="1" 
 AR Path="/5DFB097B/5EB98646" Ref="M?"  Part="1" 
 AR Path="/5EB98646" Ref="#M4"  Part="1" 
-F 0 "#M4" H 5550 4350 50  0000 L CNN
+F 0 "#M4" H 5200 4100 50  0000 L CNN
 F 1 "Motor_DC" H 5100 4050 50  0000 L TNN
 F 2 "" H 5500 4160 50  0001 C CNN
 F 3 "~" H 5500 4160 50  0001 C CNN
@@ -1430,7 +1175,7 @@ AR Path="/5D9B81A7/5EB98726" Ref="M?"  Part="1"
 AR Path="/5DFA76F5/5EB98726" Ref="M?"  Part="1" 
 AR Path="/5DFB097B/5EB98726" Ref="M?"  Part="1" 
 AR Path="/5EB98726" Ref="#M3"  Part="1" 
-F 0 "#M3" H 5550 3750 50  0000 L CNN
+F 0 "#M3" H 5200 3500 50  0000 L CNN
 F 1 "Motor_DC" H 5100 3450 50  0000 L TNN
 F 2 "" H 5500 3560 50  0001 C CNN
 F 3 "~" H 5500 3560 50  0001 C CNN
@@ -1451,72 +1196,12 @@ AR Path="/5D9B81A7/5EB98806" Ref="M?"  Part="1"
 AR Path="/5DFA76F5/5EB98806" Ref="M?"  Part="1" 
 AR Path="/5DFB097B/5EB98806" Ref="M?"  Part="1" 
 AR Path="/5EB98806" Ref="#M2"  Part="1" 
-F 0 "#M2" H 5550 3150 50  0000 L CNN
+F 0 "#M2" H 5200 2900 50  0000 L CNN
 F 1 "Motor_DC" H 5100 2850 50  0000 L TNN
 F 2 "" H 5500 2960 50  0001 C CNN
 F 3 "~" H 5500 2960 50  0001 C CNN
 	1    5500 3050
 	1    0    0    -1  
-$EndComp
-$Comp
-L 2019Spacehawks:AMT10_Encoder SW?
-U 1 1 5DE14D39
-P 6000 3700
-AR Path="/5D9AC27F/5DE14D39" Ref="SW?"  Part="1" 
-AR Path="/5D9BDACA/5DE14D39" Ref="SW?"  Part="1" 
-AR Path="/5D9ACC15/5DE14D39" Ref="SW?"  Part="1" 
-AR Path="/5D9ACC1B/5DE14D39" Ref="SW?"  Part="1" 
-AR Path="/5D9B81A1/5DE14D39" Ref="SW?"  Part="1" 
-AR Path="/5D9B81A7/5DE14D39" Ref="SW?"  Part="1" 
-AR Path="/5DFA76F5/5DE14D39" Ref="SW?"  Part="1" 
-AR Path="/5DFB097B/5DE14D39" Ref="SW?"  Part="1" 
-AR Path="/5DE14D39" Ref="SW8"  Part="1" 
-F 0 "SW8" H 6325 3925 50  0000 C CNN
-F 1 "AMT10_Encoder" H 6000 4000 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 5775 3610 50  0001 C CNN
-F 3 "~" H 5625 3710 50  0001 C CNN
-	1    6000 3700
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 2019Spacehawks:AMT10_Encoder SW?
-U 1 1 5DE14E3D
-P 6000 4300
-AR Path="/5D9AC27F/5DE14E3D" Ref="SW?"  Part="1" 
-AR Path="/5D9BDACA/5DE14E3D" Ref="SW?"  Part="1" 
-AR Path="/5D9ACC15/5DE14E3D" Ref="SW?"  Part="1" 
-AR Path="/5D9ACC1B/5DE14E3D" Ref="SW?"  Part="1" 
-AR Path="/5D9B81A1/5DE14E3D" Ref="SW?"  Part="1" 
-AR Path="/5D9B81A7/5DE14E3D" Ref="SW?"  Part="1" 
-AR Path="/5DFA76F5/5DE14E3D" Ref="SW?"  Part="1" 
-AR Path="/5DFB097B/5DE14E3D" Ref="SW?"  Part="1" 
-AR Path="/5DE14E3D" Ref="SW9"  Part="1" 
-F 0 "SW9" H 6325 4525 50  0000 C CNN
-F 1 "AMT10_Encoder" H 6000 4600 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 5775 4210 50  0001 C CNN
-F 3 "~" H 5625 4310 50  0001 C CNN
-	1    6000 4300
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 2019Spacehawks:AMT10_Encoder SW?
-U 1 1 5DE14F47
-P 6000 4900
-AR Path="/5D9AC27F/5DE14F47" Ref="SW?"  Part="1" 
-AR Path="/5D9BDACA/5DE14F47" Ref="SW?"  Part="1" 
-AR Path="/5D9ACC15/5DE14F47" Ref="SW?"  Part="1" 
-AR Path="/5D9ACC1B/5DE14F47" Ref="SW?"  Part="1" 
-AR Path="/5D9B81A1/5DE14F47" Ref="SW?"  Part="1" 
-AR Path="/5D9B81A7/5DE14F47" Ref="SW?"  Part="1" 
-AR Path="/5DFA76F5/5DE14F47" Ref="SW?"  Part="1" 
-AR Path="/5DFB097B/5DE14F47" Ref="SW?"  Part="1" 
-AR Path="/5DE14F47" Ref="SW10"  Part="1" 
-F 0 "SW10" H 6325 5125 50  0000 C CNN
-F 1 "AMT10_Encoder" H 6000 5200 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 5775 4810 50  0001 C CNN
-F 3 "~" H 5625 4910 50  0001 C CNN
-	1    6000 4900
-	-1   0    0    -1  
 $EndComp
 $Comp
 L Connector:TestPoint TP4
@@ -1676,46 +1361,6 @@ F 3 "~" H 9850 5650 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L 2019Spacehawks:AMT10_Encoder SW?
-U 1 1 5DE14C37
-P 6000 3100
-AR Path="/5D9AC27F/5DE14C37" Ref="SW?"  Part="1" 
-AR Path="/5D9BDACA/5DE14C37" Ref="SW?"  Part="1" 
-AR Path="/5D9ACC15/5DE14C37" Ref="SW?"  Part="1" 
-AR Path="/5D9ACC1B/5DE14C37" Ref="SW?"  Part="1" 
-AR Path="/5D9B81A1/5DE14C37" Ref="SW?"  Part="1" 
-AR Path="/5D9B81A7/5DE14C37" Ref="SW?"  Part="1" 
-AR Path="/5DFA76F5/5DE14C37" Ref="SW?"  Part="1" 
-AR Path="/5DFB097B/5DE14C37" Ref="SW?"  Part="1" 
-AR Path="/5DE14C37" Ref="SW7"  Part="1" 
-F 0 "SW7" H 6325 3325 50  0000 C CNN
-F 1 "AMT10_Encoder" H 6000 3400 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 5775 3010 50  0001 C CNN
-F 3 "~" H 5625 3110 50  0001 C CNN
-	1    6000 3100
-	-1   0    0    -1  
-$EndComp
-$Comp
-L 2019Spacehawks:AMT10_Encoder SW?
-U 1 1 5DFEECCD
-P 6000 2500
-AR Path="/5D9AC27F/5DFEECCD" Ref="SW?"  Part="1" 
-AR Path="/5D9BDACA/5DFEECCD" Ref="SW?"  Part="1" 
-AR Path="/5D9ACC15/5DFEECCD" Ref="SW?"  Part="1" 
-AR Path="/5D9ACC1B/5DFEECCD" Ref="SW?"  Part="1" 
-AR Path="/5D9B81A1/5DFEECCD" Ref="SW?"  Part="1" 
-AR Path="/5D9B81A7/5DFEECCD" Ref="SW?"  Part="1" 
-AR Path="/5DFA76F5/5DFEECCD" Ref="SW?"  Part="1" 
-AR Path="/5DFB097B/5DFEECCD" Ref="SW?"  Part="1" 
-AR Path="/5DFEECCD" Ref="SW6"  Part="1" 
-F 0 "SW6" H 6325 2725 50  0000 C CNN
-F 1 "AMT10_Encoder" H 6000 2800 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B5B-XH-A_1x05_P2.50mm_Vertical" H 5775 2410 50  0001 C CNN
-F 3 "~" H 5625 2510 50  0001 C CNN
-	1    6000 2500
-	-1   0    0    -1  
-$EndComp
-$Comp
 L Connector_Generic:Conn_01x02 J1
 U 1 1 5DCDEFD2
 P 10900 6150
@@ -1858,18 +1503,6 @@ F 3 "" H 7950 1050 50  0001 C CNN
 	1    7950 1100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2700 4800 3000 4800
-Text Label 3000 4800 2    50   ~ 0
-ENC1_X
-Wire Wire Line
-	2700 5000 3000 5000
-Wire Wire Line
-	2700 4900 3000 4900
-Text Label 3000 5000 2    50   ~ 0
-ENC1_B
-Text Label 3000 4900 2    50   ~ 0
-ENC1_A
 Wire Wire Line
 	8700 800  8800 800 
 Wire Wire Line
@@ -2040,7 +1673,7 @@ SCL
 Wire Wire Line
 	7200 6000 7350 6000
 Wire Wire Line
-	6050 5500 6150 5500
+	5800 5500 6150 5500
 $Comp
 L Device:R R?
 U 1 1 5E5BBB0B
@@ -2102,19 +1735,19 @@ $EndComp
 $Comp
 L Device:R_POT_Small RV3
 U 1 1 5EAE1997
-P 5950 5500
-F 0 "RV3" V 5775 5500 50  0000 C CNN
-F 1 "10K" V 5850 5500 50  0000 C CNN
-F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 5950 5500 50  0001 C CNN
-F 3 "~" H 5950 5500 50  0001 C CNN
-	1    5950 5500
+P 5700 5500
+F 0 "RV3" H 5825 5575 50  0000 C CNN
+F 1 "10K" H 5825 5425 50  0000 C CNN
+F 2 "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical" H 5700 5500 50  0001 C CNN
+F 3 "~" H 5700 5500 50  0001 C CNN
+	1    5700 5500
 	1    0    0    -1  
 $EndComp
 $Comp
 L Motor:Motor_DC #M6
 U 1 1 5E53431B
 P 5500 5450
-F 0 "#M6" H 5600 5200 50  0000 L CNN
+F 0 "#M6" H 5200 5300 50  0000 L CNN
 F 1 "Lin_Actuator" H 5000 5250 50  0000 L TNN
 F 2 "" H 5500 5360 50  0001 C CNN
 F 3 "https://cdn.shopify.com/s/files/1/0615/2193/files/firgelli-feedback-rod-linear-actuator-spec-sheet.pdf?88045" H 5500 5360 50  0001 C CNN
@@ -2302,467 +1935,6 @@ $EndComp
 Connection ~ 5800 1400
 Wire Wire Line
 	5300 1400 5800 1400
-Wire Wire Line
-	6750 4800 7150 4800
-$Comp
-L power:GNDD #PWR061
-U 1 1 5E442811
-P 7525 3300
-F 0 "#PWR061" H 7525 3050 50  0001 C CNN
-F 1 "GNDD" H 7525 3175 50  0000 C CNN
-F 2 "" H 7525 3300 50  0001 C CNN
-F 3 "" H 7525 3300 50  0001 C CNN
-	1    7525 3300
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	6750 3600 7150 3600
-Wire Wire Line
-	7450 3600 7525 3600
-$Comp
-L power:GNDD #PWR064
-U 1 1 5E4ADD6E
-P 7525 5100
-F 0 "#PWR064" H 7525 4850 50  0001 C CNN
-F 1 "GNDD" H 7525 4975 50  0000 C CNN
-F 2 "" H 7525 5100 50  0001 C CNN
-F 3 "" H 7525 5100 50  0001 C CNN
-	1    7525 5100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR063
-U 1 1 5E46624A
-P 7525 4500
-F 0 "#PWR063" H 7525 4250 50  0001 C CNN
-F 1 "GNDD" H 7525 4375 50  0000 C CNN
-F 2 "" H 7525 4500 50  0001 C CNN
-F 3 "" H 7525 4500 50  0001 C CNN
-	1    7525 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDD #PWR062
-U 1 1 5E4534A3
-P 7525 3900
-F 0 "#PWR062" H 7525 3650 50  0001 C CNN
-F 1 "GNDD" H 7525 3775 50  0000 C CNN
-F 2 "" H 7525 3900 50  0001 C CNN
-F 3 "" H 7525 3900 50  0001 C CNN
-	1    7525 3900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 4800 7525 4800
-Wire Wire Line
-	7525 4800 7525 4900
-Connection ~ 7525 4900
-Wire Wire Line
-	7525 4900 7450 4900
-Wire Wire Line
-	7525 5000 7525 5100
-Wire Wire Line
-	7525 4900 7525 5000
-Connection ~ 7525 5000
-Wire Wire Line
-	7450 5000 7525 5000
-Wire Wire Line
-	7450 4200 7525 4200
-Wire Wire Line
-	7525 4200 7525 4300
-Connection ~ 7525 4300
-Wire Wire Line
-	7525 4300 7450 4300
-Wire Wire Line
-	7525 4400 7525 4500
-Wire Wire Line
-	7525 4300 7525 4400
-Connection ~ 7525 4400
-Wire Wire Line
-	7450 4400 7525 4400
-Wire Wire Line
-	7525 3600 7525 3700
-Connection ~ 7525 3700
-Wire Wire Line
-	7525 3700 7450 3700
-Wire Wire Line
-	7525 3800 7525 3900
-Wire Wire Line
-	7525 3700 7525 3800
-Connection ~ 7525 3800
-Wire Wire Line
-	7450 3800 7525 3800
-Wire Wire Line
-	7450 3000 7525 3000
-Wire Wire Line
-	7525 3000 7525 3100
-Connection ~ 7525 3100
-Wire Wire Line
-	7525 3100 7450 3100
-Wire Wire Line
-	7525 3200 7525 3300
-Wire Wire Line
-	7525 3100 7525 3200
-Connection ~ 7525 3200
-Wire Wire Line
-	7450 3200 7525 3200
-$Comp
-L power:GNDD #PWR060
-U 1 1 5E3BD1F8
-P 7525 2700
-F 0 "#PWR060" H 7525 2450 50  0001 C CNN
-F 1 "GNDD" H 7525 2575 50  0000 C CNN
-F 2 "" H 7525 2700 50  0001 C CNN
-F 3 "" H 7525 2700 50  0001 C CNN
-	1    7525 2700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 2400 7525 2400
-Wire Wire Line
-	7525 2400 7525 2500
-Connection ~ 7525 2500
-Wire Wire Line
-	7525 2500 7450 2500
-Wire Wire Line
-	7525 2600 7525 2700
-Wire Wire Line
-	7525 2500 7525 2600
-Connection ~ 7525 2600
-Wire Wire Line
-	7450 2600 7525 2600
-$Comp
-L Device:R_Pack04_Split R3
-U 1 1 5EAD4BAF
-P 6600 2400
-F 0 "R3" V 6550 2200 50  0000 C CNN
-F 1 "47k" V 6600 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 2400 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 2400 50  0001 C CNN
-	1    6600 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R3
-U 2 1 5EAD4BB5
-P 6600 2500
-F 0 "R3" V 6550 2300 50  0000 C CNN
-F 1 "47k" V 6600 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 2500 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 2500 50  0001 C CNN
-	2    6600 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R3
-U 3 1 5EAD4BBB
-P 6600 2600
-F 0 "R3" V 6550 2400 50  0000 C CNN
-F 1 "47k" V 6600 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 2600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 2600 50  0001 C CNN
-	3    6600 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R3
-U 4 1 5EAEC614
-P 6600 3000
-F 0 "R3" V 6550 2800 50  0000 C CNN
-F 1 "47k" V 6600 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 3000 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 3000 50  0001 C CNN
-	4    6600 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R4
-U 1 1 5EB1BAAC
-P 6600 3100
-F 0 "R4" V 6550 2900 50  0000 C CNN
-F 1 "47k" V 6600 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 3100 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 3100 50  0001 C CNN
-	1    6600 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R4
-U 2 1 5EB1BAB2
-P 6600 3200
-F 0 "R4" V 6550 3000 50  0000 C CNN
-F 1 "47k" V 6600 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 3200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 3200 50  0001 C CNN
-	2    6600 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R4
-U 3 1 5EB1BAB8
-P 6600 3600
-F 0 "R4" V 6550 3400 50  0000 C CNN
-F 1 "47k" V 6600 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 3600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 3600 50  0001 C CNN
-	3    6600 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R4
-U 4 1 5EB1BABE
-P 6600 3700
-F 0 "R4" V 6550 3500 50  0000 C CNN
-F 1 "47k" V 6600 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 3700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 3700 50  0001 C CNN
-	4    6600 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R5
-U 1 1 5EB7AD5A
-P 6600 3800
-F 0 "R5" V 6550 3600 50  0000 C CNN
-F 1 "47k" V 6600 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 3800 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 3800 50  0001 C CNN
-	1    6600 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R5
-U 2 1 5EB7AD60
-P 6600 4200
-F 0 "R5" V 6550 4000 50  0000 C CNN
-F 1 "47k" V 6600 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 4200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 4200 50  0001 C CNN
-	2    6600 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R5
-U 3 1 5EB7AD66
-P 6600 4300
-F 0 "R5" V 6550 4100 50  0000 C CNN
-F 1 "47k" V 6600 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 4300 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 4300 50  0001 C CNN
-	3    6600 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R5
-U 4 1 5EB7AD6C
-P 6600 4400
-F 0 "R5" V 6550 4200 50  0000 C CNN
-F 1 "47k" V 6600 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 4400 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6600 4400 50  0001 C CNN
-	4    6600 4400
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	6350 4100 6600 4100
-$Comp
-L Device:R_Pack04_Split R6
-U 1 1 5EBAA799
-P 6600 4800
-F 0 "R6" V 6550 4600 50  0000 C CNN
-F 1 "47k" V 6600 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 4800 50  0001 C CNN
-F 3 "~" H 6600 4800 50  0001 C CNN
-	1    6600 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R6
-U 2 1 5EBAA79F
-P 6600 4900
-F 0 "R6" V 6550 4700 50  0000 C CNN
-F 1 "47k" V 6600 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 4900 50  0001 C CNN
-F 3 "~" H 6600 4900 50  0001 C CNN
-	2    6600 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R6
-U 3 1 5EBAA7A5
-P 6600 5000
-F 0 "R6" V 6550 4800 50  0000 C CNN
-F 1 "47k" V 6600 5000 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6530 5000 50  0001 C CNN
-F 3 "~" H 6600 5000 50  0001 C CNN
-	3    6600 5000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R7
-U 1 1 5EBDAAAC
-P 7300 2400
-F 0 "R7" V 7250 2200 50  0000 C CNN
-F 1 "91k" V 7300 2400 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 2400 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 2400 50  0001 C CNN
-	1    7300 2400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R7
-U 2 1 5EBDAAB2
-P 7300 2500
-F 0 "R7" V 7250 2300 50  0000 C CNN
-F 1 "91k" V 7300 2500 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 2500 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 2500 50  0001 C CNN
-	2    7300 2500
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R7
-U 3 1 5EBDAAB8
-P 7300 2600
-F 0 "R7" V 7250 2400 50  0000 C CNN
-F 1 "91k" V 7300 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 2600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 2600 50  0001 C CNN
-	3    7300 2600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R7
-U 4 1 5EBDAABE
-P 7300 3000
-F 0 "R7" V 7250 2800 50  0000 C CNN
-F 1 "91k" V 7300 3000 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 3000 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 3000 50  0001 C CNN
-	4    7300 3000
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R8
-U 1 1 5EBF278D
-P 7300 3100
-F 0 "R8" V 7250 2900 50  0000 C CNN
-F 1 "91k" V 7300 3100 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 3100 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 3100 50  0001 C CNN
-	1    7300 3100
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R8
-U 2 1 5EBF2793
-P 7300 3200
-F 0 "R8" V 7250 3000 50  0000 C CNN
-F 1 "91k" V 7300 3200 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 3200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 3200 50  0001 C CNN
-	2    7300 3200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R8
-U 3 1 5EBF2799
-P 7300 3600
-F 0 "R8" V 7250 3400 50  0000 C CNN
-F 1 "91k" V 7300 3600 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 3600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 3600 50  0001 C CNN
-	3    7300 3600
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R8
-U 4 1 5EBF279F
-P 7300 3700
-F 0 "R8" V 7250 3500 50  0000 C CNN
-F 1 "91k" V 7300 3700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 3700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 3700 50  0001 C CNN
-	4    7300 3700
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R9
-U 1 1 5EC21CB7
-P 7300 3800
-F 0 "R9" V 7250 3600 50  0000 C CNN
-F 1 "91k" V 7300 3800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 3800 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 3800 50  0001 C CNN
-	1    7300 3800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R9
-U 2 1 5EC21CBD
-P 7300 4200
-F 0 "R9" V 7250 4000 50  0000 C CNN
-F 1 "91k" V 7300 4200 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 4200 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 4200 50  0001 C CNN
-	2    7300 4200
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R9
-U 3 1 5EC21CC3
-P 7300 4300
-F 0 "R9" V 7250 4100 50  0000 C CNN
-F 1 "91k" V 7300 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 4300 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 4300 50  0001 C CNN
-	3    7300 4300
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R9
-U 4 1 5EC21CC9
-P 7300 4400
-F 0 "R9" V 7250 4200 50  0000 C CNN
-F 1 "91k" V 7300 4400 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 4400 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 7300 4400 50  0001 C CNN
-	4    7300 4400
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R10
-U 1 1 5EC51224
-P 7300 4800
-F 0 "R10" V 7250 4600 50  0000 C CNN
-F 1 "91k" V 7300 4800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 4800 50  0001 C CNN
-F 3 "~" H 7300 4800 50  0001 C CNN
-	1    7300 4800
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R10
-U 2 1 5EC5122A
-P 7300 4900
-F 0 "R10" V 7250 4700 50  0000 C CNN
-F 1 "91k" V 7300 4900 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 4900 50  0001 C CNN
-F 3 "~" H 7300 4900 50  0001 C CNN
-	2    7300 4900
-	0    1    1    0   
-$EndComp
-$Comp
-L Device:R_Pack04_Split R10
-U 3 1 5EC51230
-P 7300 5000
-F 0 "R10" V 7250 4800 50  0000 C CNN
-F 1 "91k" V 7300 5000 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 7230 5000 50  0001 C CNN
-F 3 "~" H 7300 5000 50  0001 C CNN
-	3    7300 5000
-	0    1    1    0   
-$EndComp
 $Comp
 L Device:CircuitBreaker_1P #CB?
 U 1 1 5E5E2778
@@ -2914,7 +2086,7 @@ Wire Notes Line
 Wire Wire Line
 	6150 6700 6150 6200
 Wire Wire Line
-	6150 6700 6050 6700
+	6150 6700 5800 6700
 $Comp
 L Device:Voltmeter_DC #MES?
 U 1 1 5EFE4946
@@ -2968,7 +2140,7 @@ L Device:R R?
 U 1 1 5F218FE4
 P 5250 2250
 F 0 "R?" V 5330 2250 50  0000 C CNN
-F 1 "0.01" V 5250 2250 50  0000 C CNN
+F 1 ".25m" V 5250 2250 50  0000 C CNN
 F 2 "" V 5180 2250 50  0001 C CNN
 F 3 "~" H 5250 2250 50  0001 C CNN
 	1    5250 2250
@@ -2987,7 +2159,7 @@ L Device:R R?
 U 1 1 5F307095
 P 5250 2850
 F 0 "R?" V 5330 2850 50  0000 C CNN
-F 1 "0.01" V 5250 2850 50  0000 C CNN
+F 1 ".25m" V 5250 2850 50  0000 C CNN
 F 2 "" V 5180 2850 50  0001 C CNN
 F 3 "~" H 5250 2850 50  0001 C CNN
 	1    5250 2850
@@ -3027,7 +2199,7 @@ L Device:R R?
 U 1 1 5F695CD5
 P 5250 3450
 F 0 "R?" V 5330 3450 50  0000 C CNN
-F 1 "0.01" V 5250 3450 50  0000 C CNN
+F 1 ".25m" V 5250 3450 50  0000 C CNN
 F 2 "" V 5180 3450 50  0001 C CNN
 F 3 "~" H 5250 3450 50  0001 C CNN
 	1    5250 3450
@@ -3042,7 +2214,7 @@ L Device:R R?
 U 1 1 5F6B10DD
 P 5250 4050
 F 0 "R?" V 5330 4050 50  0000 C CNN
-F 1 "0.01" V 5250 4050 50  0000 C CNN
+F 1 ".25m" V 5250 4050 50  0000 C CNN
 F 2 "" V 5180 4050 50  0001 C CNN
 F 3 "~" H 5250 4050 50  0001 C CNN
 	1    5250 4050
@@ -3059,7 +2231,7 @@ L Device:R R?
 U 1 1 5F6CC49A
 P 5250 4650
 F 0 "R?" V 5330 4650 50  0000 C CNN
-F 1 "0.01" V 5250 4650 50  0000 C CNN
+F 1 ".25m" V 5250 4650 50  0000 C CNN
 F 2 "" V 5180 4650 50  0001 C CNN
 F 3 "~" H 5250 4650 50  0001 C CNN
 	1    5250 4650
@@ -3080,7 +2252,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 3450 5500 3450
 Wire Wire Line
-	6050 6100 6400 6100
+	5800 6100 6400 6100
 Wire Wire Line
 	6300 5850 6300 5900
 $Comp
@@ -3097,12 +2269,12 @@ $EndComp
 $Comp
 L 2019Spacehawks:INA4181 U?
 U 1 1 5FABD6F0
-P 8250 3000
-F 0 "U?" H 8450 3550 50  0000 L CNN
-F 1 "INA4181" H 8250 3450 50  0000 L CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8300 3050 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina4181.pdf" H 8400 3150 50  0001 C CNN
-	1    8250 3000
+P 6300 2550
+F 0 "U?" H 6500 3100 50  0000 L CNN
+F 1 "INA4181" H 6300 3000 50  0000 L CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6350 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina4181.pdf" H 6450 2700 50  0001 C CNN
+	1    6300 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3158,76 +2330,76 @@ Wire Wire Line
 Wire Wire Line
 	9950 2950 9900 2950
 NoConn ~ 9900 3100
-Text Label 7900 2650 2    50   ~ 0
+Text Label 5800 2200 0    50   ~ 0
 M1+
-Text Label 7900 2750 2    50   ~ 0
+Text Label 5800 2300 0    50   ~ 0
 M1-
-Text Label 7900 2850 2    50   ~ 0
+Text Label 5800 2400 0    50   ~ 0
 M2+
-Text Label 7900 2950 2    50   ~ 0
+Text Label 5800 2500 0    50   ~ 0
 M2-
-Text Label 7900 3050 2    50   ~ 0
+Text Label 5800 2600 0    50   ~ 0
 M3+
-Text Label 7900 3150 2    50   ~ 0
+Text Label 5800 2700 0    50   ~ 0
 M3-
-Text Label 7900 3250 2    50   ~ 0
+Text Label 5800 2800 0    50   ~ 0
 M4+
-Text Label 7900 3350 2    50   ~ 0
+Text Label 5800 2900 0    50   ~ 0
 M4-
-Text Label 7900 4150 2    50   ~ 0
+Text Label 5800 3650 0    50   ~ 0
 M5-
-Text Label 7900 4050 2    50   ~ 0
+Text Label 5800 3550 0    50   ~ 0
 M5+
 $Comp
 L power:GNDD #PWR?
 U 1 1 5E6344DE
-P 8250 3500
-F 0 "#PWR?" H 8250 3250 50  0001 C CNN
-F 1 "GNDD" H 8250 3375 50  0000 C CNN
-F 2 "" H 8250 3500 50  0001 C CNN
-F 3 "" H 8250 3500 50  0001 C CNN
-	1    8250 3500
+P 6300 3050
+F 0 "#PWR?" H 6300 2800 50  0001 C CNN
+F 1 "GNDD" H 6300 2925 50  0000 C CNN
+F 2 "" H 6300 3050 50  0001 C CNN
+F 3 "" H 6300 3050 50  0001 C CNN
+	1    6300 3050
 	1    0    0    -1  
 $EndComp
 $Comp
 L 2019Spacehawks:+1.65V #PWR?
 U 1 1 5E634864
-P 8700 2600
-F 0 "#PWR?" H 8700 2450 50  0001 C CNN
-F 1 "+1.65V" H 8700 2740 50  0000 C CNN
-F 2 "" H 8700 2600 50  0001 C CNN
-F 3 "" H 8700 2600 50  0001 C CNN
-	1    8700 2600
+P 6750 2150
+F 0 "#PWR?" H 6750 2000 50  0001 C CNN
+F 1 "+1.65V" H 6750 2290 50  0000 C CNN
+F 2 "" H 6750 2150 50  0001 C CNN
+F 3 "" H 6750 2150 50  0001 C CNN
+	1    6750 2150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8700 2600 8700 2650
+	6750 2150 6750 2200
 Wire Wire Line
-	8700 2950 8600 2950
+	6750 2500 6650 2500
 Wire Wire Line
-	8600 2850 8700 2850
-Connection ~ 8700 2850
+	6650 2400 6750 2400
+Connection ~ 6750 2400
 Wire Wire Line
-	8700 2850 8700 2950
+	6750 2400 6750 2500
 Wire Wire Line
-	8700 2750 8600 2750
-Connection ~ 8700 2750
+	6750 2300 6650 2300
+Connection ~ 6750 2300
 Wire Wire Line
-	8700 2750 8700 2850
+	6750 2300 6750 2400
 Wire Wire Line
-	8600 2650 8700 2650
-Connection ~ 8700 2650
+	6650 2200 6750 2200
+Connection ~ 6750 2200
 Wire Wire Line
-	8700 2650 8700 2750
+	6750 2200 6750 2300
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E6A9309
-P 8250 2500
-F 0 "#PWR?" H 8250 2350 50  0001 C CNN
-F 1 "+3.3V" H 8250 2640 50  0000 C CNN
-F 2 "" H 8250 2500 50  0001 C CNN
-F 3 "" H 8250 2500 50  0001 C CNN
-	1    8250 2500
+P 6300 2050
+F 0 "#PWR?" H 6300 1900 50  0001 C CNN
+F 1 "+3.3V" H 6300 2190 50  0000 C CNN
+F 2 "" H 6300 2050 50  0001 C CNN
+F 3 "" H 6300 2050 50  0001 C CNN
+	1    6300 2050
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3235,7 +2407,7 @@ L Device:R R?
 U 1 1 5E73A28C
 P 5250 5250
 F 0 "R?" V 5330 5250 50  0000 C CNN
-F 1 "0.01" V 5250 5250 50  0000 C CNN
+F 1 ".25m" V 5250 5250 50  0000 C CNN
 F 2 "" V 5180 5250 50  0001 C CNN
 F 3 "~" H 5250 5250 50  0001 C CNN
 	1    5250 5250
@@ -3248,7 +2420,7 @@ L Device:R R?
 U 1 1 5E73A57F
 P 5250 5850
 F 0 "R?" V 5330 5850 50  0000 C CNN
-F 1 "0.01" V 5250 5850 50  0000 C CNN
+F 1 ".25m" V 5250 5850 50  0000 C CNN
 F 2 "" V 5180 5850 50  0001 C CNN
 F 3 "~" H 5250 5850 50  0001 C CNN
 	1    5250 5850
@@ -3261,7 +2433,7 @@ L Device:R R?
 U 1 1 5E73A791
 P 5250 6450
 F 0 "R?" V 5330 6450 50  0000 C CNN
-F 1 "0.01" V 5250 6450 50  0000 C CNN
+F 1 ".25m" V 5250 6450 50  0000 C CNN
 F 2 "" V 5180 6450 50  0001 C CNN
 F 3 "~" H 5250 6450 50  0001 C CNN
 	1    5250 6450
@@ -3281,164 +2453,545 @@ Text Label 4950 6450 0    50   ~ 0
 M8+
 Text Label 5400 6450 0    50   ~ 0
 M8-
-Text Label 7900 4250 2    50   ~ 0
+Text Label 5800 3750 0    50   ~ 0
 M6+
-Text Label 7900 4350 2    50   ~ 0
+Text Label 5800 3850 0    50   ~ 0
 M6-
-Text Label 7900 4450 2    50   ~ 0
+Text Label 5800 3950 0    50   ~ 0
 M7+
-Text Label 7900 4550 2    50   ~ 0
+Text Label 5800 4050 0    50   ~ 0
 M7-
-Text Label 7900 4650 2    50   ~ 0
+Text Label 5800 4150 0    50   ~ 0
 M8+
-Text Label 7900 4750 2    50   ~ 0
+Text Label 5800 4250 0    50   ~ 0
 M8-
 $Comp
 L 2019Spacehawks:INA4181 U?
 U 1 1 5E75CB76
-P 8250 4400
-F 0 "U?" H 8400 4950 50  0000 L CNN
-F 1 "INA4181" H 8250 4850 50  0000 L CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 8300 4450 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina4181.pdf" H 8400 4550 50  0001 C CNN
-	1    8250 4400
+P 6300 3900
+F 0 "U?" H 6450 4450 50  0000 L CNN
+F 1 "INA4181" H 6300 4350 50  0000 L CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6350 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina4181.pdf" H 6450 4050 50  0001 C CNN
+	1    6300 3900
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5E77AB71
-P 8250 3900
-F 0 "#PWR?" H 8250 3750 50  0001 C CNN
-F 1 "+3.3V" H 8250 4040 50  0000 C CNN
-F 2 "" H 8250 3900 50  0001 C CNN
-F 3 "" H 8250 3900 50  0001 C CNN
-	1    8250 3900
+P 6300 3400
+F 0 "#PWR?" H 6300 3250 50  0001 C CNN
+F 1 "+3.3V" H 6300 3540 50  0000 C CNN
+F 2 "" H 6300 3400 50  0001 C CNN
+F 3 "" H 6300 3400 50  0001 C CNN
+	1    6300 3400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR?
 U 1 1 5E79847B
-P 8250 4900
-F 0 "#PWR?" H 8250 4650 50  0001 C CNN
-F 1 "GNDD" H 8250 4775 50  0000 C CNN
-F 2 "" H 8250 4900 50  0001 C CNN
-F 3 "" H 8250 4900 50  0001 C CNN
-	1    8250 4900
+P 6300 4400
+F 0 "#PWR?" H 6300 4150 50  0001 C CNN
+F 1 "GNDD" H 6300 4275 50  0000 C CNN
+F 2 "" H 6300 4400 50  0001 C CNN
+F 3 "" H 6300 4400 50  0001 C CNN
+	1    6300 4400
 	1    0    0    -1  
 $EndComp
 $Comp
 L 2019Spacehawks:+1.65V #PWR?
 U 1 1 5E798796
-P 8650 4000
-F 0 "#PWR?" H 8650 3850 50  0001 C CNN
-F 1 "+1.65V" H 8650 4140 50  0000 C CNN
-F 2 "" H 8650 4000 50  0001 C CNN
-F 3 "" H 8650 4000 50  0001 C CNN
-	1    8650 4000
+P 6700 3500
+F 0 "#PWR?" H 6700 3350 50  0001 C CNN
+F 1 "+1.65V" H 6700 3640 50  0000 C CNN
+F 2 "" H 6700 3500 50  0001 C CNN
+F 3 "" H 6700 3500 50  0001 C CNN
+	1    6700 3500
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8650 4000 8650 4050
+	6700 3500 6700 3550
 Wire Wire Line
-	8650 4350 8600 4350
+	6700 3850 6650 3850
 Wire Wire Line
-	8600 4250 8650 4250
-Connection ~ 8650 4250
+	6650 3750 6700 3750
+Connection ~ 6700 3750
 Wire Wire Line
-	8650 4250 8650 4350
+	6700 3750 6700 3850
 Wire Wire Line
-	8650 4150 8600 4150
-Connection ~ 8650 4150
+	6700 3650 6650 3650
+Connection ~ 6700 3650
 Wire Wire Line
-	8650 4150 8650 4250
+	6700 3650 6700 3750
 Wire Wire Line
-	8600 4050 8650 4050
-Connection ~ 8650 4050
+	6650 3550 6700 3550
+Connection ~ 6700 3550
 Wire Wire Line
-	8650 4050 8650 4150
+	6700 3550 6700 3650
 $Comp
 L Analog_ADC:MCP3008 U?
 U 1 1 5E7B80AA
-P 9650 4350
-F 0 "U?" H 10100 4900 50  0000 C CNN
-F 1 "MCP3008" H 10050 4800 50  0000 C CNN
-F 2 "" H 9750 4450 50  0001 C CNN
-F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" H 9750 4450 50  0001 C CNN
-	1    9650 4350
+P 8700 3850
+F 0 "U?" H 9150 4400 50  0000 C CNN
+F 1 "MCP3008" H 9100 4300 50  0000 C CNN
+F 2 "" H 8800 3950 50  0001 C CNN
+F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21295d.pdf" H 8800 3950 50  0001 C CNN
+	1    8700 3850
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR?
 U 1 1 5E83A7A3
-P 9550 4950
-F 0 "#PWR?" H 9550 4700 50  0001 C CNN
-F 1 "GNDD" H 9550 4825 50  0000 C CNN
-F 2 "" H 9550 4950 50  0001 C CNN
-F 3 "" H 9550 4950 50  0001 C CNN
-	1    9550 4950
+P 8600 4450
+F 0 "#PWR?" H 8600 4200 50  0001 C CNN
+F 1 "GNDD" H 8600 4325 50  0000 C CNN
+F 2 "" H 8600 4450 50  0001 C CNN
+F 3 "" H 8600 4450 50  0001 C CNN
+	1    8600 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDD #PWR?
 U 1 1 5E83ABC2
-P 9850 4950
-F 0 "#PWR?" H 9850 4700 50  0001 C CNN
-F 1 "GNDD" H 9850 4825 50  0000 C CNN
-F 2 "" H 9850 4950 50  0001 C CNN
-F 3 "" H 9850 4950 50  0001 C CNN
-	1    9850 4950
+P 8900 4450
+F 0 "#PWR?" H 8900 4200 50  0001 C CNN
+F 1 "GNDD" H 8900 4325 50  0000 C CNN
+F 2 "" H 8900 4450 50  0001 C CNN
+F 3 "" H 8900 4450 50  0001 C CNN
+	1    8900 4450
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	8600 4750 9050 4750
+	8100 4150 7450 4150
 Wire Wire Line
-	9050 4650 8600 4650
+	6650 4050 6800 4050
 Wire Wire Line
-	8600 4550 9050 4550
+	6650 3950 6800 3950
 Wire Wire Line
-	8600 4450 9050 4450
+	8050 3550 8050 2600
 Wire Wire Line
-	9050 4050 9050 3050
+	8050 2600 7150 2600
 Wire Wire Line
-	9050 3050 8600 3050
+	6650 2700 6800 2700
 Wire Wire Line
-	8600 3150 8950 3150
+	7950 2700 7950 3650
 Wire Wire Line
-	8950 3150 8950 4150
+	7850 3750 7850 2800
 Wire Wire Line
-	8950 4150 9050 4150
+	7850 2800 7450 2800
 Wire Wire Line
-	9050 4250 8850 4250
+	6650 2900 6800 2900
 Wire Wire Line
-	8850 4250 8850 3250
-Wire Wire Line
-	8850 3250 8600 3250
-Wire Wire Line
-	8600 3350 8750 3350
-Wire Wire Line
-	8750 3350 8750 4350
-Wire Wire Line
-	8750 4350 9050 4350
+	7750 2900 7750 3850
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5EA8797E
-P 9550 3850
-F 0 "#PWR?" H 9550 3700 50  0001 C CNN
-F 1 "+3.3V" H 9550 3990 50  0000 C CNN
-F 2 "" H 9550 3850 50  0001 C CNN
-F 3 "" H 9550 3850 50  0001 C CNN
-	1    9550 3850
+P 8600 3350
+F 0 "#PWR?" H 8600 3200 50  0001 C CNN
+F 1 "+3.3V" H 8600 3490 50  0000 C CNN
+F 2 "" H 8600 3350 50  0001 C CNN
+F 3 "" H 8600 3350 50  0001 C CNN
+	1    8600 3350
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+3.3V #PWR?
 U 1 1 5EA88327
-P 9850 3850
-F 0 "#PWR?" H 9850 3700 50  0001 C CNN
-F 1 "+3.3V" H 9850 3990 50  0000 C CNN
-F 2 "" H 9850 3850 50  0001 C CNN
-F 3 "" H 9850 3850 50  0001 C CNN
-	1    9850 3850
+P 8900 3350
+F 0 "#PWR?" H 8900 3200 50  0001 C CNN
+F 1 "+3.3V" H 8900 3490 50  0000 C CNN
+F 2 "" H 8900 3350 50  0001 C CNN
+F 3 "" H 8900 3350 50  0001 C CNN
+	1    8900 3350
 	1    0    0    -1  
 $EndComp
+$Comp
+L 2019Spacehawks:SRX_Mag_Encoder SW?
+U 1 1 5FCA184F
+P 6100 4900
+F 0 "SW?" H 6150 5300 50  0000 C CNN
+F 1 "SRX_Encoder" H 6050 5200 50  0000 C CNN
+F 2 "" H 5875 4810 50  0001 C CNN
+F 3 "~" H 5725 4910 50  0001 C CNN
+	1    6100 4900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:+5V #PWR?
+U 1 1 5FCE34BD
+P 5900 4550
+F 0 "#PWR?" H 5900 4400 50  0001 C CNN
+F 1 "+5V" H 5900 4690 50  0000 C CNN
+F 2 "" H 5900 4550 50  0001 C CNN
+F 3 "" H 5900 4550 50  0001 C CNN
+	1    5900 4550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L power:GNDD #PWR?
+U 1 1 5FCE3570
+P 5900 5250
+F 0 "#PWR?" H 5900 5000 50  0001 C CNN
+F 1 "GNDD" H 5900 5125 50  0000 C CNN
+F 2 "" H 5900 5250 50  0001 C CNN
+F 3 "" H 5900 5250 50  0001 C CNN
+	1    5900 5250
+	1    0    0    -1  
+$EndComp
+Text Label 2950 4800 2    50   ~ 0
+ENC_A
+Text Label 3050 5000 2    50   ~ 0
+ENC_PWM
+Text Label 2950 4900 2    50   ~ 0
+ENC_B
+Wire Wire Line
+	5800 2200 5950 2200
+Wire Wire Line
+	5800 2300 5950 2300
+Wire Wire Line
+	5950 2400 5800 2400
+Wire Wire Line
+	5800 2500 5950 2500
+Wire Wire Line
+	5800 2600 5950 2600
+Wire Wire Line
+	5800 2700 5950 2700
+Wire Wire Line
+	5800 2800 5950 2800
+Wire Wire Line
+	5800 2900 5950 2900
+Wire Wire Line
+	5950 3550 5800 3550
+Wire Wire Line
+	5800 3650 5950 3650
+Wire Wire Line
+	5950 3750 5800 3750
+Wire Wire Line
+	5800 3850 5950 3850
+Wire Wire Line
+	5950 3950 5800 3950
+Wire Wire Line
+	5800 4050 5950 4050
+Wire Wire Line
+	5950 4150 5800 4150
+Wire Wire Line
+	5800 4250 5950 4250
+Wire Wire Line
+	2950 4800 2700 4800
+Wire Wire Line
+	2700 4900 2950 4900
+Wire Wire Line
+	3050 5000 2700 5000
+NoConn ~ 6450 4700
+NoConn ~ 6450 4800
+Wire Wire Line
+	6450 4900 6800 4900
+Wire Wire Line
+	6450 5000 6800 5000
+Wire Wire Line
+	6450 5100 6800 5100
+Text Notes 5450 2100 0    50   ~ 0
+gain is about 100x\n     at 24kHz PWM
+Text Notes 6450 4650 0    50   ~ 0
+.05" header
+Wire Wire Line
+	8050 3550 8100 3550
+$Comp
+L Device:C_Small C?
+U 1 1 602A3F86
+P 7600 4400
+F 0 "C?" H 7610 4470 50  0000 L CNN
+F 1 "10n" H 7610 4320 50  0000 L CNN
+F 2 "" H 7600 4400 50  0001 C CNN
+F 3 "~" H 7600 4400 50  0001 C CNN
+	1    7600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 602A4119
+P 7450 4400
+F 0 "C?" H 7460 4470 50  0000 L CNN
+F 1 "10n" H 7460 4320 50  0000 L CNN
+F 2 "" H 7450 4400 50  0001 C CNN
+F 3 "~" H 7450 4400 50  0001 C CNN
+	1    7450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 602A411F
+P 7300 4400
+F 0 "C?" H 7310 4470 50  0000 L CNN
+F 1 "10n" H 7310 4320 50  0000 L CNN
+F 2 "" H 7300 4400 50  0001 C CNN
+F 3 "~" H 7300 4400 50  0001 C CNN
+	1    7300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 602F9A32
+P 7150 4400
+F 0 "C?" H 7160 4470 50  0000 L CNN
+F 1 "10n" H 7160 4320 50  0000 L CNN
+F 2 "" H 7150 4400 50  0001 C CNN
+F 3 "~" H 7150 4400 50  0001 C CNN
+	1    7150 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 4300 7450 4150
+Connection ~ 7450 4150
+Wire Wire Line
+	7450 4150 7100 4150
+Wire Wire Line
+	7300 4300 7300 4050
+Connection ~ 7300 4050
+Wire Wire Line
+	7300 4050 8100 4050
+Wire Wire Line
+	7150 4300 7150 3950
+Connection ~ 7150 3950
+Wire Wire Line
+	7150 3950 8100 3950
+Wire Wire Line
+	6650 4250 6800 4250
+$Comp
+L Device:R_Pack04_Split R?
+U 1 1 604FADB7
+P 6950 3950
+F 0 "R?" V 6900 3750 50  0000 C CNN
+F 1 "100k" V 6950 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 3950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 3950 50  0001 C CNN
+	1    6950 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split R?
+U 2 1 604FADBD
+P 6950 4050
+F 0 "R?" V 6900 3850 50  0000 C CNN
+F 1 "100k" V 6950 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 4050 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 4050 50  0001 C CNN
+	2    6950 4050
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split R?
+U 3 1 604FADC3
+P 6950 4150
+F 0 "R?" V 6900 3950 50  0000 C CNN
+F 1 "100k" V 6950 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 4150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 4150 50  0001 C CNN
+	3    6950 4150
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split R?
+U 4 1 604FADC9
+P 6950 4250
+F 0 "R?" V 6900 4050 50  0000 C CNN
+F 1 "100k" V 6950 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 4250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 4250 50  0001 C CNN
+	4    6950 4250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 3950 7150 3950
+Wire Wire Line
+	7100 4050 7300 4050
+Wire Wire Line
+	6800 4150 6650 4150
+Wire Wire Line
+	7100 4250 7600 4250
+Wire Wire Line
+	7950 3650 8100 3650
+Wire Wire Line
+	7850 3750 8100 3750
+Wire Wire Line
+	7750 3850 8100 3850
+Wire Wire Line
+	7600 4300 7600 4250
+Connection ~ 7600 4250
+Wire Wire Line
+	7600 4250 8100 4250
+$Comp
+L power:GNDD #PWR?
+U 1 1 605C7D19
+P 7150 4550
+F 0 "#PWR?" H 7150 4300 50  0001 C CNN
+F 1 "GNDD" H 7150 4425 50  0000 C CNN
+F 2 "" H 7150 4550 50  0001 C CNN
+F 3 "" H 7150 4550 50  0001 C CNN
+	1    7150 4550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 4550 7150 4500
+Wire Wire Line
+	7150 4550 7300 4550
+Wire Wire Line
+	7600 4550 7600 4500
+Connection ~ 7150 4550
+Wire Wire Line
+	7450 4500 7450 4550
+Connection ~ 7450 4550
+Wire Wire Line
+	7450 4550 7600 4550
+Wire Wire Line
+	7300 4500 7300 4550
+Connection ~ 7300 4550
+Wire Wire Line
+	7300 4550 7450 4550
+$Comp
+L Device:C_Small C?
+U 1 1 60653C4F
+P 7600 3050
+F 0 "C?" H 7610 3120 50  0000 L CNN
+F 1 "10n" H 7610 2970 50  0000 L CNN
+F 2 "" H 7600 3050 50  0001 C CNN
+F 3 "~" H 7600 3050 50  0001 C CNN
+	1    7600 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60653C55
+P 7450 3050
+F 0 "C?" H 7460 3120 50  0000 L CNN
+F 1 "10n" H 7460 2970 50  0000 L CNN
+F 2 "" H 7450 3050 50  0001 C CNN
+F 3 "~" H 7450 3050 50  0001 C CNN
+	1    7450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60653C5B
+P 7300 3050
+F 0 "C?" H 7310 3120 50  0000 L CNN
+F 1 "10n" H 7310 2970 50  0000 L CNN
+F 2 "" H 7300 3050 50  0001 C CNN
+F 3 "~" H 7300 3050 50  0001 C CNN
+	1    7300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 60653C61
+P 7150 3050
+F 0 "C?" H 7160 3120 50  0000 L CNN
+F 1 "10n" H 7160 2970 50  0000 L CNN
+F 2 "" H 7150 3050 50  0001 C CNN
+F 3 "~" H 7150 3050 50  0001 C CNN
+	1    7150 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7450 2950 7450 2800
+Wire Wire Line
+	7450 2800 7100 2800
+Wire Wire Line
+	7300 2950 7300 2700
+Wire Wire Line
+	7150 2950 7150 2600
+$Comp
+L Device:R_Pack04_Split R?
+U 1 1 60653C70
+P 6950 2600
+F 0 "R?" V 6900 2400 50  0000 C CNN
+F 1 "100k" V 6950 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2600 50  0001 C CNN
+	1    6950 2600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split R?
+U 2 1 60653C76
+P 6950 2700
+F 0 "R?" V 6900 2500 50  0000 C CNN
+F 1 "100k" V 6950 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2700 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2700 50  0001 C CNN
+	2    6950 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split R?
+U 3 1 60653C7C
+P 6950 2800
+F 0 "R?" V 6900 2600 50  0000 C CNN
+F 1 "100k" V 6950 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2800 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2800 50  0001 C CNN
+	3    6950 2800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Pack04_Split R?
+U 4 1 60653C82
+P 6950 2900
+F 0 "R?" V 6900 2700 50  0000 C CNN
+F 1 "100k" V 6950 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2900 50  0001 C CNN
+	4    6950 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7100 2600 7150 2600
+Wire Wire Line
+	7100 2700 7300 2700
+Wire Wire Line
+	7100 2900 7600 2900
+Wire Wire Line
+	7600 2950 7600 2900
+$Comp
+L power:GNDD #PWR?
+U 1 1 60653C8F
+P 7150 3200
+F 0 "#PWR?" H 7150 2950 50  0001 C CNN
+F 1 "GNDD" H 7150 3075 50  0000 C CNN
+F 2 "" H 7150 3200 50  0001 C CNN
+F 3 "" H 7150 3200 50  0001 C CNN
+	1    7150 3200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 3200 7150 3150
+Wire Wire Line
+	7150 3200 7300 3200
+Wire Wire Line
+	7600 3200 7600 3150
+Connection ~ 7150 3200
+Wire Wire Line
+	7450 3150 7450 3200
+Connection ~ 7450 3200
+Wire Wire Line
+	7450 3200 7600 3200
+Wire Wire Line
+	7300 3150 7300 3200
+Connection ~ 7300 3200
+Wire Wire Line
+	7300 3200 7450 3200
+Wire Wire Line
+	6800 2600 6650 2600
+Wire Wire Line
+	6800 2800 6650 2800
+Connection ~ 7150 2600
+Connection ~ 7300 2700
+Wire Wire Line
+	7300 2700 7950 2700
+Connection ~ 7450 2800
+Connection ~ 7600 2900
+Wire Wire Line
+	7600 2900 7750 2900
+Text Notes 6900 2500 0    50   ~ 0
+≈160Hz cut-off freq
 $EndSCHEMATC

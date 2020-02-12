@@ -44,6 +44,12 @@ K voltage reference
 F http://www.ti.com/lit/ds/symlink/ref2033.pdf
 $ENDCMP
 #
+$CMP SRX_Mag_Encoder
+D Rotary encoder, dual channel, incremental quadrate outputs
+K incremental rotary encoder
+F ~
+$ENDCMP
+#
 $CMP SW_SPST_LED
 D Powerwerx panel mount switch switch with 15mA lamp
 K switch SPST LED OFF-ON lamp
