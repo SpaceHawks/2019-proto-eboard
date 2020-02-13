@@ -1397,8 +1397,8 @@ Wire Wire Line
 Wire Wire Line
 	10600 6250 10700 6250
 Wire Notes Line
-	8500 5350 8500 6500
-Text Notes 9650 5350 0    50   ~ 0
+	8500 4850 8500 6500
+Text Notes 9650 4850 0    50   ~ 0
 Ports & Test Points
 $Comp
 L power:GNDD #PWR071
@@ -1658,7 +1658,7 @@ SDA
 Text Label 8650 6200 3    50   ~ 0
 SCL
 Wire Notes Line
-	8500 5350 11200 5350
+	8500 4850 11200 4850
 Text Label 7350 6100 2    50   ~ 0
 SDA
 Wire Wire Line
@@ -2985,7 +2985,7 @@ Connection ~ 7450 2800
 Connection ~ 7600 2900
 Wire Wire Line
 	7600 2900 7750 2900
-Text Notes 6900 2500 0    50   ~ 0
+Text Notes 6900 3700 0    50   ~ 0
 ≈160Hz cut-off freq
 Text Label 9500 3950 2    50   ~ 0
 MOSI
@@ -3034,4 +3034,99 @@ NoConn ~ 2700 4150
 NoConn ~ 2700 4250
 NoConn ~ 2700 4350
 NoConn ~ 2700 4450
+$Comp
+L Connector_Generic:Conn_02x03_Odd_Even J2
+U 1 1 5E4678F9
+P 10600 5150
+F 0 "J2" H 10650 5350 50  0000 C CNN
+F 1 "Conn_02x03" H 10550 4950 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical" H 10600 5150 50  0001 C CNN
+F 3 "~" H 10600 5150 50  0001 C CNN
+	1    10600 5150
+	1    0    0    -1  
+$EndComp
+Text Label 10400 5050 2    50   ~ 0
+MISO
+Text Label 10400 5150 2    50   ~ 0
+SCLK
+Text Label 10400 5250 2    50   ~ 0
+SS
+$Comp
+L power:+3.3V #PWR083
+U 1 1 5E467FCA
+P 10900 5050
+F 0 "#PWR083" H 10900 4900 50  0001 C CNN
+F 1 "+3.3V" H 10900 5190 50  0000 C CNN
+F 2 "" H 10900 5050 50  0001 C CNN
+F 3 "" H 10900 5050 50  0001 C CNN
+	1    10900 5050
+	1    0    0    -1  
+$EndComp
+Text Label 10900 5150 0    50   ~ 0
+MOSI
+$Comp
+L power:GNDD #PWR084
+U 1 1 5E4682C8
+P 10900 5250
+F 0 "#PWR084" H 10900 5000 50  0001 C CNN
+F 1 "GNDD" H 10900 5125 50  0000 C CNN
+F 2 "" H 10900 5250 50  0001 C CNN
+F 3 "" H 10900 5250 50  0001 C CNN
+	1    10900 5250
+	1    0    0    -1  
+$EndComp
+Text Label 8650 5200 3    50   ~ 0
+M1+
+$Comp
+L Connector:TestPoint TP13
+U 1 1 5E585D4D
+P 8650 5200
+F 0 "TP13" H 8850 5300 50  0000 R CNN
+F 1 "TestPoint" H 9050 5200 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8850 5200 50  0001 C CNN
+F 3 "~" H 8850 5200 50  0001 C CNN
+	1    8650 5200
+	1    0    0    -1  
+$EndComp
+Text Label 9150 5200 3    50   ~ 0
+M1-
+$Comp
+L Connector:TestPoint TP14
+U 1 1 5E5BFAAC
+P 9150 5200
+F 0 "TP14" H 9350 5300 50  0000 R CNN
+F 1 "TestPoint" H 9550 5200 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 9350 5200 50  0001 C CNN
+F 3 "~" H 9350 5200 50  0001 C CNN
+	1    9150 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP11
+U 1 1 5E5DC321
+P 6850 2500
+F 0 "TP11" H 7100 2600 50  0000 R CNN
+F 1 "TestPoint" H 7250 2500 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 7050 2500 50  0001 C CNN
+F 3 "~" H 7050 2500 50  0001 C CNN
+	1    6850 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 2500 6800 2500
+Wire Wire Line
+	6800 2500 6800 2600
+Connection ~ 6800 2600
+$Comp
+L Connector:TestPoint TP12
+U 1 1 5E616BC6
+P 8050 2600
+F 0 "TP12" H 8300 2700 50  0000 R CNN
+F 1 "TestPoint" H 8450 2600 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 8250 2600 50  0001 C CNN
+F 3 "~" H 8250 2600 50  0001 C CNN
+	1    8050 2600
+	1    0    0    -1  
+$EndComp
+Connection ~ 8050 2600
 $EndSCHEMATC
