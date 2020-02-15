@@ -21,7 +21,7 @@ P 600 1000
 F 0 "#BT1" H 708 1046 50  0000 L CNN
 F 1 "Battery" H 708 955 50  0000 L CNN
 F 2 "" V 600 1060 50  0001 C CNN
-F 3 "~" V 600 1060 50  0001 C CNN
+F 3 "https://hobbyking.com/en_us/zippy-flightmax-8000mah-3s1p-30c-lipo-pack-xt90.html" V 600 1060 50  0001 C CNN
 	1    600  1000
 	1    0    0    -1  
 $EndComp
@@ -80,7 +80,7 @@ P 600 1750
 F 0 "#BT2" H 708 1796 50  0000 L CNN
 F 1 "MotorBattery" H 708 1705 50  0000 L CNN
 F 2 "" V 600 1810 50  0001 C CNN
-F 3 "~" V 600 1810 50  0001 C CNN
+F 3 "https://hobbyking.com/en_us/zippy-flightmax-8000mah-3s1p-30c-lipo-pack-xt90.html" V 600 1810 50  0001 C CNN
 	1    600  1750
 	1    0    0    -1  
 $EndComp
