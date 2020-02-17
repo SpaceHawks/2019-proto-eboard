@@ -55,6 +55,12 @@ D Powerwerx panel mount switch switch with 15mA lamp
 K switch SPST LED OFF-ON lamp
 $ENDCMP
 #
+$CMP Servo_Feedback
+D Servo Motor (Futaba, HiTec, JR connector)
+K Servo Motor
+F http://forums.parallax.com/uploads/attachments/46831/74481.png
+$ENDCMP
+#
 $CMP Wireless_Relay
 D Wireless SPST relay
 $ENDCMP
