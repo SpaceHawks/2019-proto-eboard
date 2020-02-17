@@ -67,13 +67,13 @@ VIO
 Text Label 5250 3600 0    70   ~ 0
 VIO
 $Comp
-L Device:C C14
+L Device:C C25
 U 1 1 01909D13
 P 6750 5600
-AR Path="/5DAF980D/01909D13" Ref="C14"  Part="1" 
-AR Path="/5DCD5C02/01909D13" Ref="C14"  Part="1" 
-AR Path="/5DAF980D/9F1C139701909D13" Ref="C11"  Part="1" 
-F 0 "C14" H 6810 5715 59  0000 L BNN
+AR Path="/5DAF980D/01909D13" Ref="C25"  Part="1" 
+AR Path="/5DCD5C02/01909D13" Ref="C?"  Part="1" 
+AR Path="/5DAF980D/9F1C139701909D13" Ref="C?"  Part="1" 
+F 0 "C25" H 6810 5715 59  0000 L BNN
 F 1 "2.2nF" H 6810 5515 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6750 5600 50  0001 C CNN
 F 3 "" H 6750 5600 50  0001 C CNN
@@ -81,13 +81,13 @@ F 3 "" H 6750 5600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C13
+L Device:C C24
 U 1 1 DAA3AADF
 P 6300 4000
-AR Path="/5DAF980D/DAA3AADF" Ref="C13"  Part="1" 
-AR Path="/5DCD5C02/DAA3AADF" Ref="C13"  Part="1" 
-AR Path="/5DAF980D/563B591DDAA3AADF" Ref="C4"  Part="1" 
-F 0 "C13" H 6360 4115 59  0000 L BNN
+AR Path="/5DAF980D/DAA3AADF" Ref="C24"  Part="1" 
+AR Path="/5DCD5C02/DAA3AADF" Ref="C?"  Part="1" 
+AR Path="/5DAF980D/563B591DDAA3AADF" Ref="C?"  Part="1" 
+F 0 "C24" H 6360 4115 59  0000 L BNN
 F 1 "0.1uF" H 6360 3915 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6300 4000 50  0001 C CNN
 F 3 "" H 6300 4000 50  0001 C CNN
@@ -95,13 +95,13 @@ F 3 "" H 6300 4000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
+L Device:C C22
 U 1 1 EEBC4EF1
 P 5100 3900
-AR Path="/5DAF980D/EEBC4EF1" Ref="C11"  Part="1" 
-AR Path="/5DCD5C02/EEBC4EF1" Ref="C11"  Part="1" 
-AR Path="/5DAF980D/D84F9FB4EEBC4EF1" Ref="C3"  Part="1" 
-F 0 "C11" H 5160 4015 59  0000 L BNN
+AR Path="/5DAF980D/EEBC4EF1" Ref="C22"  Part="1" 
+AR Path="/5DCD5C02/EEBC4EF1" Ref="C?"  Part="1" 
+AR Path="/5DAF980D/D84F9FB4EEBC4EF1" Ref="C?"  Part="1" 
+F 0 "C22" H 5160 4015 59  0000 L BNN
 F 1 "10nF" H 5160 3815 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 5100 3900 50  0001 C CNN
 F 3 "" H 5100 3900 50  0001 C CNN
@@ -163,12 +163,12 @@ Added 4 small tcream squares to middle pad.
 Text Notes 7900 1600 0    59   ~ 0
 Rounded and elongated pads.
 $Comp
-L Sensor_Motion:MPU-6050 U9
+L Sensor_Motion:MPU-6050 U15
 U 1 1 5DACFAC5
 P 5500 5100
-AR Path="/5DAF980D/5DACFAC5" Ref="U9"  Part="1" 
+AR Path="/5DAF980D/5DACFAC5" Ref="U15"  Part="1" 
 AR Path="/5DCD5C02/5DACFAC5" Ref="U?"  Part="1" 
-F 0 "U9" H 5050 5650 50  0000 C CNN
+F 0 "U15" H 5050 5650 50  0000 C CNN
 F 1 "MPU-6050" H 5800 4550 50  0000 C CNN
 F 2 "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm" H 5500 4300 50  0001 C CNN
 F 3 "https://store.invensense.com/datasheets/invensense/MPU-6050_DataSheet_V3%204.pdf" H 5500 4950 50  0001 C CNN
@@ -253,12 +253,12 @@ Wire Notes Line
 Text Notes 4300 5930 0    59   ~ 0
 ***
 $Comp
-L Connector_Generic:Conn_01x10 J19
+L Connector_Generic:Conn_01x10 J3
 U 1 1 5DAEBC3C
 P 1700 4300
-AR Path="/5DAF980D/5DAEBC3C" Ref="J19"  Part="1" 
+AR Path="/5DAF980D/5DAEBC3C" Ref="J3"  Part="1" 
 AR Path="/5DCD5C02/5DAEBC3C" Ref="J?"  Part="1" 
-F 0 "J19" H 1700 4800 50  0000 C CNN
+F 0 "J3" H 1700 4800 50  0000 C CNN
 F 1 "Conn_01x10" H 1700 3700 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x10_P2.54mm_Vertical" H 1700 4300 50  0001 C CNN
 F 3 "~" H 1700 4300 50  0001 C CNN
@@ -266,12 +266,12 @@ F 3 "~" H 1700 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R1
+L Device:R R13
 U 1 1 5DAEC66E
 P 4350 4300
-AR Path="/5DAF980D/5DAEC66E" Ref="R1"  Part="1" 
+AR Path="/5DAF980D/5DAEC66E" Ref="R13"  Part="1" 
 AR Path="/5DCD5C02/5DAEC66E" Ref="R?"  Part="1" 
-F 0 "R1" V 4430 4300 50  0000 C CNN
+F 0 "R13" V 4430 4300 50  0000 C CNN
 F 1 "10K" V 4350 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 4300 50  0001 C CNN
 F 3 "~" H 4350 4300 50  0001 C CNN
@@ -279,12 +279,12 @@ F 3 "~" H 4350 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R2
+L Device:R R14
 U 1 1 5DAEC733
 P 4600 4100
-AR Path="/5DAF980D/5DAEC733" Ref="R2"  Part="1" 
+AR Path="/5DAF980D/5DAEC733" Ref="R14"  Part="1" 
 AR Path="/5DCD5C02/5DAEC733" Ref="R?"  Part="1" 
-F 0 "R2" V 4680 4100 50  0000 C CNN
+F 0 "R14" V 4680 4100 50  0000 C CNN
 F 1 "10K" V 4600 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4530 4100 50  0001 C CNN
 F 3 "~" H 4600 4100 50  0001 C CNN
@@ -308,12 +308,12 @@ Wire Wire Line
 Wire Wire Line
 	6300 4200 6300 4150
 $Comp
-L Device:C C12
+L Device:C C23
 U 1 1 5DAF08EE
 P 6200 5750
-AR Path="/5DAF980D/5DAF08EE" Ref="C12"  Part="1" 
+AR Path="/5DAF980D/5DAF08EE" Ref="C23"  Part="1" 
 AR Path="/5DCD5C02/5DAF08EE" Ref="C?"  Part="1" 
-F 0 "C12" H 6260 5865 59  0000 L BNN
+F 0 "C23" H 6260 5865 59  0000 L BNN
 F 1 "0.1uF" H 6260 5665 59  0000 L BNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6200 5750 50  0001 C CNN
 F 3 "" H 6200 5750 50  0001 C CNN
@@ -389,12 +389,12 @@ GND
 Text Label 3950 5600 0    50   ~ 0
 GND
 $Comp
-L Device:R R33
+L Device:R R16
 U 1 1 5E24B9D7
 P 6600 4800
-AR Path="/5DAF980D/5E24B9D7" Ref="R33"  Part="1" 
+AR Path="/5DAF980D/5E24B9D7" Ref="R16"  Part="1" 
 AR Path="/5DCD5C02/5E24B9D7" Ref="R?"  Part="1" 
-F 0 "R33" V 6680 4800 50  0000 C CNN
+F 0 "R16" V 6680 4800 50  0000 C CNN
 F 1 "10K" V 6600 4800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 6530 4800 50  0001 C CNN
 F 3 "~" H 6600 4800 50  0001 C CNN
@@ -406,12 +406,12 @@ Wire Wire Line
 Text Notes 6500 4700 0    50   ~ 0
 Populate pull-up if set to open-drain mode
 $Comp
-L Device:R R34
+L Device:R R12
 U 1 1 5E2698DE
 P 4200 4300
-AR Path="/5DAF980D/5E2698DE" Ref="R34"  Part="1" 
+AR Path="/5DAF980D/5E2698DE" Ref="R12"  Part="1" 
 AR Path="/5DCD5C02/5E2698DE" Ref="R?"  Part="1" 
-F 0 "R34" V 4280 4300 50  0000 C CNN
+F 0 "R12" V 4280 4300 50  0000 C CNN
 F 1 "10K" V 4200 4300 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4130 4300 50  0001 C CNN
 F 3 "~" H 4200 4300 50  0001 C CNN
@@ -419,12 +419,12 @@ F 3 "~" H 4200 4300 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R35
+L Device:R R15
 U 1 1 5E269D45
 P 4750 4100
-AR Path="/5DAF980D/5E269D45" Ref="R35"  Part="1" 
+AR Path="/5DAF980D/5E269D45" Ref="R15"  Part="1" 
 AR Path="/5DCD5C02/5E269D45" Ref="R?"  Part="1" 
-F 0 "R35" V 4830 4100 50  0000 C CNN
+F 0 "R15" V 4830 4100 50  0000 C CNN
 F 1 "10K" V 4750 4100 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 4100 50  0001 C CNN
 F 3 "~" H 4750 4100 50  0001 C CNN
