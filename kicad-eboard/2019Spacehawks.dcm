@@ -16,6 +16,12 @@ K incremental rotary encoder
 F ~
 $ENDCMP
 #
+$CMP C_Pack04_Split
+D 4 capacitor network, parallel topology
+K C network parallel topology isolated unpolarized
+F ~
+$ENDCMP
+#
 $CMP Hokuyo_UST-10LX
 D Hokuyo UST-10LX Scanning Laser Rangefinder
 K lidar

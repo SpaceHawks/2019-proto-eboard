@@ -2571,50 +2571,6 @@ Text Notes 6450 4650 0    50   ~ 0
 .05" header
 Wire Wire Line
 	8050 3550 8100 3550
-$Comp
-L Device:C_Small C24
-U 1 1 602A3F86
-P 7600 4400
-F 0 "C24" H 7610 4470 50  0000 L CNN
-F 1 "10n" H 7610 4320 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 4400 50  0001 C CNN
-F 3 "~" H 7600 4400 50  0001 C CNN
-	1    7600 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C22
-U 1 1 602A4119
-P 7450 4400
-F 0 "C22" H 7460 4470 50  0000 L CNN
-F 1 "10n" H 7460 4320 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7450 4400 50  0001 C CNN
-F 3 "~" H 7450 4400 50  0001 C CNN
-	1    7450 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C20
-U 1 1 602A411F
-P 7300 4400
-F 0 "C20" H 7310 4470 50  0000 L CNN
-F 1 "10n" H 7310 4320 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 4400 50  0001 C CNN
-F 3 "~" H 7300 4400 50  0001 C CNN
-	1    7300 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C18
-U 1 1 602F9A32
-P 7150 4400
-F 0 "C18" H 7160 4470 50  0000 L CNN
-F 1 "10n" H 7160 4320 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7150 4400 50  0001 C CNN
-F 3 "~" H 7150 4400 50  0001 C CNN
-	1    7150 4400
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 4300 7450 4150
 Connection ~ 7450 4150
@@ -2711,58 +2667,8 @@ Wire Wire Line
 Connection ~ 7300 4550
 Wire Wire Line
 	7300 4550 7450 4550
-$Comp
-L Device:C_Small C23
-U 1 1 60653C4F
-P 7600 3050
-F 0 "C23" H 7610 3120 50  0000 L CNN
-F 1 "10n" H 7610 2970 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7600 3050 50  0001 C CNN
-F 3 "~" H 7600 3050 50  0001 C CNN
-	1    7600 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C21
-U 1 1 60653C55
-P 7450 3050
-F 0 "C21" H 7460 3120 50  0000 L CNN
-F 1 "10n" H 7460 2970 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7450 3050 50  0001 C CNN
-F 3 "~" H 7450 3050 50  0001 C CNN
-	1    7450 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C19
-U 1 1 60653C5B
-P 7300 3050
-F 0 "C19" H 7310 3120 50  0000 L CNN
-F 1 "10n" H 7310 2970 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7300 3050 50  0001 C CNN
-F 3 "~" H 7300 3050 50  0001 C CNN
-	1    7300 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C_Small C17
-U 1 1 60653C61
-P 7150 3050
-F 0 "C17" H 7160 3120 50  0000 L CNN
-F 1 "10n" H 7160 2970 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 7150 3050 50  0001 C CNN
-F 3 "~" H 7150 3050 50  0001 C CNN
-	1    7150 3050
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	7450 2950 7450 2800
 Wire Wire Line
 	7450 2800 7100 2800
-Wire Wire Line
-	7300 2950 7300 2700
-Wire Wire Line
-	7150 2950 7150 2600
 $Comp
 L Device:R_Pack04_Split R11
 U 1 1 60653C70
@@ -2812,7 +2718,7 @@ Wire Wire Line
 Wire Wire Line
 	7100 2700 7300 2700
 Wire Wire Line
-	7100 2900 7600 2900
+	7100 2900 7150 2900
 Wire Wire Line
 	7600 2950 7600 2900
 Wire Wire Line
@@ -3481,4 +3387,104 @@ Connection ~ 7600 3200
 Wire Wire Line
 	7600 3200 7600 3150
 Connection ~ 8050 2600
+$Comp
+L 2019Spacehawks:C_Pack04_Split C32
+U 1 1 5F09CA3E
+P 7150 3050
+F 0 "C32" H 7160 3120 50  0000 L CNN
+F 1 "10n" H 7160 2970 50  0000 L CNN
+F 2 "" H 7150 3050 50  0001 C CNN
+F 3 "~" H 7150 3050 50  0001 C CNN
+	1    7150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019Spacehawks:C_Pack04_Split C32
+U 2 1 5F09CF4D
+P 7300 3050
+F 0 "C32" H 7310 3120 50  0001 L CNN
+F 1 "10n" H 7310 2970 50  0000 L CNN
+F 2 "" H 7300 3050 50  0001 C CNN
+F 3 "~" H 7300 3050 50  0001 C CNN
+	2    7300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019Spacehawks:C_Pack04_Split C32
+U 3 1 5F157B86
+P 7450 3050
+F 0 "C32" H 7460 3120 50  0001 L CNN
+F 1 "10n" H 7460 2970 50  0000 L CNN
+F 2 "" H 7450 3050 50  0001 C CNN
+F 3 "~" H 7450 3050 50  0001 C CNN
+	3    7450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019Spacehawks:C_Pack04_Split C32
+U 4 1 5F157E9C
+P 7600 3050
+F 0 "C32" H 7610 3120 50  0001 L CNN
+F 1 "10n" H 7610 2970 50  0000 L CNN
+F 2 "" H 7600 3050 50  0001 C CNN
+F 3 "~" H 7600 3050 50  0001 C CNN
+	4    7600 3050
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7150 2900 7300 2900
+Wire Wire Line
+	7300 2900 7450 2900
+Wire Wire Line
+	7450 2900 7600 2900
+Wire Wire Line
+	7150 2600 7150 2950
+Wire Wire Line
+	7300 2700 7300 2950
+Wire Wire Line
+	7450 2800 7450 2950
+$Comp
+L 2019Spacehawks:C_Pack04_Split C17
+U 1 1 5F23490B
+P 7150 4400
+F 0 "C17" H 7160 4470 50  0000 L CNN
+F 1 "10n" H 7160 4320 50  0000 L CNN
+F 2 "" H 7150 4400 50  0001 C CNN
+F 3 "~" H 7150 4400 50  0001 C CNN
+	1    7150 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019Spacehawks:C_Pack04_Split C17
+U 2 1 5F234911
+P 7300 4400
+F 0 "C17" H 7310 4470 50  0001 L CNN
+F 1 "10n" H 7310 4320 50  0000 L CNN
+F 2 "" H 7300 4400 50  0001 C CNN
+F 3 "~" H 7300 4400 50  0001 C CNN
+	2    7300 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019Spacehawks:C_Pack04_Split C17
+U 3 1 5F234917
+P 7450 4400
+F 0 "C17" H 7460 4470 50  0001 L CNN
+F 1 "10n" H 7460 4320 50  0000 L CNN
+F 2 "" H 7450 4400 50  0001 C CNN
+F 3 "~" H 7450 4400 50  0001 C CNN
+	3    7450 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019Spacehawks:C_Pack04_Split C17
+U 4 1 5F23491D
+P 7600 4400
+F 0 "C17" H 7610 4470 50  0001 L CNN
+F 1 "10n" H 7610 4320 50  0000 L CNN
+F 2 "" H 7600 4400 50  0001 C CNN
+F 3 "~" H 7600 4400 50  0001 C CNN
+	4    7600 4400
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
