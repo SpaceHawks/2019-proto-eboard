@@ -1476,7 +1476,7 @@ U 1 1 5E1C7EFF
 P 7950 950
 F 0 "C3" H 8068 996 50  0000 L CNN
 F 1 "1000uF" H 8068 905 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D10.0mm_P2.50mm" H 7988 800 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 7988 800 50  0001 C CNN
 F 3 "~" H 7950 950 50  0001 C CNN
 	1    7950 950 
 	1    0    0    -1  
@@ -2983,7 +2983,6 @@ F 3 "~" H 8250 2600 50  0001 C CNN
 	1    8050 2600
 	1    0    0    -1  
 $EndComp
-Connection ~ 8050 2600
 NoConn ~ 2700 5000
 NoConn ~ 6450 5100
 $Comp
@@ -3481,4 +3480,5 @@ Connection ~ 7600 4550
 Connection ~ 7600 3200
 Wire Wire Line
 	7600 3200 7600 3150
+Connection ~ 8050 2600
 $EndSCHEMATC
