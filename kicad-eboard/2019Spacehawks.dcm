@@ -16,12 +16,6 @@ K incremental rotary encoder
 F ~
 $ENDCMP
 #
-$CMP CircuitBreaker_1P
-D Single pole circuit breaker
-K CB
-F ~
-$ENDCMP
-#
 $CMP Hokuyo_UST-10LX
 D Hokuyo UST-10LX Scanning Laser Rangefinder
 K lidar
