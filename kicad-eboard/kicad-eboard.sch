@@ -840,8 +840,6 @@ F 3 "" H 4450 5550 50  0001 C CNN
 $EndComp
 Text Label 6800 4900 2    50   ~ 0
 ENC_A
-Text Label 6800 5100 2    50   ~ 0
-ENC_PWM
 Text Label 6800 5000 2    50   ~ 0
 ENC_B
 $Comp
@@ -2633,8 +2631,6 @@ F 3 "" H 5900 5250 50  0001 C CNN
 $EndComp
 Text Label 2950 4800 2    50   ~ 0
 ENC_A
-Text Label 3050 5000 2    50   ~ 0
-ENC_PWM
 Text Label 2950 4900 2    50   ~ 0
 ENC_B
 Wire Wire Line
@@ -2673,16 +2669,12 @@ Wire Wire Line
 	2950 4800 2700 4800
 Wire Wire Line
 	2700 4900 2950 4900
-Wire Wire Line
-	3050 5000 2700 5000
 NoConn ~ 6450 4700
 NoConn ~ 6450 4800
 Wire Wire Line
 	6450 4900 6800 4900
 Wire Wire Line
 	6450 5000 6800 5000
-Wire Wire Line
-	6450 5100 6800 5100
 Text Notes 5450 2100 0    50   ~ 0
 gain is about 100x\n     at 24kHz PWM
 Text Notes 6450 4650 0    50   ~ 0
@@ -3129,4 +3121,6 @@ F 3 "~" H 8250 2600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Connection ~ 8050 2600
+NoConn ~ 2700 5000
+NoConn ~ 6450 5100
 $EndSCHEMATC
