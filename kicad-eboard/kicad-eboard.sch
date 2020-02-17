@@ -3393,4 +3393,26 @@ F 3 "" H 6900 3350 50  0001 C CNN
 	1    6900 3350
 	1    0    0    -1  
 $EndComp
+$Comp
+L 2019Spacehawks:+1.65V #PWR?
+U 1 1 5EA3169F
+P 9650 5150
+F 0 "#PWR?" H 9650 5000 50  0001 C CNN
+F 1 "+1.65V" H 9650 5290 50  0000 C CNN
+F 2 "" H 9650 5150 50  0001 C CNN
+F 3 "" H 9650 5150 50  0001 C CNN
+	1    9650 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:TestPoint TP?
+U 1 1 5EA31926
+P 9650 5150
+F 0 "TP?" H 9592 5176 50  0000 R CNN
+F 1 "TestPoint" H 9592 5267 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Bridge_Pitch2.54mm_Drill1.0mm" H 9850 5150 50  0001 C CNN
+F 3 "~" H 9850 5150 50  0001 C CNN
+	1    9650 5150
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
