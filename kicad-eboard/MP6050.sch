@@ -266,19 +266,6 @@ F 3 "~" H 1700 4300 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L Device:R R13
-U 1 1 5DAEC66E
-P 4350 4300
-AR Path="/5DAF980D/5DAEC66E" Ref="R13"  Part="1" 
-AR Path="/5DCD5C02/5DAEC66E" Ref="R?"  Part="1" 
-F 0 "R13" V 4430 4300 50  0000 C CNN
-F 1 "10K" V 4350 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 4300 50  0001 C CNN
-F 3 "~" H 4350 4300 50  0001 C CNN
-	1    4350 4300
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R14
 U 1 1 5DAEC733
 P 4600 4100
@@ -405,46 +392,19 @@ Wire Wire Line
 	6200 4800 6450 4800
 Text Notes 6500 4700 0    50   ~ 0
 Populate pull-up if set to open-drain mode
-$Comp
-L Device:R R12
-U 1 1 5E2698DE
-P 4200 4300
-AR Path="/5DAF980D/5E2698DE" Ref="R12"  Part="1" 
-AR Path="/5DCD5C02/5E2698DE" Ref="R?"  Part="1" 
-F 0 "R12" V 4280 4300 50  0000 C CNN
-F 1 "10K" V 4200 4300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4130 4300 50  0001 C CNN
-F 3 "~" H 4200 4300 50  0001 C CNN
-	1    4200 4300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:R R15
-U 1 1 5E269D45
-P 4750 4100
-AR Path="/5DAF980D/5E269D45" Ref="R15"  Part="1" 
-AR Path="/5DCD5C02/5E269D45" Ref="R?"  Part="1" 
-F 0 "R15" V 4830 4100 50  0000 C CNN
-F 1 "10K" V 4750 4100 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4680 4100 50  0001 C CNN
-F 3 "~" H 4750 4100 50  0001 C CNN
-	1    4750 4100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4750 3950 4600 3950
-Connection ~ 4600 3950
-Wire Wire Line
-	4600 4250 4750 4250
-Connection ~ 4600 4250
-Wire Wire Line
-	4200 4150 4350 4150
-Connection ~ 4350 4150
-Wire Wire Line
-	4200 4450 4350 4450
-Connection ~ 4350 4450
-Text Notes 4100 3400 0    50   ~ 0
-Second pull-ups are optional
 Text Label 6300 3700 0    50   ~ 0
 VCC
+$Comp
+L Device:R R13
+U 1 1 5DAEC66E
+P 4350 4300
+AR Path="/5DAF980D/5DAEC66E" Ref="R13"  Part="1" 
+AR Path="/5DCD5C02/5DAEC66E" Ref="R?"  Part="1" 
+F 0 "R13" V 4430 4300 50  0000 C CNN
+F 1 "10K" V 4350 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 4280 4300 50  0001 C CNN
+F 3 "~" H 4350 4300 50  0001 C CNN
+	1    4350 4300
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

@@ -3487,4 +3487,58 @@ F 3 "~" H 7600 4400 50  0001 C CNN
 	4    7600 4400
 	1    0    0    -1  
 $EndComp
+Text Label 1100 7500 1    50   ~ 0
+SDA
+Text Label 950  7500 1    50   ~ 0
+SCL
+Wire Wire Line
+	1100 7500 1100 7350
+Wire Wire Line
+	950  7350 950  7500
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5F384762
+P 950 7000
+F 0 "#PWR0108" H 950 6850 50  0001 C CNN
+F 1 "+3.3V" H 950 7140 50  0000 C CNN
+F 2 "" H 950 7000 50  0001 C CNN
+F 3 "" H 950 7000 50  0001 C CNN
+	1    950  7000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F384A18
+P 950 7200
+AR Path="/5DAF980D/5F384A18" Ref="R?"  Part="1" 
+AR Path="/5DCD5C02/5F384A18" Ref="R?"  Part="1" 
+AR Path="/5F384A18" Ref="R12"  Part="1" 
+F 0 "R12" V 1030 7200 50  0000 C CNN
+F 1 "10K" V 950 7200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 880 7200 50  0001 C CNN
+F 3 "~" H 950 7200 50  0001 C CNN
+	1    950  7200
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 5F3A4754
+P 1100 7200
+AR Path="/5DAF980D/5F3A4754" Ref="R?"  Part="1" 
+AR Path="/5DCD5C02/5F3A4754" Ref="R?"  Part="1" 
+AR Path="/5F3A4754" Ref="R15"  Part="1" 
+F 0 "R15" V 1180 7200 50  0000 C CNN
+F 1 "10K" V 1100 7200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 1030 7200 50  0001 C CNN
+F 3 "~" H 1100 7200 50  0001 C CNN
+	1    1100 7200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  7050 1100 7050
+Wire Wire Line
+	950  7050 950  7000
+Connection ~ 950  7050
+Text Notes 1000 7000 0    50   ~ 0
+Only if more pull-ups needed
 $EndSCHEMATC
