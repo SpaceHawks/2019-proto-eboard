@@ -3107,17 +3107,6 @@ F 3 "~" H 6950 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR053
-U 1 1 5E979D2E
-P 6950 1950
-F 0 "#PWR053" H 6950 1800 50  0001 C CNN
-F 1 "+3.3V" H 6950 2090 50  0000 C CNN
-F 2 "" H 6950 1950 50  0001 C CNN
-F 3 "" H 6950 1950 50  0001 C CNN
-	1    6950 1950
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C_Small C4
 U 1 1 5E997E63
 P 6900 3450
@@ -3126,17 +3115,6 @@ F 1 "0.1uF" H 6910 3370 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6900 3450 50  0001 C CNN
 F 3 "~" H 6900 3450 50  0001 C CNN
 	1    6900 3450
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+3.3V #PWR051
-U 1 1 5E997E6F
-P 6900 3350
-F 0 "#PWR051" H 6900 3200 50  0001 C CNN
-F 1 "+3.3V" H 6900 3490 50  0000 C CNN
-F 2 "" H 6900 3350 50  0001 C CNN
-F 3 "" H 6900 3350 50  0001 C CNN
-	1    6900 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3541,4 +3519,26 @@ Wire Wire Line
 Connection ~ 950  7050
 Text Notes 1000 7000 0    50   ~ 0
 Only if more pull-ups needed
+$Comp
+L power:+3.3V #PWR053
+U 1 1 5E979D2E
+P 6950 1950
+F 0 "#PWR053" H 6950 1800 50  0001 C CNN
+F 1 "+3.3V" H 6950 2090 50  0000 C CNN
+F 2 "" H 6950 1950 50  0001 C CNN
+F 3 "" H 6950 1950 50  0001 C CNN
+	1    6950 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3VADC #PWR?
+U 1 1 5F6DC93C
+P 6900 3350
+F 0 "#PWR?" H 7050 3300 50  0001 C CNN
+F 1 "+3.3VADC" H 6900 3450 50  0000 C CNN
+F 2 "" H 6900 3350 50  0001 C CNN
+F 3 "" H 6900 3350 50  0001 C CNN
+	1    6900 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
