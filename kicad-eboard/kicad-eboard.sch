@@ -2118,7 +2118,7 @@ F 1 ".25m" V 5250 2250 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 5180 2250 50  0001 C CNN
 F 3 "~" H 5250 2250 50  0001 C CNN
 	1    5250 2250
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5100 2250 4950 2250
@@ -2137,7 +2137,7 @@ F 1 ".25m" V 5250 2850 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 5180 2850 50  0001 C CNN
 F 3 "~" H 5250 2850 50  0001 C CNN
 	1    5250 2850
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5400 2850 5500 2850
@@ -2177,7 +2177,7 @@ F 1 ".25m" V 5250 3450 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 5180 3450 50  0001 C CNN
 F 3 "~" H 5250 3450 50  0001 C CNN
 	1    5250 3450
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Text Label 4950 3450 0    50   ~ 0
 M3+
@@ -2192,7 +2192,7 @@ F 1 ".25m" V 5250 4050 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 5180 4050 50  0001 C CNN
 F 3 "~" H 5250 4050 50  0001 C CNN
 	1    5250 4050
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Text Label 4950 4050 0    50   ~ 0
 M4+
@@ -2209,7 +2209,7 @@ F 1 ".25m" V 5250 4650 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 5180 4650 50  0001 C CNN
 F 3 "~" H 5250 4650 50  0001 C CNN
 	1    5250 4650
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Text Label 4950 4650 0    50   ~ 0
 M5+
@@ -2347,7 +2347,7 @@ F 1 ".25m" V 5250 5250 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 5180 5250 50  0001 C CNN
 F 3 "~" H 5250 5250 50  0001 C CNN
 	1    5250 5250
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5100 5250 4850 5250
@@ -2360,7 +2360,7 @@ F 1 ".25m" V 5250 5850 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 5180 5850 50  0001 C CNN
 F 3 "~" H 5250 5850 50  0001 C CNN
 	1    5250 5850
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5100 5850 4950 5850
@@ -2373,7 +2373,7 @@ F 1 ".25m" V 5250 6450 50  0000 C CNN
 F 2 "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical" V 5180 6450 50  0001 C CNN
 F 3 "~" H 5250 6450 50  0001 C CNN
 	1    5250 6450
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	5400 6450 5500 6450
