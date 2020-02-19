@@ -1352,12 +1352,12 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J2
 U 1 1 5DCDEFD2
-P 10900 6150
-F 0 "J2" H 10900 6250 50  0000 C CNN
-F 1 "Conn_01x02" H 10900 5950 50  0000 C CNN
-F 2 "2019Spacehawks:Powerpole_45A_Vert_01x02" H 10900 6150 50  0001 C CNN
-F 3 "~" H 10900 6150 50  0001 C CNN
-	1    10900 6150
+P 10950 6100
+F 0 "J2" H 10950 6200 50  0000 C CNN
+F 1 "Conn_01x02" V 11050 6050 50  0000 C CNN
+F 2 "2019Spacehawks:Powerpole_45A_Vert_01x02" H 10950 6100 50  0001 C CNN
+F 3 "~" H 10950 6100 50  0001 C CNN
+	1    10950 6100
 	1    0    0    -1  
 $EndComp
 Wire Notes Line
@@ -1367,29 +1367,25 @@ Power (off PCB)
 $Comp
 L power:+BATT #PWR0100
 U 1 1 5DD85EC6
-P 10600 6150
-F 0 "#PWR0100" H 10600 6000 50  0001 C CNN
-F 1 "+BATT" H 10615 6323 50  0000 C CNN
-F 2 "" H 10600 6150 50  0001 C CNN
-F 3 "" H 10600 6150 50  0001 C CNN
-	1    10600 6150
+P 10550 6100
+F 0 "#PWR0100" H 10550 5950 50  0001 C CNN
+F 1 "+BATT" H 10565 6273 50  0000 C CNN
+F 2 "" H 10550 6100 50  0001 C CNN
+F 3 "" H 10550 6100 50  0001 C CNN
+	1    10550 6100
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDPWR #PWR0101
 U 1 1 5DD85F85
-P 10600 6250
-F 0 "#PWR0101" H 10600 6050 50  0001 C CNN
-F 1 "GNDPWR" H 10604 6096 50  0000 C CNN
-F 2 "" H 10600 6200 50  0001 C CNN
-F 3 "" H 10600 6200 50  0001 C CNN
-	1    10600 6250
+P 10750 6200
+F 0 "#PWR0101" H 10750 6000 50  0001 C CNN
+F 1 "GNDPWR" H 10754 6046 50  0000 C CNN
+F 2 "" H 10750 6150 50  0001 C CNN
+F 3 "" H 10750 6150 50  0001 C CNN
+	1    10750 6200
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	10700 6150 10600 6150
-Wire Wire Line
-	10600 6250 10700 6250
 Wire Notes Line
 	8500 4850 8500 6500
 Text Notes 9650 4850 0    50   ~ 0
@@ -3509,10 +3505,10 @@ Connection ~ 950  7050
 Text Notes 1000 7000 0    50   ~ 0
 Only if more pull-ups needed
 $Comp
-L power:+3.3VADC #PWR?
+L power:+3.3VADC #PWR046
 U 1 1 5F6DC93C
 P 6900 3350
-F 0 "#PWR?" H 7050 3300 50  0001 C CNN
+F 0 "#PWR046" H 7050 3300 50  0001 C CNN
 F 1 "+3.3VADC" H 6900 3450 50  0000 C CNN
 F 2 "" H 6900 3350 50  0001 C CNN
 F 3 "" H 6900 3350 50  0001 C CNN
@@ -3520,14 +3516,70 @@ F 3 "" H 6900 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3VADC #PWR?
+L power:+3.3VADC #PWR051
 U 1 1 5E5EA665
 P 6950 1950
-F 0 "#PWR?" H 7100 1900 50  0001 C CNN
+F 0 "#PWR051" H 7100 1900 50  0001 C CNN
 F 1 "+3.3VADC" H 6950 2050 50  0000 C CNN
 F 2 "" H 6950 1950 50  0001 C CNN
 F 3 "" H 6950 1950 50  0001 C CNN
 	1    6950 1950
 	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5E84AB64
+P 2650 7250
+F 0 "H2" H 2750 7300 50  0000 C CNN
+F 1 "MountingHole" H 2650 7375 50  0000 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2650 7250 50  0001 C CNN
+F 3 "~" H 2650 7250 50  0001 C CNN
+	1    2650 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5E84B0FC
+P 2650 7550
+F 0 "H3" H 2700 7650 50  0000 C CNN
+F 1 "MountingHole" H 2650 7675 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2650 7550 50  0001 C CNN
+F 3 "~" H 2650 7550 50  0001 C CNN
+	1    2650 7550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5E84B304
+P 2800 7400
+F 0 "H4" H 2850 7500 50  0000 C CNN
+F 1 "MountingHole" H 2800 7525 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2800 7400 50  0001 C CNN
+F 3 "~" H 2800 7400 50  0001 C CNN
+	1    2800 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5E84B54F
+P 2500 7400
+F 0 "H1" H 2550 7500 50  0000 C CNN
+F 1 "MountingHole" H 2500 7525 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5_Pad" H 2500 7400 50  0001 C CNN
+F 3 "~" H 2500 7400 50  0001 C CNN
+	1    2500 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Polyfuse_Small F1
+U 1 1 5EB90CEE
+P 10650 6100
+F 0 "F1" V 10575 6100 50  0000 C CNN
+F 1 "6A" V 10725 6100 50  0000 C CNN
+F 2 "" H 10700 5900 50  0001 L CNN
+F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_16r_datasheet.pdf.pdf" H 10650 6100 50  0001 C CNN
+F 4 "16R600G" V 10650 6100 50  0001 C CNN "Part Number"
+	1    10650 6100
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
