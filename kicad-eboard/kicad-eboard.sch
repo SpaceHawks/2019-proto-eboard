@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+LIBS:kicad-eboard-cache
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -3184,17 +3185,6 @@ F 1 "+3.3VADC" H 6300 3500 50  0000 C CNN
 F 2 "" H 6300 3400 50  0001 C CNN
 F 3 "" H 6300 3400 50  0001 C CNN
 	1    6300 3400
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDREF #PWR046
-U 1 1 5ED923DA
-P 6600 3050
-F 0 "#PWR046" H 6600 2800 50  0001 C CNN
-F 1 "GNDREF" H 6600 2900 50  0000 C CNN
-F 2 "" H 6600 3050 50  0001 C CNN
-F 3 "" H 6600 3050 50  0001 C CNN
-	1    6600 3050
 	1    0    0    -1  
 $EndComp
 $Comp
