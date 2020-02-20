@@ -2284,13 +2284,13 @@ Wire Wire Line
 	9500 2600 9500 2650
 Wire Wire Line
 	9500 2650 9450 2650
-Text Label 5800 2200 0    50   ~ 0
-M1+
-Text Label 5800 2300 0    50   ~ 0
-M1-
 Text Label 5800 2400 0    50   ~ 0
-M2+
+M1+
 Text Label 5800 2500 0    50   ~ 0
+M1-
+Text Label 5800 2200 0    50   ~ 0
+M2+
+Text Label 5800 2300 0    50   ~ 0
 M2-
 Text Label 5800 2600 0    50   ~ 0
 M3+
@@ -2520,13 +2520,13 @@ ENC_A
 Text Label 2950 4900 2    50   ~ 0
 ENC_B
 Wire Wire Line
-	5800 2200 5950 2200
-Wire Wire Line
-	5800 2300 5950 2300
-Wire Wire Line
-	5950 2400 5800 2400
+	5800 2400 5950 2400
 Wire Wire Line
 	5800 2500 5950 2500
+Wire Wire Line
+	5950 2200 5800 2200
+Wire Wire Line
+	5800 2300 5950 2300
 Wire Wire Line
 	5800 2600 5950 2600
 Wire Wire Line
