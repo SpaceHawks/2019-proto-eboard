@@ -2235,12 +2235,12 @@ $EndComp
 $Comp
 L 2019Spacehawks:INA4181 U6
 U 1 1 5FABD6F0
-P 6300 2550
-F 0 "U6" H 6500 3100 50  0000 L CNN
-F 1 "INA4181" H 6300 3000 50  0000 L CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6350 2600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina4181.pdf" H 6450 2700 50  0001 C CNN
-	1    6300 2550
+P 6300 3900
+F 0 "U6" H 6500 4450 50  0000 L CNN
+F 1 "INA4181" H 6300 4350 50  0000 L CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6350 3950 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina4181.pdf" H 6450 4050 50  0001 C CNN
+	1    6300 3900
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2284,25 +2284,25 @@ Wire Wire Line
 	9500 2600 9500 2650
 Wire Wire Line
 	9500 2650 9450 2650
-Text Label 5800 2400 0    50   ~ 0
+Text Label 5800 3750 0    50   ~ 0
 M1+
-Text Label 5800 2500 0    50   ~ 0
+Text Label 5800 3850 0    50   ~ 0
 M1-
-Text Label 5800 2200 0    50   ~ 0
-M2+
-Text Label 5800 2300 0    50   ~ 0
-M2-
-Text Label 5800 2600 0    50   ~ 0
-M3+
-Text Label 5800 2700 0    50   ~ 0
-M3-
-Text Label 5800 2800 0    50   ~ 0
-M4+
-Text Label 5800 2900 0    50   ~ 0
-M4-
-Text Label 5800 3650 0    50   ~ 0
-M5-
 Text Label 5800 3550 0    50   ~ 0
+M2+
+Text Label 5800 3650 0    50   ~ 0
+M2-
+Text Label 5800 3950 0    50   ~ 0
+M3+
+Text Label 5800 4050 0    50   ~ 0
+M3-
+Text Label 5800 4150 0    50   ~ 0
+M4+
+Text Label 5800 4250 0    50   ~ 0
+M4-
+Text Label 5800 2300 0    50   ~ 0
+M5-
+Text Label 5800 2200 0    50   ~ 0
 M5+
 $Comp
 L 2019Spacehawks:+1.65V #PWR048
@@ -2385,27 +2385,27 @@ Text Label 4950 6450 0    50   ~ 0
 M8+
 Text Label 5400 6450 0    50   ~ 0
 M8-
-Text Label 5800 3750 0    50   ~ 0
+Text Label 5800 2400 0    50   ~ 0
 M6+
-Text Label 5800 3850 0    50   ~ 0
+Text Label 5800 2500 0    50   ~ 0
 M6-
-Text Label 5800 3950 0    50   ~ 0
+Text Label 5800 2600 0    50   ~ 0
 M7+
-Text Label 5800 4050 0    50   ~ 0
+Text Label 5800 2700 0    50   ~ 0
 M7-
-Text Label 5800 4150 0    50   ~ 0
+Text Label 5800 2800 0    50   ~ 0
 M8+
-Text Label 5800 4250 0    50   ~ 0
+Text Label 5800 2900 0    50   ~ 0
 M8-
 $Comp
 L 2019Spacehawks:INA4181 U7
 U 1 1 5E75CB76
-P 6300 3900
-F 0 "U7" H 6450 4450 50  0000 L CNN
-F 1 "INA4181" H 6300 4350 50  0000 L CNN
-F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6350 3950 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina4181.pdf" H 6450 4050 50  0001 C CNN
-	1    6300 3900
+P 6300 2550
+F 0 "U7" H 6450 3100 50  0000 L CNN
+F 1 "INA4181" H 6300 3000 50  0000 L CNN
+F 2 "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm" H 6350 2600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina4181.pdf" H 6450 2700 50  0001 C CNN
+	1    6300 2550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -2520,37 +2520,37 @@ ENC_A
 Text Label 2950 4900 2    50   ~ 0
 ENC_B
 Wire Wire Line
-	5800 2400 5950 2400
+	5800 3750 5950 3750
 Wire Wire Line
-	5800 2500 5950 2500
-Wire Wire Line
-	5950 2200 5800 2200
-Wire Wire Line
-	5800 2300 5950 2300
-Wire Wire Line
-	5800 2600 5950 2600
-Wire Wire Line
-	5800 2700 5950 2700
-Wire Wire Line
-	5800 2800 5950 2800
-Wire Wire Line
-	5800 2900 5950 2900
+	5800 3850 5950 3850
 Wire Wire Line
 	5950 3550 5800 3550
 Wire Wire Line
 	5800 3650 5950 3650
 Wire Wire Line
-	5950 3750 5800 3750
-Wire Wire Line
-	5800 3850 5950 3850
-Wire Wire Line
-	5950 3950 5800 3950
+	5800 3950 5950 3950
 Wire Wire Line
 	5800 4050 5950 4050
 Wire Wire Line
-	5950 4150 5800 4150
+	5800 4150 5950 4150
 Wire Wire Line
 	5800 4250 5950 4250
+Wire Wire Line
+	5950 2200 5800 2200
+Wire Wire Line
+	5800 2300 5950 2300
+Wire Wire Line
+	5950 2400 5800 2400
+Wire Wire Line
+	5800 2500 5950 2500
+Wire Wire Line
+	5950 2600 5800 2600
+Wire Wire Line
+	5800 2700 5950 2700
+Wire Wire Line
+	5950 2800 5800 2800
+Wire Wire Line
+	5800 2900 5950 2900
 Wire Wire Line
 	2950 4800 2700 4800
 Wire Wire Line
@@ -2587,45 +2587,45 @@ Wire Wire Line
 $Comp
 L Device:R_Pack04_Split R10
 U 1 1 604FADB7
-P 6950 3950
-F 0 "R10" V 6900 3750 50  0000 C CNN
-F 1 "100k" V 6950 3950 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 3950 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 3950 50  0001 C CNN
-	1    6950 3950
+P 6950 2600
+F 0 "R10" V 6900 2400 50  0000 C CNN
+F 1 "100k" V 6950 2600 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2600 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2600 50  0001 C CNN
+	1    6950 2600
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Pack04_Split R10
 U 2 1 604FADBD
-P 6950 4050
-F 0 "R10" V 6900 3850 50  0000 C CNN
-F 1 "100k" V 6950 4050 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 4050 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 4050 50  0001 C CNN
-	2    6950 4050
+P 6950 2700
+F 0 "R10" V 6900 2500 50  0000 C CNN
+F 1 "100k" V 6950 2700 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2700 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2700 50  0001 C CNN
+	2    6950 2700
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Pack04_Split R10
 U 3 1 604FADC3
-P 6950 4150
-F 0 "R10" V 6900 3950 50  0000 C CNN
-F 1 "100k" V 6950 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 4150 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 4150 50  0001 C CNN
-	3    6950 4150
+P 6950 2800
+F 0 "R10" V 6900 2600 50  0000 C CNN
+F 1 "100k" V 6950 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2800 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2800 50  0001 C CNN
+	3    6950 2800
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Pack04_Split R10
 U 4 1 604FADC9
-P 6950 4250
-F 0 "R10" V 6900 4050 50  0000 C CNN
-F 1 "100k" V 6950 4250 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 4250 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 4250 50  0001 C CNN
-	4    6950 4250
+P 6950 2900
+F 0 "R10" V 6900 2700 50  0000 C CNN
+F 1 "100k" V 6950 2900 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2900 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2900 50  0001 C CNN
+	4    6950 2900
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2668,45 +2668,45 @@ Wire Wire Line
 $Comp
 L Device:R_Pack04_Split R9
 U 1 1 60653C70
-P 6950 2600
-F 0 "R9" V 6900 2400 50  0000 C CNN
-F 1 "100k" V 6950 2600 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2600 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2600 50  0001 C CNN
-	1    6950 2600
+P 6950 3950
+F 0 "R9" V 6900 3750 50  0000 C CNN
+F 1 "100k" V 6950 3950 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 3950 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 3950 50  0001 C CNN
+	1    6950 3950
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Pack04_Split R9
 U 2 1 60653C76
-P 6950 2700
-F 0 "R9" V 6900 2500 50  0000 C CNN
-F 1 "100k" V 6950 2700 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2700 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2700 50  0001 C CNN
-	2    6950 2700
+P 6950 4050
+F 0 "R9" V 6900 3850 50  0000 C CNN
+F 1 "100k" V 6950 4050 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 4050 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 4050 50  0001 C CNN
+	2    6950 4050
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Pack04_Split R9
 U 3 1 60653C7C
-P 6950 2800
-F 0 "R9" V 6900 2600 50  0000 C CNN
-F 1 "100k" V 6950 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2800 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2800 50  0001 C CNN
-	3    6950 2800
+P 6950 4150
+F 0 "R9" V 6900 3950 50  0000 C CNN
+F 1 "100k" V 6950 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 4150 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 4150 50  0001 C CNN
+	3    6950 4150
 	0    1    1    0   
 $EndComp
 $Comp
 L Device:R_Pack04_Split R9
 U 4 1 60653C82
-P 6950 2900
-F 0 "R9" V 6900 2700 50  0000 C CNN
-F 1 "100k" V 6950 2900 50  0000 C CNN
-F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 2900 50  0001 C CNN
-F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 2900 50  0001 C CNN
-	4    6950 2900
+P 6950 4250
+F 0 "R9" V 6900 4050 50  0000 C CNN
+F 1 "100k" V 6950 4250 50  0000 C CNN
+F 2 "Resistor_SMD:R_Array_Convex_4x0402" V 6880 4250 50  0001 C CNN
+F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" H 6950 4250 50  0001 C CNN
+	4    6950 4250
 	0    1    1    0   
 $EndComp
 Wire Wire Line
@@ -2873,7 +2873,6 @@ Wire Wire Line
 	6850 2500 6800 2500
 Wire Wire Line
 	6800 2500 6800 2600
-Connection ~ 6800 2600
 $Comp
 L Connector:TestPoint TP3
 U 1 1 5E616BC6
@@ -3021,17 +3020,6 @@ F 3 "" H 8550 2600 50  0001 C CNN
 	1    8550 2600
 	-1   0    0    -1  
 $EndComp
-$Comp
-L Device:CP C19
-U 1 1 5E8468F5
-P 10000 3250
-F 0 "C19" H 10025 3350 50  0000 L CNN
-F 1 "470u" H 10025 3150 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 10038 3100 50  0001 C CNN
-F 3 "~" H 10000 3250 50  0001 C CNN
-	1    10000 3250
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	10200 2650 10300 2650
 Wire Wire Line
@@ -3039,56 +3027,34 @@ Wire Wire Line
 $Comp
 L Device:CP C18
 U 1 1 5E8FAA09
-P 9950 2550
-F 0 "C18" H 9975 2650 50  0000 L CNN
-F 1 "470u" H 9975 2450 50  0000 L CNN
-F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 9988 2400 50  0001 C CNN
-F 3 "~" H 9950 2550 50  0001 C CNN
-	1    9950 2550
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+12V #PWR091
-U 1 1 5E975348
-P 10000 3100
-F 0 "#PWR091" H 10000 2950 50  0001 C CNN
-F 1 "+12V" H 10000 3240 50  0000 C CNN
-F 2 "" H 10000 3100 50  0001 C CNN
-F 3 "" H 10000 3100 50  0001 C CNN
-	1    10000 3100
+P 10000 2950
+F 0 "C18" H 9800 3050 50  0000 L CNN
+F 1 "470u" H 9800 2850 50  0000 L CNN
+F 2 "Capacitor_THT:CP_Radial_D8.0mm_P3.50mm" H 10038 2800 50  0001 C CNN
+F 3 "~" H 10000 2950 50  0001 C CNN
+	1    10000 2950
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:+12V #PWR089
 U 1 1 5E975423
-P 9950 2400
-F 0 "#PWR089" H 9950 2250 50  0001 C CNN
-F 1 "+12V" H 9950 2540 50  0000 C CNN
-F 2 "" H 9950 2400 50  0001 C CNN
-F 3 "" H 9950 2400 50  0001 C CNN
-	1    9950 2400
+P 10000 2800
+F 0 "#PWR089" H 10000 2650 50  0001 C CNN
+F 1 "+12V" H 10000 2940 50  0000 C CNN
+F 2 "" H 10000 2800 50  0001 C CNN
+F 3 "" H 10000 2800 50  0001 C CNN
+	1    10000 2800
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GNDA #PWR090
 U 1 1 5E9754FE
-P 9950 2700
-F 0 "#PWR090" H 9950 2450 50  0001 C CNN
-F 1 "GNDA" H 9950 2550 50  0000 C CNN
-F 2 "" H 9950 2700 50  0001 C CNN
-F 3 "" H 9950 2700 50  0001 C CNN
-	1    9950 2700
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GNDA #PWR092
-U 1 1 5E9755D9
-P 10000 3400
-F 0 "#PWR092" H 10000 3150 50  0001 C CNN
-F 1 "GNDA" H 10000 3250 50  0000 C CNN
-F 2 "" H 10000 3400 50  0001 C CNN
-F 3 "" H 10000 3400 50  0001 C CNN
-	1    10000 3400
+P 10000 3100
+F 0 "#PWR090" H 10000 2850 50  0001 C CNN
+F 1 "GNDA" H 10000 2950 50  0000 C CNN
+F 2 "" H 10000 3100 50  0001 C CNN
+F 3 "" H 10000 3100 50  0001 C CNN
+	1    10000 3100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -3353,12 +3319,12 @@ Connection ~ 8050 2600
 $Comp
 L 2019Spacehawks:C_Pack04_Split C6
 U 1 1 5F09CA3E
-P 7150 3050
-F 0 "C6" H 7160 3120 50  0000 L CNN
-F 1 "10n" H 7160 2970 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7150 3050 50  0001 C CNN
-F 3 "~" H 7150 3050 50  0001 C CNN
-	1    7150 3050
+P 7150 4400
+F 0 "C6" H 7160 4470 50  0000 L CNN
+F 1 "10n" H 7160 4320 50  0000 L CNN
+F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7150 4400 50  0001 C CNN
+F 3 "~" H 7150 4400 50  0001 C CNN
+	1    7150 4400
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3376,52 +3342,8 @@ Wire Wire Line
 $Comp
 L 2019Spacehawks:C_Pack04_Split C6
 U 2 1 5F255AC8
-P 7300 3050
-F 0 "C6" H 7310 3120 50  0000 L CNN
-F 1 "10n" H 7310 2970 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7300 3050 50  0001 C CNN
-F 3 "~" H 7300 3050 50  0001 C CNN
-	2    7300 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2019Spacehawks:C_Pack04_Split C6
-U 3 1 5F255FD1
-P 7450 3050
-F 0 "C6" H 7460 3120 50  0000 L CNN
-F 1 "10n" H 7460 2970 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7450 3050 50  0001 C CNN
-F 3 "~" H 7450 3050 50  0001 C CNN
-	3    7450 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2019Spacehawks:C_Pack04_Split C6
-U 4 1 5F25627E
-P 7600 3050
-F 0 "C6" H 7610 3120 50  0000 L CNN
-F 1 "10n" H 7610 2970 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7600 3050 50  0001 C CNN
-F 3 "~" H 7600 3050 50  0001 C CNN
-	4    7600 3050
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2019Spacehawks:C_Pack04_Split C7
-U 1 1 5F277054
-P 7150 4400
-F 0 "C7" H 7160 4470 50  0000 L CNN
-F 1 "10n" H 7160 4320 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7150 4400 50  0001 C CNN
-F 3 "~" H 7150 4400 50  0001 C CNN
-	1    7150 4400
-	1    0    0    -1  
-$EndComp
-$Comp
-L 2019Spacehawks:C_Pack04_Split C7
-U 2 1 5F27705A
 P 7300 4400
-F 0 "C7" H 7310 4470 50  0000 L CNN
+F 0 "C6" H 7310 4470 50  0000 L CNN
 F 1 "10n" H 7310 4320 50  0000 L CNN
 F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7300 4400 50  0001 C CNN
 F 3 "~" H 7300 4400 50  0001 C CNN
@@ -3429,10 +3351,10 @@ F 3 "~" H 7300 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:C_Pack04_Split C7
-U 3 1 5F277060
+L 2019Spacehawks:C_Pack04_Split C6
+U 3 1 5F255FD1
 P 7450 4400
-F 0 "C7" H 7460 4470 50  0000 L CNN
+F 0 "C6" H 7460 4470 50  0000 L CNN
 F 1 "10n" H 7460 4320 50  0000 L CNN
 F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7450 4400 50  0001 C CNN
 F 3 "~" H 7450 4400 50  0001 C CNN
@@ -3440,14 +3362,58 @@ F 3 "~" H 7450 4400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:C_Pack04_Split C7
-U 4 1 5F277066
+L 2019Spacehawks:C_Pack04_Split C6
+U 4 1 5F25627E
 P 7600 4400
-F 0 "C7" H 7610 4470 50  0000 L CNN
+F 0 "C6" H 7610 4470 50  0000 L CNN
 F 1 "10n" H 7610 4320 50  0000 L CNN
 F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7600 4400 50  0001 C CNN
 F 3 "~" H 7600 4400 50  0001 C CNN
 	4    7600 4400
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019Spacehawks:C_Pack04_Split C7
+U 1 1 5F277054
+P 7150 3050
+F 0 "C7" H 7160 3120 50  0000 L CNN
+F 1 "10n" H 7160 2970 50  0000 L CNN
+F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7150 3050 50  0001 C CNN
+F 3 "~" H 7150 3050 50  0001 C CNN
+	1    7150 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019Spacehawks:C_Pack04_Split C7
+U 2 1 5F27705A
+P 7300 3050
+F 0 "C7" H 7310 3120 50  0000 L CNN
+F 1 "10n" H 7310 2970 50  0000 L CNN
+F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7300 3050 50  0001 C CNN
+F 3 "~" H 7300 3050 50  0001 C CNN
+	2    7300 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019Spacehawks:C_Pack04_Split C7
+U 3 1 5F277060
+P 7450 3050
+F 0 "C7" H 7460 3120 50  0000 L CNN
+F 1 "10n" H 7460 2970 50  0000 L CNN
+F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7450 3050 50  0001 C CNN
+F 3 "~" H 7450 3050 50  0001 C CNN
+	3    7450 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L 2019Spacehawks:C_Pack04_Split C7
+U 4 1 5F277066
+P 7600 3050
+F 0 "C7" H 7610 3120 50  0000 L CNN
+F 1 "10n" H 7610 2970 50  0000 L CNN
+F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7600 3050 50  0001 C CNN
+F 3 "~" H 7600 3050 50  0001 C CNN
+	4    7600 3050
 	1    0    0    -1  
 $EndComp
 Text Label 1100 7500 1    50   ~ 0
@@ -3582,4 +3548,5 @@ F 4 "16R600G" V 10650 6100 50  0001 C CNN "Part Number"
 	1    10650 6100
 	0    1    1    0   
 $EndComp
+Connection ~ 6800 2600
 $EndSCHEMATC
