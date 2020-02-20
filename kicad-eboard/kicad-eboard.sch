@@ -674,8 +674,6 @@ Wire Wire Line
 Wire Wire Line
 	4050 950  4050 1000
 NoConn ~ 2700 3400
-Wire Wire Line
-	2700 3050 3150 3050
 NoConn ~ 2700 3150
 NoConn ~ 4350 3150
 Wire Wire Line
@@ -2782,7 +2780,6 @@ Wire Wire Line
 Wire Wire Line
 	2700 4650 3150 4650
 NoConn ~ 2700 5700
-NoConn ~ 2700 3500
 NoConn ~ 2700 3600
 NoConn ~ 2700 3800
 NoConn ~ 2700 3900
@@ -3549,4 +3546,11 @@ F 4 "16R600G" V 10650 6100 50  0001 C CNN "Part Number"
 	0    1    1    0   
 $EndComp
 Connection ~ 6800 2600
+NoConn ~ 2700 3050
+Wire Wire Line
+	3150 3050 2850 3050
+Wire Wire Line
+	2850 3050 2850 3500
+Wire Wire Line
+	2850 3500 2700 3500
 $EndSCHEMATC
