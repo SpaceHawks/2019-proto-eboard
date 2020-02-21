@@ -3541,7 +3541,7 @@ F 0 "F1" V 10575 6100 50  0000 C CNN
 F 1 "6A" V 10725 6100 50  0000 C CNN
 F 2 "" H 10700 5900 50  0001 L CNN
 F 3 "https://www.littelfuse.com/~/media/electronics/datasheets/resettable_ptcs/littelfuse_ptc_16r_datasheet.pdf.pdf" H 10650 6100 50  0001 C CNN
-F 4 "16R600G" V 10650 6100 50  0001 C CNN "Part Number"
+F 4 "16R700G" V 10650 6100 50  0001 C CNN "Part Number"
 	1    10650 6100
 	0    1    1    0   
 $EndComp
