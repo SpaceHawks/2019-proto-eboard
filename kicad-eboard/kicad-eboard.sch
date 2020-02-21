@@ -1778,12 +1778,6 @@ Wire Wire Line
 Wire Wire Line
 	4950 6950 5500 6950
 NoConn ~ 4350 6750
-Wire Wire Line
-	6150 5950 6400 5950
-Wire Wire Line
-	6150 5500 6150 5950
-Wire Wire Line
-	6150 6150 6400 6150
 $Comp
 L Switch:SW_SPDT SW1
 U 1 1 5E81EF06
@@ -2052,7 +2046,7 @@ Wire Notes Line
 Wire Notes Line
 	3150 2200 450  2200
 Wire Wire Line
-	6150 6700 6150 6150
+	6150 6700 6150 6250
 Wire Wire Line
 	6150 6700 5800 6700
 $Comp
@@ -2921,16 +2915,6 @@ F 3 "" H 4900 7450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	6250 6250 6250 7450
-Wire Wire Line
-	6250 7450 5550 7450
-Wire Wire Line
-	6250 6250 6400 6250
-Wire Wire Line
-	6400 6050 6050 6050
-Wire Wire Line
-	6050 6050 6050 6100
-Wire Wire Line
 	6050 6100 5800 6100
 Text Notes 5100 7100 0    50   ~ 0
 Likely ≤1A stall
@@ -3553,4 +3537,20 @@ Wire Wire Line
 	2850 3050 2850 3500
 Wire Wire Line
 	2850 3500 2700 3500
+Wire Wire Line
+	6150 6250 6400 6250
+Wire Wire Line
+	6400 6150 6050 6150
+Wire Wire Line
+	6050 6150 6050 6100
+Wire Wire Line
+	6150 6050 6400 6050
+Wire Wire Line
+	6150 5500 6150 6050
+Wire Wire Line
+	6400 5950 6300 5950
+Wire Wire Line
+	6300 5950 6300 7450
+Wire Wire Line
+	5550 7450 6300 7450
 $EndSCHEMATC
