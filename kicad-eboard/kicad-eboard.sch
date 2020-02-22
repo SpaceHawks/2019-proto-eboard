@@ -3597,4 +3597,6 @@ F 3 "" H 3050 7550 50  0001 C CNN
 	1    3050 7550
 	1    0    0    -1  
 $EndComp
+Text Notes 2800 7700 0    50   ~ 0
+^ hack for misc. board footprints
 $EndSCHEMATC
