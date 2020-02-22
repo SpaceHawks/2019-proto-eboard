@@ -129,6 +129,17 @@ X REF2 9 350 250 100 L 50 50 1 1 I
 ENDDRAW
 ENDDEF
 #
+# Logo
+#
+DEF ~Logo G 0 40 Y Y 1 F N
+F0 "G" 0 0 50 H V C CNN
+F1 "Logo" 0 50 50 H I C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+DRAW
+ENDDRAW
+ENDDEF
+#
 # PDQXX-D_DC-DC_converter
 #
 DEF PDQXX-D_DC-DC_converter U 0 40 Y Y 1 F N
