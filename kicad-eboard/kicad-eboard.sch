@@ -2577,7 +2577,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4250 6800 4250
 $Comp
-L Device:R_Pack04_Split R10
+L 2019Spacehawks:R_Pack04_Split R10
 U 1 1 604FADB7
 P 6950 2600
 F 0 "R10" V 6900 2400 50  0000 C CNN
@@ -2588,7 +2588,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04_Split R10
+L 2019Spacehawks:R_Pack04_Split R10
 U 2 1 604FADBD
 P 6950 2700
 F 0 "R10" V 6900 2500 50  0000 C CNN
@@ -2599,7 +2599,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04_Split R10
+L 2019Spacehawks:R_Pack04_Split R10
 U 3 1 604FADC3
 P 6950 2800
 F 0 "R10" V 6900 2600 50  0000 C CNN
@@ -2610,7 +2610,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04_Split R10
+L 2019Spacehawks:R_Pack04_Split R10
 U 4 1 604FADC9
 P 6950 2900
 F 0 "R10" V 6900 2700 50  0000 C CNN
@@ -2658,7 +2658,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 2800 7100 2800
 $Comp
-L Device:R_Pack04_Split R9
+L 2019Spacehawks:R_Pack04_Split R9
 U 1 1 60653C70
 P 6950 3950
 F 0 "R9" V 6900 3750 50  0000 C CNN
@@ -2669,7 +2669,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04_Split R9
+L 2019Spacehawks:R_Pack04_Split R9
 U 2 1 60653C76
 P 6950 4050
 F 0 "R9" V 6900 3850 50  0000 C CNN
@@ -2680,7 +2680,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04_Split R9
+L 2019Spacehawks:R_Pack04_Split R9
 U 3 1 60653C7C
 P 6950 4150
 F 0 "R9" V 6900 3950 50  0000 C CNN
@@ -2691,7 +2691,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Pack04_Split R9
+L 2019Spacehawks:R_Pack04_Split R9
 U 4 1 60653C82
 P 6950 4250
 F 0 "R9" V 6900 4050 50  0000 C CNN
