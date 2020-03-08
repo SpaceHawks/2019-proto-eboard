@@ -1,13 +1,13 @@
 EESchema Schematic File Version 4
 LIBS:kicad-eboard-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 2
 Title "Season 4 E-board Schematic"
 Date ""
-Rev ""
+Rev "2"
 Comp "IIT Scarlet Spacehawks"
 Comment1 ""
 Comment2 ""
