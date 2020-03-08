@@ -37,7 +37,7 @@ F 3 "https://www.solar-electric.com/lib/wind-sun/Bussmann-MRCB.pdf" H 1300 800 5
 	0    1    1    0   
 $EndComp
 $Comp
-L 2019Spacehawks:WattMeter #U1
+L SpacehawksSeason4:WattMeter #U1
 U 1 1 5D9123C3
 P 2300 1100
 F 0 "#U1" H 2300 1425 50  0000 C CNN
@@ -107,12 +107,12 @@ F 3 "" H 2950 1750 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:PDQXX-D_DC-DC_converter U11
+L SpacehawksSeason4:PDQXX-D_DC-DC_converter U11
 U 1 1 5D9E3C80
 P 10050 1000
 F 0 "U11" H 10300 1450 50  0000 C CNN
 F 1 "PDQ15-Q24-S12-D" H 10050 1350 50  0000 C CNN
-F 2 "2019Spacehawks:PDQXX-D_DC-DC_converter" H 10000 900 50  0001 C CNN
+F 2 "SpacehawksSeason4:PDQXX-D_DC-DC_converter" H 10000 900 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/pdq15-d.pdf" H 10100 1000 50  0001 C CNN
 F 4 "12V" H 10250 1250 50  0000 C CNN "Vout"
 F 5 "24V" H 9850 1250 50  0000 C CNN "Vin"
@@ -145,12 +145,12 @@ F 3 "" H 10850 1150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:PDQXX-D_DC-DC_converter U12
+L SpacehawksSeason4:PDQXX-D_DC-DC_converter U12
 U 1 1 5D9E497B
 P 10050 1800
 F 0 "U12" H 10300 2250 50  0000 C CNN
 F 1 "PDQ30-Q24-S5-D" H 10050 2150 50  0000 C CNN
-F 2 "2019Spacehawks:PDQXX-D_DC-DC_converter" H 10000 1700 50  0001 C CNN
+F 2 "SpacehawksSeason4:PDQXX-D_DC-DC_converter" H 10000 1700 50  0001 C CNN
 F 3 "https://www.cui.com/product/resource/pdq30-d.pdf" H 10100 1800 50  0001 C CNN
 F 4 "5V" H 10250 2050 50  0000 C CNN "Vout"
 F 5 "24V" H 9850 2050 50  0000 C CNN "Vin"
@@ -247,7 +247,7 @@ U 1 1 5DA67B8D
 P 10850 950
 F 0 "RV4" V 10675 950 50  0000 C CNN
 F 1 "10k" V 10750 950 50  0000 C CNN
-F 2 "2019Spacehawks:Potentiometer_Bourns_3306F" H 10850 950 50  0001 C CNN
+F 2 "SpacehawksSeason4:Potentiometer_Bourns_3306F" H 10850 950 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3306.pdf" H 10850 950 50  0001 C CNN
 	1    10850 950 
 	-1   0    0    1   
@@ -263,7 +263,7 @@ U 1 1 5DA7AF90
 P 10850 1750
 F 0 "RV5" V 10675 1750 50  0000 C CNN
 F 1 "10k" V 10750 1750 50  0000 C CNN
-F 2 "2019Spacehawks:Potentiometer_Bourns_3306F" H 10850 1750 50  0001 C CNN
+F 2 "SpacehawksSeason4:Potentiometer_Bourns_3306F" H 10850 1750 50  0001 C CNN
 F 3 "https://www.bourns.com/docs/Product-Datasheets/3306.pdf" H 10850 1750 50  0001 C CNN
 	1    10850 1750
 	-1   0    0    1   
@@ -275,7 +275,7 @@ U 1 1 5DA8180C
 P 8550 800
 F 0 "L1" V 8500 800 50  0000 C CNN
 F 1 "15u" V 8625 800 50  0000 C CNN
-F 2 "2019Spacehawks:L_1008_2520Metric" H 8550 800 50  0001 C CNN
+F 2 "SpacehawksSeason4:L_1008_2520Metric" H 8550 800 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Wurth-Elektronik/74479887310A?qs=EkVHf0%2FuPJgFPX0rCvHQGg%3D%3D" H 8550 800 50  0001 C CNN
 	1    8550 800 
 	0    -1   -1   0   
@@ -365,7 +365,7 @@ U 1 1 5DA9FD37
 P 8550 1600
 F 0 "L2" V 8500 1600 50  0000 C CNN
 F 1 "15u" V 8625 1600 50  0000 C CNN
-F 2 "2019Spacehawks:L_1008_2520Metric" H 8550 1600 50  0001 C CNN
+F 2 "SpacehawksSeason4:L_1008_2520Metric" H 8550 1600 50  0001 C CNN
 F 3 "https://www.mouser.com/ProductDetail/Wurth-Elektronik/74479887310A?qs=EkVHf0%2FuPJgFPX0rCvHQGg%3D%3D" H 8550 1600 50  0001 C CNN
 	1    8550 1600
 	0    -1   -1   0   
@@ -501,12 +501,12 @@ $EndComp
 Wire Wire Line
 	3000 3150 3150 3150
 $Comp
-L 2019Spacehawks:Hokuyo_UST-10LX U13
+L SpacehawksSeason4:Hokuyo_UST-10LX U13
 U 1 1 5D987F8A
 P 10700 2600
 F 0 "U13" H 11000 3000 50  0000 C CNN
 F 1 "Hokuyo_UST-10LX" H 10750 2900 50  0000 C CNN
-F 2 "2019Spacehawks:Powerpole_45A_Vert_01x02" H 10700 2600 50  0001 C CNN
+F 2 "SpacehawksSeason4:Powerpole_45A_Vert_01x02" H 10700 2600 50  0001 C CNN
 F 3 "" H 10700 2600 50  0001 C CNN
 	1    10700 2600
 	1    0    0    -1  
@@ -538,12 +538,12 @@ Wire Wire Line
 Wire Wire Line
 	10200 2500 10300 2500
 $Comp
-L 2019Spacehawks:Hokuyo_UST-10LX U14
+L SpacehawksSeason4:Hokuyo_UST-10LX U14
 U 1 1 5D9968BD
 P 10700 3300
 F 0 "U14" H 11000 3700 50  0000 C CNN
 F 1 "Hokuyo_UST-10LX" H 10750 3600 50  0000 C CNN
-F 2 "2019Spacehawks:Powerpole_45A_Vert_01x02" H 10700 3300 50  0001 C CNN
+F 2 "SpacehawksSeason4:Powerpole_45A_Vert_01x02" H 10700 3300 50  0001 C CNN
 F 3 "" H 10700 3300 50  0001 C CNN
 	1    10700 3300
 	1    0    0    -1  
@@ -592,7 +592,7 @@ $EndComp
 Wire Wire Line
 	2700 2700 2800 2700
 $Comp
-L 2019Spacehawks:Wireless_Relay #SW2
+L SpacehawksSeason4:Wireless_Relay #SW2
 U 1 1 5DB15C61
 P 3400 900
 F 0 "#SW2" H 3500 1100 50  0000 C CNN
@@ -609,7 +609,7 @@ Wire Wire Line
 	3400 650  3400 600 
 NoConn ~ 3650 1000
 $Comp
-L 2019Spacehawks:SW_SPST_LED #SW3
+L SpacehawksSeason4:SW_SPST_LED #SW3
 U 1 1 5DBF72D0
 P 3850 900
 F 0 "#SW3" H 3875 1125 50  0000 L CNN
@@ -754,7 +754,7 @@ Wire Wire Line
 Wire Wire Line
 	4950 4550 5500 4550
 $Comp
-L 2019Spacehawks:Sabertooth2x60 U?
+L SpacehawksSeason4:Sabertooth2x60 U?
 U 1 1 5DF3BA52
 P 4500 3900
 AR Path="/5D9AC27F/5DF3BA52" Ref="U?"  Part="1" 
@@ -788,7 +788,7 @@ F 3 "" H 4450 4350 50  0001 C CNN
 $EndComp
 NoConn ~ 4350 5550
 $Comp
-L 2019Spacehawks:Sabertooth2x60 U?
+L SpacehawksSeason4:Sabertooth2x60 U?
 U 1 1 5DF4782B
 P 4500 5100
 AR Path="/5D9AC27F/5DF4782B" Ref="U?"  Part="1" 
@@ -837,7 +837,7 @@ ENC_A
 Text Label 6800 5000 2    50   ~ 0
 ENC_B
 $Comp
-L 2019Spacehawks:Sabertooth2x60 U?
+L SpacehawksSeason4:Sabertooth2x60 U?
 U 1 1 5E4F833B
 P 4500 6300
 AR Path="/5D9AC27F/5E4F833B" Ref="U?"  Part="1" 
@@ -1117,7 +1117,7 @@ F 3 "~" H 5500 2360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:TinkerBoard U1
+L SpacehawksSeason4:TinkerBoard U1
 U 1 1 5D9DC73D
 P 1500 3500
 F 0 "U1" H 2600 4500 50  0000 R CNN
@@ -1353,7 +1353,7 @@ U 1 1 5DCDEFD2
 P 10950 6200
 F 0 "J2" H 10950 6300 50  0000 C CNN
 F 1 "Conn_01x02" V 11050 6150 50  0000 C CNN
-F 2 "2019Spacehawks:Powerpole_45A_Vert_01x02" H 10950 6200 50  0001 C CNN
+F 2 "SpacehawksSeason4:Powerpole_45A_Vert_01x02" H 10950 6200 50  0001 C CNN
 F 3 "~" H 10950 6200 50  0001 C CNN
 	1    10950 6200
 	1    0    0    1   
@@ -1433,7 +1433,7 @@ F 3 "~" H 10350 6200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:Sabertooth2x60 U?
+L SpacehawksSeason4:Sabertooth2x60 U?
 U 1 1 5DDDCDE4
 P 4500 2700
 AR Path="/5D9AC27F/5DDDCDE4" Ref="U?"  Part="1" 
@@ -1812,7 +1812,7 @@ Connection ~ 3400 600
 Wire Wire Line
 	5300 800  5400 800 
 $Comp
-L 2019Spacehawks:+BATT_MOTORS #PWR037
+L SpacehawksSeason4:+BATT_MOTORS #PWR037
 U 1 1 5E53201E
 P 5800 1400
 F 0 "#PWR037" H 5800 1250 50  0001 C CNN
@@ -1823,7 +1823,7 @@ F 3 "" H 5800 1400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:+BATT_MOTORS #PWR018
+L SpacehawksSeason4:+BATT_MOTORS #PWR018
 U 1 1 5E56226B
 P 4000 2550
 F 0 "#PWR018" H 4000 2400 50  0001 C CNN
@@ -1834,7 +1834,7 @@ F 3 "" H 4000 2550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:+BATT_MOTORS #PWR021
+L SpacehawksSeason4:+BATT_MOTORS #PWR021
 U 1 1 5E562336
 P 4000 6150
 F 0 "#PWR021" H 4000 6000 50  0001 C CNN
@@ -1845,7 +1845,7 @@ F 3 "" H 4000 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:+BATT_MOTORS #PWR020
+L SpacehawksSeason4:+BATT_MOTORS #PWR020
 U 1 1 5E562BE5
 P 4000 4950
 F 0 "#PWR020" H 4000 4800 50  0001 C CNN
@@ -1856,7 +1856,7 @@ F 3 "" H 4000 4950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:+BATT_MOTORS #PWR019
+L SpacehawksSeason4:+BATT_MOTORS #PWR019
 U 1 1 5E562CB0
 P 4000 3750
 F 0 "#PWR019" H 4000 3600 50  0001 C CNN
@@ -1915,7 +1915,7 @@ Wire Wire Line
 Wire Wire Line
 	700  800  1000 800 
 $Comp
-L 2019Spacehawks:WattMeter #U2
+L SpacehawksSeason4:WattMeter #U2
 U 1 1 5E5FA419
 P 2300 1650
 F 0 "#U2" H 2300 1975 50  0000 C CNN
@@ -2087,7 +2087,7 @@ F 3 "" H 6300 800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:+BATT_MOTORS #PWR055
+L SpacehawksSeason4:+BATT_MOTORS #PWR055
 U 1 1 5F069C72
 P 7000 800
 F 0 "#PWR055" H 7000 650 50  0001 C CNN
@@ -2214,7 +2214,7 @@ Wire Wire Line
 Wire Wire Line
 	5400 3450 5500 3450
 $Comp
-L 2019Spacehawks:REF20xx U10
+L SpacehawksSeason4:REF20xx U10
 U 1 1 5FAA23D2
 P 9100 2700
 F 0 "U10" H 9300 3050 50  0000 C CNN
@@ -2225,7 +2225,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ref2033.pdf" H 9200 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:INA4181 U6
+L SpacehawksSeason4:INA4181 U6
 U 1 1 5FABD6F0
 P 6300 3900
 F 0 "U6" H 6500 4450 50  0000 L CNN
@@ -2262,7 +2262,7 @@ Wire Wire Line
 Wire Wire Line
 	8700 2700 8750 2700
 $Comp
-L 2019Spacehawks:+1.65V #PWR084
+L SpacehawksSeason4:+1.65V #PWR084
 U 1 1 5FAF5516
 P 9500 2600
 F 0 "#PWR084" H 9500 2450 50  0001 C CNN
@@ -2297,7 +2297,7 @@ M5-
 Text Label 5800 2200 0    50   ~ 0
 M5+
 $Comp
-L 2019Spacehawks:+1.65V #PWR048
+L SpacehawksSeason4:+1.65V #PWR048
 U 1 1 5E634864
 P 6750 2150
 F 0 "#PWR048" H 6750 2000 50  0001 C CNN
@@ -2390,7 +2390,7 @@ M8+
 Text Label 5800 2900 0    50   ~ 0
 M8-
 $Comp
-L 2019Spacehawks:INA4181 U7
+L SpacehawksSeason4:INA4181 U7
 U 1 1 5E75CB76
 P 6300 2550
 F 0 "U7" H 6450 3100 50  0000 L CNN
@@ -2401,7 +2401,7 @@ F 3 "http://www.ti.com/lit/ds/symlink/ina4181.pdf" H 6450 2700 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:+1.65V #PWR047
+L SpacehawksSeason4:+1.65V #PWR047
 U 1 1 5E798796
 P 6700 3500
 F 0 "#PWR047" H 6700 3350 50  0001 C CNN
@@ -2475,7 +2475,7 @@ F 3 "" H 8900 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:SRX_Mag_Encoder SW3
+L SpacehawksSeason4:SRX_Mag_Encoder SW3
 U 1 1 5FCA184F
 P 6100 4900
 F 0 "SW3" H 6150 5300 50  0000 C CNN
@@ -2577,7 +2577,7 @@ Wire Wire Line
 Wire Wire Line
 	6650 4250 6800 4250
 $Comp
-L 2019Spacehawks:R_Pack04_Split R10
+L SpacehawksSeason4:R_Pack04_Split R10
 U 1 1 604FADB7
 P 6950 2600
 F 0 "R10" V 6900 2400 50  0000 C CNN
@@ -2588,7 +2588,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L 2019Spacehawks:R_Pack04_Split R10
+L SpacehawksSeason4:R_Pack04_Split R10
 U 2 1 604FADBD
 P 6950 2700
 F 0 "R10" V 6900 2500 50  0000 C CNN
@@ -2599,7 +2599,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L 2019Spacehawks:R_Pack04_Split R10
+L SpacehawksSeason4:R_Pack04_Split R10
 U 3 1 604FADC3
 P 6950 2800
 F 0 "R10" V 6900 2600 50  0000 C CNN
@@ -2610,7 +2610,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L 2019Spacehawks:R_Pack04_Split R10
+L SpacehawksSeason4:R_Pack04_Split R10
 U 4 1 604FADC9
 P 6950 2900
 F 0 "R10" V 6900 2700 50  0000 C CNN
@@ -2658,7 +2658,7 @@ Wire Wire Line
 Wire Wire Line
 	7450 2800 7100 2800
 $Comp
-L 2019Spacehawks:R_Pack04_Split R9
+L SpacehawksSeason4:R_Pack04_Split R9
 U 1 1 60653C70
 P 6950 3950
 F 0 "R9" V 6900 3750 50  0000 C CNN
@@ -2669,7 +2669,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L 2019Spacehawks:R_Pack04_Split R9
+L SpacehawksSeason4:R_Pack04_Split R9
 U 2 1 60653C76
 P 6950 4050
 F 0 "R9" V 6900 3850 50  0000 C CNN
@@ -2680,7 +2680,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L 2019Spacehawks:R_Pack04_Split R9
+L SpacehawksSeason4:R_Pack04_Split R9
 U 3 1 60653C7C
 P 6950 4150
 F 0 "R9" V 6900 3950 50  0000 C CNN
@@ -2691,7 +2691,7 @@ F 3 "https://industrial.panasonic.com/cdbs/www-data/pdf/AOC0000/AOC0000C14.pdf" 
 	0    1    1    0   
 $EndComp
 $Comp
-L 2019Spacehawks:R_Pack04_Split R9
+L SpacehawksSeason4:R_Pack04_Split R9
 U 4 1 60653C82
 P 6950 4250
 F 0 "R9" V 6900 4050 50  0000 C CNN
@@ -2878,7 +2878,7 @@ $EndComp
 NoConn ~ 2700 5000
 NoConn ~ 6450 5100
 $Comp
-L 2019Spacehawks:Servo_Feedback M1
+L SpacehawksSeason4:Servo_Feedback M1
 U 1 1 5E5174F4
 P 5200 7300
 F 0 "M1" H 5000 7475 50  0000 L CNN
@@ -3061,7 +3061,7 @@ F 3 "~" H 6900 3450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:+1.65V #PWR086
+L SpacehawksSeason4:+1.65V #PWR086
 U 1 1 5EA3169F
 P 9650 5150
 F 0 "#PWR086" H 9650 5000 50  0001 C CNN
@@ -3298,12 +3298,12 @@ Wire Wire Line
 	7600 3200 7600 3150
 Connection ~ 8050 2600
 $Comp
-L 2019Spacehawks:C_Pack04_Split C6
+L SpacehawksSeason4:C_Pack04_Split C6
 U 1 1 5F09CA3E
 P 7150 4400
 F 0 "C6" H 7160 4470 50  0000 L CNN
 F 1 "10n" H 7160 4320 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7150 4400 50  0001 C CNN
+F 2 "SpacehawksSeason4:C_Array_Convex_4x0612" H 7150 4400 50  0001 C CNN
 F 3 "~" H 7150 4400 50  0001 C CNN
 	1    7150 4400
 	1    0    0    -1  
@@ -3321,78 +3321,78 @@ Wire Wire Line
 Wire Wire Line
 	7450 2800 7450 2950
 $Comp
-L 2019Spacehawks:C_Pack04_Split C6
+L SpacehawksSeason4:C_Pack04_Split C6
 U 2 1 5F255AC8
 P 7300 4400
 F 0 "C6" H 7310 4470 50  0000 L CNN
 F 1 "10n" H 7310 4320 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7300 4400 50  0001 C CNN
+F 2 "SpacehawksSeason4:C_Array_Convex_4x0612" H 7300 4400 50  0001 C CNN
 F 3 "~" H 7300 4400 50  0001 C CNN
 	2    7300 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:C_Pack04_Split C6
+L SpacehawksSeason4:C_Pack04_Split C6
 U 3 1 5F255FD1
 P 7450 4400
 F 0 "C6" H 7460 4470 50  0000 L CNN
 F 1 "10n" H 7460 4320 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7450 4400 50  0001 C CNN
+F 2 "SpacehawksSeason4:C_Array_Convex_4x0612" H 7450 4400 50  0001 C CNN
 F 3 "~" H 7450 4400 50  0001 C CNN
 	3    7450 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:C_Pack04_Split C6
+L SpacehawksSeason4:C_Pack04_Split C6
 U 4 1 5F25627E
 P 7600 4400
 F 0 "C6" H 7610 4470 50  0000 L CNN
 F 1 "10n" H 7610 4320 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7600 4400 50  0001 C CNN
+F 2 "SpacehawksSeason4:C_Array_Convex_4x0612" H 7600 4400 50  0001 C CNN
 F 3 "~" H 7600 4400 50  0001 C CNN
 	4    7600 4400
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:C_Pack04_Split C7
+L SpacehawksSeason4:C_Pack04_Split C7
 U 1 1 5F277054
 P 7150 3050
 F 0 "C7" H 7160 3120 50  0000 L CNN
 F 1 "10n" H 7160 2970 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7150 3050 50  0001 C CNN
+F 2 "SpacehawksSeason4:C_Array_Convex_4x0612" H 7150 3050 50  0001 C CNN
 F 3 "~" H 7150 3050 50  0001 C CNN
 	1    7150 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:C_Pack04_Split C7
+L SpacehawksSeason4:C_Pack04_Split C7
 U 2 1 5F27705A
 P 7300 3050
 F 0 "C7" H 7310 3120 50  0000 L CNN
 F 1 "10n" H 7310 2970 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7300 3050 50  0001 C CNN
+F 2 "SpacehawksSeason4:C_Array_Convex_4x0612" H 7300 3050 50  0001 C CNN
 F 3 "~" H 7300 3050 50  0001 C CNN
 	2    7300 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:C_Pack04_Split C7
+L SpacehawksSeason4:C_Pack04_Split C7
 U 3 1 5F277060
 P 7450 3050
 F 0 "C7" H 7460 3120 50  0000 L CNN
 F 1 "10n" H 7460 2970 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7450 3050 50  0001 C CNN
+F 2 "SpacehawksSeason4:C_Array_Convex_4x0612" H 7450 3050 50  0001 C CNN
 F 3 "~" H 7450 3050 50  0001 C CNN
 	3    7450 3050
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:C_Pack04_Split C7
+L SpacehawksSeason4:C_Pack04_Split C7
 U 4 1 5F277066
 P 7600 3050
 F 0 "C7" H 7610 3120 50  0000 L CNN
 F 1 "10n" H 7610 2970 50  0000 L CNN
-F 2 "2019Spacehawks:C_Array_Convex_4x0612" H 7600 3050 50  0001 C CNN
+F 2 "SpacehawksSeason4:C_Array_Convex_4x0612" H 7600 3050 50  0001 C CNN
 F 3 "~" H 7600 3050 50  0001 C CNN
 	4    7600 3050
 	1    0    0    -1  
@@ -3554,7 +3554,7 @@ Wire Wire Line
 Wire Wire Line
 	5550 7450 6300 7450
 $Comp
-L 2019Spacehawks:Logo G1
+L SpacehawksSeason4:Logo G1
 U 1 1 5E7782FA
 P 3050 7250
 F 0 "G1" H 3050 7250 50  0000 C CNN
@@ -3565,7 +3565,7 @@ F 3 "" H 3050 7250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:Logo G2
+L SpacehawksSeason4:Logo G2
 U 1 1 5E7786C0
 P 3050 7350
 F 0 "G2" H 3050 7350 50  0000 C CNN
@@ -3576,23 +3576,23 @@ F 3 "" H 3050 7350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:Logo G3
+L SpacehawksSeason4:Logo G3
 U 1 1 5E7788B0
 P 3050 7450
 F 0 "G3" H 3050 7450 50  0000 C CNN
 F 1 "Logo" H 3050 7500 50  0001 C CNN
-F 2 "2019Spacehawks:SSH_logo" H 3050 7450 50  0001 C CNN
+F 2 "SpacehawksSeason4:SSH_logo" H 3050 7450 50  0001 C CNN
 F 3 "" H 3050 7450 50  0001 C CNN
 	1    3050 7450
 	1    0    0    -1  
 $EndComp
 $Comp
-L 2019Spacehawks:Logo G4
+L SpacehawksSeason4:Logo G4
 U 1 1 5E778B1C
 P 3050 7550
 F 0 "G4" H 3050 7550 50  0000 C CNN
 F 1 "Logo" H 3050 7600 50  0001 C CNN
-F 2 "2019Spacehawks:SSH_logo" H 3050 7550 50  0001 C CNN
+F 2 "SpacehawksSeason4:SSH_logo" H 3050 7550 50  0001 C CNN
 F 3 "" H 3050 7550 50  0001 C CNN
 	1    3050 7550
 	1    0    0    -1  
