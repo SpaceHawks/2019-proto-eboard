@@ -2,7 +2,7 @@ This repository contains the schematic and PCB for the 2019-2020 electrical boar
 
 To view or edit these files, use KiCad version 5. You may need to [install the latest libraries](http://kicad-pcb.org/libraries/download/) if they don't come with your installation.
 
-![Page 1 of the schematic (pretty much everything). See PDFs folder for something easier to read.](report images/schematic.png "The main schematic")
+![Page 1 of the schematic (pretty much everything). See PDFs folder for something easier to read.](images/schematic.png "The main schematic")
 
 # Spring 2020: Electrical Team IPRO Report
 
@@ -20,7 +20,7 @@ The NASA RMC at Illinois Tech electrical team's goal was a reliable, professiona
 
 Conceptually, we split the electrical design of the robot into two sections. The “power electronics” section was chiefly concerned with getting power from batteries to motors in a safe way.
 
-![The top-left corner of the schematic, labeled "Power (off PCB)"](report images/schematic-power.png "The power section of our final circuit schematic")
+![The top-left corner of the schematic, labeled "Power (off PCB)"](images/schematic-power.png "The power section of our final circuit schematic")
 
 ### A. Initial Design
 
