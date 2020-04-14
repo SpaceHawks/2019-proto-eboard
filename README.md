@@ -80,7 +80,7 @@ Finally, we needed to filter the amplified output of the differential measuremen
 
 Implementation of our design was split into three parts: schematic capture, PCB design, and physical layout of large parts on the robot. We used KiCad for all our eCAD, and tracked versions with GitHub so that everyone was able to see the most up-to-date files.
 
-![A render of the final PCB](images/pcb-render.png) ![The unpopulated PCB attached to a Tinker Board SBC](images/pcb-unpopulated.png)
+<img src="images/pcb-render.png" alt="A render of the final PCB" width="25%"> <img src="images/pcb-unpopulated.jpg" alt="The unpopulated PCB attached to a Tinker Board SBC" width="25%">
 
 ### A. Schematic
 
