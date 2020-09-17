@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:kicad-eboard-cache
 EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
@@ -3598,6 +3599,4 @@ F 3 "" H 3050 7550 50  0001 C CNN
 $EndComp
 Text Notes 2800 7700 0    50   ~ 0
 ^ hack for misc. board footprints
-Text Notes 8350 7650 0    50   ~ 0
-9/17/20
 $EndSCHEMATC
