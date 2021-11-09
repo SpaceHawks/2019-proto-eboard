@@ -1,6 +1,6 @@
 This repository contains the schematic and PCB for the 2019-2020 electrical board. For a walkthrough of this season's progress and an in-depth explanation of the system, see the IPRO report. For a quick glance at the schematic or boards, look in the [PDFs](/PDFs) folder. For information not printed on the schematic (e.g. datasheet links, trace widths), open the files in KiCad.
 
-To view or edit these files, use KiCad version 5. You may need to [install the latest libraries](http://kicad-pcb.org/libraries/download/) if they don't come with your installation.
+To view or edit these files, use KiCad version 5. You may need to [install the latest libraries](http://kicad.org/libraries/download/) if they don't come with your installation.
 
 ![Page 1 of the schematic (pretty much everything). See PDFs folder for something easier to read.](images/schematic.png "The main schematic")
 
